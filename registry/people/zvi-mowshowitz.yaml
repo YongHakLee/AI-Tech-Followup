@@ -9,4 +9,4 @@ links:
   x: https://x.com/TheZvi
 avatar: null
 sources:
-  - { type: rss, url: https://thezvi.substack.com/feed }
+  - { type: rss, url: https://thezvi.wordpress.com/feed/ }

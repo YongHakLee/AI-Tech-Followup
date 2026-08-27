@@ -9,4 +9,4 @@ links:
   x: https://x.com/jackclarkSF
 avatar: null
 sources:
-  - { type: rss, url: https://importai.substack.com/feed }
+  - { type: rss, url: https://jack-clark.net/feed/ }
