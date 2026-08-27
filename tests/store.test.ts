@@ -91,6 +91,22 @@ describe('upsertItems', () => {
     expect(result.created[0].personIds.sort()).toEqual(['person-a', 'person-b'])
   })
 
+  it('한 번의 호출 안에서 같은 id가 두 번 오면 created에만 담기고 merged에는 중복으로 담기지 않는다', async () => {
+    // Two tracked researchers co-author one paper; both feeds yield the same
+    // id within a single collector run. The item is new to disk, so it must
+    // be reported as created — never also as merged.
+    const result = await store.upsertItems([
+      makeItem({ personIds: ['person-a'] }),
+      makeItem({ personIds: ['person-b'] }),
+    ])
+    expect(result.created).toHaveLength(1)
+    expect(result.merged).toHaveLength(0)
+    expect(result.created[0].personIds.sort()).toEqual(['person-a', 'person-b'])
+
+    const all = await store.loadAllItems()
+    expect(all).toHaveLength(1)
+  })
+
   it('월별로 파일을 나눈다', async () => {
     await store.upsertItems([
       makeItem({ id: 'a'.repeat(40), publishedAt: '2026-08-20T00:00:00.000Z' }),
@@ -155,7 +171,7 @@ describe('upsertItems', () => {
 })
 
 describe('loadAllItems with a corrupt month file', () => {
-  it('스키마를 위반하는 항목이 있으면 해당 월 파일 전체를 건너뛴다', async () => {
+  it('스키마를 위반하는 항목이 있으면 건너뛰지 않고 loadAllItems 전체를 실패시키며 파일명을 알려준다', async () => {
     const itemsDir = path.join(root, 'content/items')
     await mkdir(itemsDir, { recursive: true })
     // Write a valid month...
@@ -178,7 +194,7 @@ describe('loadAllItems with a corrupt month file', () => {
       'utf8',
     )
 
-    await expect(store.loadAllItems()).rejects.toThrow()
+    await expect(store.loadAllItems()).rejects.toThrow('2026-08.json')
   })
 })
 

@@ -61,9 +61,16 @@ export function createFileStore(root: string): Store {
   }
 
   async function loadMonth(month: string): Promise<Item[]> {
-    const raw = await readJson<unknown[]>(path.join(itemsDir, `${month}.json`))
+    const file = path.join(itemsDir, `${month}.json`)
+    const raw = await readJson<unknown[]>(file)
     if (!raw) return []
-    return ItemSchema.array().parse(raw)
+    try {
+      return ItemSchema.array().parse(raw)
+    } catch (error) {
+      throw new Error(`Invalid item data in ${file}: ${(error as Error).message}`, {
+        cause: error,
+      })
+    }
   }
 
   return {
@@ -98,6 +105,7 @@ export function createFileStore(root: string): Store {
       const created: Item[] = []
       const merged: Item[] = []
       const touched = new Set<string>()
+      const createdIds = new Set<string>()
 
       for (const raw of candidates) {
         const candidate = ItemSchema.parse(raw)
@@ -109,7 +117,11 @@ export function createFileStore(root: string): Store {
           if (union.length !== before) {
             existing.item.personIds = union
             touched.add(existing.month)
-            if (!merged.some((m) => m.id === candidate.id)) merged.push(existing.item)
+            // An item created earlier in this same call must not also be
+            // reported as merged, even though its personIds get unioned here.
+            if (!createdIds.has(candidate.id) && !merged.some((m) => m.id === candidate.id)) {
+              merged.push(existing.item)
+            }
           }
           continue
         }
@@ -122,6 +134,7 @@ export function createFileStore(root: string): Store {
         index.set(item.id, { month, item })
         touched.add(month)
         created.push(item)
+        createdIds.add(item.id)
       }
 
       for (const month of touched) {
