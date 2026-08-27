@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns="http://www.w3.org/2005/Atom">
+  <title>Messy Channel</title>
+  <entry>
+    <id>yt:video:DDDDDDDDDDD</id>
+    <yt:videoId>DDDDDDDDDDD</yt:videoId>
+    <title>Missing Link</title>
+    <published>2026-08-01T10:00:00+00:00</published>
+    <media:group>
+      <media:description>This entry has no link element.</media:description>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:EEEEEEEEEEE</id>
+    <yt:videoId>EEEEEEEEEEE</yt:videoId>
+    <title>Kept One</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=EEEEEEEEEEE"/>
+    <published>2026-08-02T10:00:00+00:00</published>
+    <media:group>
+      <media:description>This one should survive.</media:description>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:FFFFFFFFFFF</id>
+    <yt:videoId>FFFFFFFFFFF</yt:videoId>
+    <title>Bad Published Date</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=FFFFFFFFFFF"/>
+    <published>not-a-real-date</published>
+    <media:group>
+      <media:description>This entry has an unparseable published date.</media:description>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:GGGGGGGGGGG</id>
+    <yt:videoId>GGGGGGGGGGG</yt:videoId>
+    <title>Kept Two</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=GGGGGGGGGGG"/>
+    <published>2026-08-03T10:00:00+00:00</published>
+    <media:group>
+      <media:description>This one should also survive.</media:description>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:HHHHHHHHHHH</id>
+    <yt:videoId>HHHHHHHHHHH</yt:videoId>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=HHHHHHHHHHH"/>
+    <published>2026-08-04T10:00:00+00:00</published>
+    <media:group>
+      <media:description>This entry has no title element.</media:description>
+    </media:group>
+  </entry>
+</feed>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns="http://www.w3.org/2005/Atom">
+  <title>Solo Channel</title>
+  <entry>
+    <id>yt:video:CCCCCCCCCCC</id>
+    <yt:videoId>CCCCCCCCCCC</yt:videoId>
+    <title>Only Upload</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=CCCCCCCCCCC"/>
+    <published>2026-08-10T12:00:00+00:00</published>
+    <media:group>
+      <media:description>The channel's only video so far.</media:description>
+    </media:group>
+  </entry>
+</feed>
