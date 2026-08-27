@@ -50,23 +50,29 @@ Task 13·14를 리뷰어 2명에게 병렬로 맡겨 끝냈다. Critical 0건, I
 주간 픽 해석 범위, 회귀 테스트 부재, RSS 제어문자·guid·pubDate, 주간 대상 주,
 커밋 가드 죽은 코드, push 재시도 부재, 시크릿 부재 시 묵음 실패, 알림 스크립트 중단.
 
-## 4. 아직 하지 않은 바깥 작업 (사용자가 이미 승인함)
+## 4. 바깥 작업 — 배포만 남음
 
-사용자는 **public 레포 생성**과 **API 키 제공**에 동의했다. 키는 이미 `.env.local`에 있다
-(`.gitignore`의 `.env*`로 제외됨, 108자, 형식 확인 완료). `gh`는 `YongHakLee` 계정으로
-`repo`·`workflow` 스코프 인증되어 있다.
+**완료 (2세션차)**
 
-순서대로:
+1. ✅ 공개 저장소 생성·push — https://github.com/YongHakLee/AI-Tech-Followup
+   (push 전에 히스토리 전체를 키 패턴으로 훑어 0건 확인. `.env.local`은 추적된 적 없음)
+2. ✅ `ANTHROPIC_API_KEY` 시크릿 등록 (stdin으로만 전달)
+3. ✅ `source-down` 라벨 생성
+4. ✅ Actions 워크플로 권한을 write로 (`gh api .../actions/permissions/workflow`)
+5. ✅ CI 통과 — 다만 첫 실행이 실패했다. 아래 6-E 참고
+6. ✅ **collect 워크플로 실환경 검증** — 2회 수동 실행
+   - 1차: created 6 / summarized 6 / 실패 0 → 커밋·push 성공
+   - 2차: created 0 → **"커밋할 변경 없음 (실행 시각만 바뀜)"** 로 건너뜀.
+     원격 HEAD 불변 확인. 리뷰에서 나온 죽은 커밋 가드가 실제로 고쳐졌다는 증거다.
 
-1. `gh repo create AI-Tech-Followup --public --source=. --remote=origin --push`
-2. `gh secret set ANTHROPIC_API_KEY < (키 값)` — `.env.local`에서 읽을 것
-3. `gh label create source-down --description "수집 소스가 연속 실패" --color D93F0B`
-   — 이 라벨이 없으면 알림 스크립트의 `gh issue create`가 실패한다
-4. **미뤄둔 라이브 검증 일괄 실행** (아래 5절)
-5. Vercel 연결 및 배포 — `npx vercel login`은 브라우저 인증이라 사용자가 직접 해야 한다.
-   세션 종료 시점에 완료 여부 미확인. `npx vercel link` → `npx vercel --prod`,
-   그리고 `SITE_URL` 환경변수 등록.
-6. 전체 브랜치 최종 리뷰 (6절의 Minor 목록을 함께 넘길 것)
+**남은 것**
+
+- **Vercel 연결 및 배포.** `npx vercel login`은 브라우저 인증이라 사용자가 직접 해야 한다.
+  이후 `npx vercel link` → `npx vercel --prod`, 그리고 `SITE_URL` 환경변수 등록.
+- **weekly 워크플로는 실환경에서 아직 안 돌렸다.** 로컬에서 라이브 API로 검증했고
+  (origin: llm), 워크플로 껍데기는 collect와 동일해 이미 검증됐다. 다만 지금 돌리면
+  대상이 2026-W34인데 그 주에 수집된 항목이 0건이라 빈 주 하이라이트가 아카이브에
+  남는다. 아래 6-F 참고.
 
 ## 5. 라이브 검증 — 완료 (2026-08-27, 커밋 `7fca264` 세션)
 
@@ -159,6 +165,30 @@ SDK 형태(`messages.parse`, `zodOutputFormat`, `parsed_output`)는 이제 추�
   삭제는 그대로 커밋된다 — 정상 동작이지만 알고 있을 것.
 - 리뷰어가 제안했으나 채택하지 않은 것: `node-version-file: .nvmrc`
   (**이 저장소에 `.nvmrc`가 없다** — 리뷰어의 사실 오인), `actions/checkout@v5` 상향.
+
+### 6-E. 락파일이 npm 12에서 거부된다 (우회 중)
+
+첫 CI가 `npm ci`에서 EUSAGE로 죽었다: `Missing: @emnapi/runtime@1.11.3 from lock file`.
+
+`package-lock.json`이 `@img/sharp-wasm32`·`@tailwindcss/oxide-wasm32-wasi` 같은
+optional wasm 패키지의 의존성으로 `@emnapi/runtime`·`core`를 참조하면서 정작 그
+패키지 항목은 담고 있지 않다. **npm 11은 통과시키고 npm 12는 거부한다.**
+
+`node-version: 24`는 러너가 최신 24.x(24.19.0)를 잡고 그 Node가 npm 12.0.2를
+번들한다. 로컬은 Node 24.11.1 / npm 11.6.2 — 그래서 로컬 검증만으로는 안 잡혔다.
+`npx npm@latest ci`로 정확히 재현했다.
+
+**지금은 `.nvmrc`(24.11.1) + `node-version-file`로 CI를 고정해 우회 중이다.**
+근본 해결은 npm 12로 락파일을 재생성하는 것인데, npm 12가 Node 24.15+ 를 요구해서
+로컬(24.11.1)에서는 못 한다. Node를 올린 뒤 `npm install --package-lock-only`를
+npm 12로 돌리고 고정을 풀 것.
+
+### 6-F. 빈 주가 아카이브에 남는 문제 (미결정)
+
+`buildHighlight`는 그 주 항목이 0건이어도 "이번 주에는 새로 수집된 항목이 없습니다"
+하이라이트를 만들어 저장한다. 그러면 `/weekly/<빈 주>` 페이지가 생긴다. 수집을 막
+시작한 지금 W34가 정확히 그 상태고, 앞으로도 조용한 주마다 반복된다.
+항목이 0건이면 아예 쓰지 않는 편이 나은지 판단이 필요하다.
 
 ## 7. 환경에서 배운 것 (다시 헤매지 말 것)
 
