@@ -9,8 +9,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           # .nvmrc로 고정한다. node-version: 24는 러너가 최신 24.x를 잡는데, 그
           # Node가 번들한 npm 12는 이 저장소의 package-lock.json을 불완전하다고
