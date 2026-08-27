@@ -242,7 +242,7 @@ async function main(): Promise<void> {
   const limit = limitFlag >= 0 ? Number(process.argv[limitFlag + 1]) : undefined
 
   const registry = await loadRegistry(root)
-  const store = createFileStore(root)
+  const store = createFileStore(root, { readOnly: dryRun })
 
   const ctx: FetchContext = {
     async fetchText(url) {

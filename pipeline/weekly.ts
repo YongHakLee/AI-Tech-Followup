@@ -9,7 +9,7 @@ async function main(): Promise<void> {
   const now = new Date()
   const week = weekFlag >= 0 ? process.argv[weekFlag + 1] : completedWeek(now)
 
-  const store = createFileStore(root)
+  const store = createFileStore(root, { readOnly: dryRun })
   const all = await store.loadAllItems()
   const weekItems = itemsInWeek(all, week)
 

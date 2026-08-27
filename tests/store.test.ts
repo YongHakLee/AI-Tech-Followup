@@ -215,3 +215,48 @@ describe('highlights', () => {
     expect(await store.listWeeks()).toEqual(['2026-W35'])
   })
 })
+
+describe('createFileStore readOnly', () => {
+  const A = 'a'.repeat(40)
+  const B = 'b'.repeat(40)
+
+  it('항목·상태·하이라이트를 디스크에 쓰지 않는다', async () => {
+    const dir = await mkdtemp(path.join(tmpdir(), 'store-ro-'))
+    const ro = createFileStore(dir, { readOnly: true })
+
+    await ro.upsertItems([makeItem()])
+    await ro.saveState({
+      version: 1,
+      sources: { s: { lastRunAt: 'x', seenIds: [A], consecutiveFailures: 0, lastError: null } },
+    })
+    await ro.saveHighlight({
+      week: '2026-W35',
+      generatedAt: '2026-08-25T00:00:00.000Z',
+      intro: '인트로.',
+      picks: [],
+      origin: 'heuristic',
+    })
+
+    // content/ 자체가 생기지 않아야 한다
+    await expect(readdir(path.join(dir, 'content'))).rejects.toMatchObject({ code: 'ENOENT' })
+    const fresh = createFileStore(dir)
+    expect(await fresh.loadAllItems()).toEqual([])
+    expect(await fresh.loadHighlight('2026-W35')).toBeNull()
+    expect(await fresh.loadState()).toEqual({ version: 1, sources: {} })
+  })
+
+  it('읽기와 created/merged 집계는 그대로 동작한다', async () => {
+    const dir = await mkdtemp(path.join(tmpdir(), 'store-ro2-'))
+    await createFileStore(dir).upsertItems([makeItem()])
+
+    const ro = createFileStore(dir, { readOnly: true })
+    expect((await ro.loadAllItems()).map((i) => i.id)).toEqual([A])
+
+    // 디스크에 이미 있는 항목은 created가 아니어야 한다 — 읽기 경로가 살아 있다는 증거다
+    const result = await ro.upsertItems([makeItem(), makeItem({ id: B })])
+    expect(result.created.map((i) => i.id)).toEqual([B])
+
+    // 그런데 실제로 쓰이지는 않았다
+    expect((await createFileStore(dir).loadAllItems()).map((i) => i.id)).toEqual([A])
+  })
+})

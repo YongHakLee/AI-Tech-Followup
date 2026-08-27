@@ -43,10 +43,23 @@ async function writeJson(file: string, value: unknown): Promise<void> {
   await writeFile(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8')
 }
 
-export function createFileStore(root: string): Store {
+export interface FileStoreOptions {
+  /**
+   * 디스크에 쓰지 않는다. --dry-run 전용이다.
+   *
+   * dry-run은 "요약 없이 수집만"인데 쓰기까지 하면 summaryKo가 null인 항목이
+   * content/에 남고 seenIds에도 올라간다. 요약 대상은 그 실행의 새 후보뿐이므로
+   * 그 항목들은 이후 어떤 실행에서도 다시 요약되지 않는다 — 한 번의 dry-run이
+   * 그 배치를 영구히 망친다. 읽기는 그대로 두어 created/merged 집계는 정확하다.
+   */
+  readOnly?: boolean
+}
+
+export function createFileStore(root: string, options: FileStoreOptions = {}): Store {
   const itemsDir = path.join(root, 'content/items')
   const highlightsDir = path.join(root, 'content/highlights')
   const statePath = path.join(root, 'content/state.json')
+  const write = options.readOnly ? async () => {} : writeJson
 
   async function listMonths(): Promise<string[]> {
     try {
@@ -81,7 +94,7 @@ export function createFileStore(root: string): Store {
     },
 
     async saveState(state) {
-      await writeJson(statePath, StateSchema.parse(state))
+      await write(statePath, StateSchema.parse(state))
     },
 
     async loadAllItems() {
@@ -140,7 +153,7 @@ export function createFileStore(root: string): Store {
       for (const month of touched) {
         const items = (byMonth.get(month) ?? []).slice()
         items.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-        await writeJson(path.join(itemsDir, `${month}.json`), items)
+        await write(path.join(itemsDir, `${month}.json`), items)
       }
 
       return { created, merged }
@@ -154,7 +167,7 @@ export function createFileStore(root: string): Store {
 
     async saveHighlight(highlight) {
       const parsed = HighlightSchema.parse(highlight)
-      await writeJson(path.join(highlightsDir, `${parsed.week}.json`), parsed)
+      await write(path.join(highlightsDir, `${parsed.week}.json`), parsed)
     },
 
     async listWeeks() {
