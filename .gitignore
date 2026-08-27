@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+coverage/
+.vercel/
+.env
+.env.*
+!.env.example
+.superpowers/
+.DS_Store
+*.log
