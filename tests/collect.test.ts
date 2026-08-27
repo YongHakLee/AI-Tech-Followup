@@ -3,6 +3,7 @@ import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { runCollect, sourceKey, type CollectDeps } from '../pipeline/collect'
+import { itemId } from '../pipeline/normalize'
 import { createFileStore, type Store } from '../pipeline/store'
 import type { RawItem } from '../pipeline/adapters/types'
 import type { Person, Source } from '../pipeline/schema'
@@ -308,5 +309,17 @@ describe('runCollect', () => {
     }))
     const state = await store.loadState()
     expect(state.sources[key].seenIds).toHaveLength(500)
+
+    // 길이만으로는 "어느 쪽 끝을 잘랐는가"를 구분할 수 없다 — 방금 수집한 새 id가
+    // 밀려나고 오래된 id가 남는 반전이 일어나도 길이는 여전히 500이 된다
+    // (499개 구 id + 10개 신규 id = 509개, 어느 순서로 합쳐도 500으로 잘리면 길이는
+    // 같다). 그래서 "무엇이" 남았는지를 직접 확인한다: 방금 수집한 모든 항목은
+    // 남아 있어야 하고, seedState의 맨 끝(가장 오래된) id는 사라져 있어야 한다.
+    const freshlyFetchedIds = many.map((r) => itemId(r.url))
+    for (const id of freshlyFetchedIds) {
+      expect(state.sources[key].seenIds).toContain(id)
+    }
+    const oldestSeededId = oldIds[oldIds.length - 1]
+    expect(state.sources[key].seenIds).not.toContain(oldestSeededId)
   })
 })
