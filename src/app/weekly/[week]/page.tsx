@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ItemCard } from '@/components/item-card'
-import { getHighlight, getSiteData, peopleById, resolvePicks } from '@/lib/content'
+import { getHighlight, getSiteData, peopleById, resolvePicks, splitWeekItems } from '@/lib/content'
 import { weekLabel } from '@/lib/format'
 import { itemsInWeek } from '../../../../pipeline/week'
 
@@ -25,12 +25,13 @@ export default async function WeekPage({ params }: Params) {
   const people = peopleById(data)
   const highlight = await getHighlight(week)
   const items = itemsInWeek(data.items, week)
-  const picks = resolvePicks(highlight, data.items)
-  const pickIds = new Set(picks.map((p) => p.item.id))
-  const remainingItems = items.filter((item) => !pickIds.has(item.id))
-  // Once every item in the week is already shown as a highlight above, "이번 주 전체"
-  // (this week overall) would still be true of the count but not of what this section
-  // renders, so the label switches to "나머지" (the rest) to match the filtered list.
+  // 픽은 반드시 이 주의 항목 안에서만 푼다. 사이트 전체(data.items)에서 풀면 다른
+  // 주의 항목이 이 주의 하이라이트로 딸려 들어오고, 그 주에 항목이 하나도 없어도
+  // "모두 위 하이라이트에 포함되어 있습니다"가 찍힌다.
+  const picks = resolvePicks(highlight, items)
+  const { remaining, allPicked } = splitWeekItems(items, picks)
+  // 그 주 항목이 전부 하이라이트로 올라가면 "이번 주 전체"는 개수로는 참이어도
+  // 이 섹션이 실제로 그리는 목록과는 어긋난다. 그래서 라벨을 "나머지"로 바꾼다.
   const restSectionTitle = picks.length > 0 ? '이번 주 나머지' : '이번 주 전체'
 
   return (
@@ -54,15 +55,15 @@ export default async function WeekPage({ params }: Params) {
 
       <section>
         <h2 className="mb-4 text-lg font-semibold">
-          {restSectionTitle} ({remainingItems.length})
+          {restSectionTitle} ({remaining.length})
         </h2>
-        {remainingItems.length > 0 ? (
+        {remaining.length > 0 ? (
           <div className="grid gap-4 md:grid-cols-2">
-            {remainingItems.map((item) => (
+            {remaining.map((item) => (
               <ItemCard key={item.id} item={item} people={people} />
             ))}
           </div>
-        ) : picks.length > 0 ? (
+        ) : allPicked ? (
           <p className="text-sm text-muted-foreground">
             이번 주 항목은 모두 위 하이라이트에 포함되어 있습니다.
           </p>

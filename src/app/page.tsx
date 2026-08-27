@@ -19,7 +19,7 @@ export default async function HomePage() {
   const latestWeek = data.weeks[0] ?? isoWeek(new Date())
   const highlight = await getHighlight(latestWeek)
   const weekItems = itemsInWeek(data.items, latestWeek)
-  const picks = resolvePicks(highlight, data.items)
+  const picks = resolvePicks(highlight, weekItems)
 
   const activePeople = [...new Set(weekItems.flatMap((item) => item.personIds))]
     .map((id) => people.get(id))

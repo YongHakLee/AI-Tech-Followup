@@ -7,6 +7,7 @@ import {
   itemsByField,
   itemsByPerson,
   resolvePicks,
+  splitWeekItems,
   type SiteData,
 } from '../src/lib/content'
 import type { Item, Person } from '../pipeline/schema'
@@ -228,5 +229,53 @@ describe('getSiteData', () => {
     await rm(path.join(root, 'registry'), { recursive: true, force: true })
     const dataAgain = await getSiteData()
     expect(dataAgain).toBe(data)
+  })
+})
+
+describe('splitWeekItems', () => {
+  const a = item('a')
+  const b = item('b')
+  const c = item('c')
+  const week = [a, b, c]
+
+  function picksOf(...items: Item[]) {
+    return items.map((it) => ({ item: it, reason: `${it.id} 이유` }))
+  }
+
+  it('픽이 없으면 그 주 전체가 나머지이고 allPicked가 아니다', () => {
+    const { remaining, allPicked } = splitWeekItems(week, [])
+    expect(remaining).toEqual(week)
+    expect(allPicked).toBe(false)
+  })
+
+  it('픽이 일부면 나머지에서 그 픽만 빠진다', () => {
+    const { remaining, allPicked } = splitWeekItems(week, picksOf(b))
+    expect(remaining.map((i) => i.id)).toEqual([a.id, c.id])
+    expect(allPicked).toBe(false)
+  })
+
+  // 원래 버그: 제목은 items.length를 세고 그리드는 픽을 뺀 목록을 그려서,
+  // 그 주가 전부 픽이면 "이번 주 전체 (3)" 아래가 비었다.
+  it('그 주 항목이 전부 픽이면 나머지가 비고 allPicked가 참이다', () => {
+    const { remaining, allPicked } = splitWeekItems(week, picksOf(a, b, c))
+    expect(remaining).toEqual([])
+    expect(allPicked).toBe(true)
+  })
+
+  // 항목도 픽도 없는 주는 "모두 위에 포함되어 있습니다"가 아니라
+  // "아직 수집된 항목이 없습니다"여야 한다.
+  it('항목도 픽도 없으면 allPicked가 거짓이다', () => {
+    expect(splitWeekItems([], []).allPicked).toBe(false)
+  })
+
+  it('나머지는 입력 순서를 유지한다', () => {
+    const reversed = [c, b, a]
+    expect(splitWeekItems(reversed, []).remaining.map((i) => i.id)).toEqual([c.id, b.id, a.id])
+  })
+
+  it('입력 배열을 변형하지 않는다', () => {
+    const input = [...week]
+    splitWeekItems(input, picksOf(a))
+    expect(input).toEqual(week)
   })
 })
