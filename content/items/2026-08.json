@@ -20,6 +20,22 @@
     ]
   },
   {
+    "id": "71ad5835f94cc393bbcf6ca66f626fbb602d35f0",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Against Modesty’s Bailey",
+    "url": "https://thezvi.wordpress.com/2026/08/26/against-modestys-bailey/",
+    "publishedAt": "2026-08-26T18:17:44.000Z",
+    "collectedAt": "2026-08-27T10:20:31.129Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Modesty arguments often say that you should mostly or entirely bow to ‘expert consensus’ or the views of particular others, and who are you to disagree. It has been a few years since I’ve properly addressed this so: My answer … Continue reading →",
+    "summaryKo": "이 글은 '겸손함(modesty)' 논증, 즉 전문가 합의나 타인의 견해에 거의 전적으로 따라야 한다는 주장을 다시 다룬다. 저자는 이런 논증이 흔히 지나치게 강한 결론('전적으로 따라야 한다')으로 확장되는 문제, 즉 일종의 모티-베일리(motte-and-bailey) 전략을 지적하며 반박한다. 인식론적 겸손과 권위에 대한 맹목적 복종의 경계를 다루는 논쟁으로, 합리성과 의사결정에 관심 있는 독자에게 유용하다.",
+    "tags": []
+  },
+  {
     "id": "cf678d0e6bb109ab1212d083f63d9bfe1b0e969c",
     "personIds": [
       "percy-liang"
@@ -78,6 +94,22 @@
     ]
   },
   {
+    "id": "8fcc0626c206730dfedb8bf6193ec5d640eae472",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "On Writing #3",
+    "url": "https://thezvi.wordpress.com/2026/08/25/on-writing-3/",
+    "publishedAt": "2026-08-25T17:46:44.000Z",
+    "collectedAt": "2026-08-27T10:20:31.129Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Periodically I like to gather various observations about writing, and share my perspective. Last time was in honor of my trip to Inkhaven. This time will be in honor of the announcement of Inkhaven #3, which I encourage everyone to … Continue reading →",
+    "summaryKo": "이 글은 Zvi Mowshowitz가 글쓰기에 대해 주기적으로 정리해온 관찰과 견해를 담은 시리즈의 세 번째 편이다. Inkhaven 행사 참여 경험을 계기로 시작된 이전 글에 이어, 이번에는 Inkhaven #3 발표를 기념하여 작성되었다. 글쓰기 실천과 관련된 저자의 개인적 통찰을 접할 수 있어 관심 있는 독자에게 참고가 될 만하다.",
+    "tags": []
+  },
+  {
     "id": "d4813469dd4c77ec30fde97f686d271663af9620",
     "personIds": [
       "sergey-levine"
@@ -94,6 +126,44 @@
     "tags": [
       "robotics",
       "reasoning"
+    ]
+  },
+  {
+    "id": "8b6414772e26c2f95b768754d50b56663af380f6",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "The American People Really Hate Data Centers",
+    "url": "https://thezvi.wordpress.com/2026/08/24/the-american-people-really-hate-data-centers/",
+    "publishedAt": "2026-08-24T18:09:59.000Z",
+    "collectedAt": "2026-08-27T10:20:31.129Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "There are at least five different core questions around data centers and their politics. In what ways are specific concerns people raise about data centers legitimate? In what ways are specific concerns people raise about generative AI legitimate? Is it … Continue reading →",
+    "summaryKo": "이 글은 데이터센터를 둘러싼 정치적 반발을 다루며, 데이터센터 관련 우려와 생성형 AI 관련 우려를 구분해 각각이 얼마나 타당한지 질문한다. 저자는 사람들이 제기하는 구체적 불만들의 정당성을 따져보며 이를 다섯 가지 핵심 쟁점으로 정리해 분석한다. AI 인프라 확산에 대한 대중의 반감과 그 근거를 체계적으로 짚어본다는 점에서 주목할 만하다.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "7a2319af6658c357537441bce82a0bb16482f7e8",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+    "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
+    "publishedAt": "2026-08-24T13:12:40.000Z",
+    "collectedAt": "2026-08-27T10:20:31.129Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceleration is showing up…Here’s a little analysis from METR which […]",
+    "summaryKo": "이번 호 Import AI는 AI가 연구 및 개발의 어떤 영역에서는 속도를 높이지만 다른 영역에서는 그렇지 못하다는 METR의 분석을 다루며, 기계에 권리를 부여하는 문제, SPADE를 통한 환경 자동 생성, Hawkeye를 이용한 GPU 커널 개선 등 다양한 AI 연구 주제를 소개한다. 핵심은 AI 발전이 균등하지 않게 이루어지고 있다는 점과, 시스템 최적화 및 자동화 도구들이 실질적인 생산성 향상을 가져오고 있다는 것이다. AI 연구의 최신 동향과 실용적 도구 개발 상황을 폭넓게 파악하고 싶은 독자에게 유용하다.",
+    "tags": [
+      "llm",
+      "systems",
+      "safety"
     ]
   },
   {
@@ -152,6 +222,25 @@
       "llm",
       "systems",
       "policy"
+    ]
+  },
+  {
+    "id": "7a169e7d3c0c088438b26d39c28f46d48b1b6d26",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
+    "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+    "publishedAt": "2026-08-17T13:05:36.000Z",
+    "collectedAt": "2026-08-27T10:20:31.129Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition:…The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of […]",
+    "summaryKo": "이번 Import AI 뉴스레터는 AI 연구 동향을 다루며, 특히 DiG-bench라는 벤치마크가 Fable 시스템이 창작 과정에서 암묵적 규칙을 얼마나 잘 추론하는지 평가한 사례를 소개한다. 이는 AI 시스템의 창의적 직관과 암묵적 규칙 이해 능력을 측정하는 새로운 분석 방법이 등장하고 있음을 보여준다. AI 평가 방법론의 최신 흐름을 파악하고자 하는 독자에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
     ]
   },
   {
@@ -265,6 +354,25 @@
     "tags": [
       "llm",
       "systems"
+    ]
+  },
+  {
+    "id": "29f21907e405ed2052690f554053d0d528104451",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+    "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+    "publishedAt": "2026-08-10T12:32:20.000Z",
+    "collectedAt": "2026-08-27T10:20:31.129Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here are 23 actionable policy ideas:…IFP serves up some “low-regret” policy recommendations…Policy experts with think tank IFP have […]",
+    "summaryKo": "이번 Import AI 뉴스레터는 재귀적 자기개선(RSI)에 대응하기 위한 정책 아이디어와 PostTrainBench+ 등 AI 연구 동향을 다룬다. 특히 싱크탱크 IFP가 제시한 23가지 '후회 없는' 정책 권고안과, AI 경쟁 구도 속에서 신뢰와 투명성이 어떻게 작동하는지에 대한 논의가 핵심이다. AI 안전성과 정책 결정에 관심 있는 독자에게 실용적인 시사점을 제공한다.",
+    "tags": [
+      "policy",
+      "safety"
     ]
   },
   {
