@@ -16,6 +16,10 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # 기본 타임아웃 360분은 수집 주기와 정확히 같다. 멈춘 실행이 그만큼 버티면
+    # content-write 그룹을 막은 채 다음 실행이 대기하고, 그다음 실행이 그 대기분을
+    # 밀어낸다.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,23 +27,28 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: 시크릿 확인
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # 키가 없어도 SDK 클라이언트는 정상 생성되고 요약 호출만 조용히 실패한다.
+          # collect.ts는 그 실패를 summaryFailures로 삼키고 종료 코드를 올리지 않으므로
+          # 워크플로는 초록불로 끝나고 summaryKo가 null인 항목이 그대로 배포된다.
+          # 게다가 그 항목들은 seenIds에 올라가 다시는 요약되지 않는다. 먼저 죽는 게 낫다.
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            echo "::error::ANTHROPIC_API_KEY 시크릿이 설정되지 않았습니다"
+            exit 1
+          fi
       - name: 수집과 요약
         run: npm run collect
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: 변경분 커밋
         run: |
-          if [ -z "$(git status --porcelain content)" ]; then
-            echo "새 아이템 없음 — 커밋하지 않음"
-            exit 0
-          fi
-          git config user.name "followup-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content
-          git commit -m "chore(content): $(date -u +%Y-%m-%dT%H:%MZ) 수집"
-          git push
+          ./.github/scripts/commit-content.sh "chore(content): $(date -u +%Y-%m-%dT%H:%MZ) 수집"
       - name: 죽은 소스 이슈 생성
-        if: always()
+        # 수집이 실패해도 알림은 남겨야 하지만, 취소된 실행에서까지 이슈를 만들 이유는 없다.
+        if: '!cancelled()'
         run: ./.github/scripts/report-alerts.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

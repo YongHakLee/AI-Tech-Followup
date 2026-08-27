@@ -17,6 +17,11 @@ echo "연속 실패 소스 ${count}개"
 # (라벨이 없으므로) 알림이 영구히 묵음 처리되지 않는다.
 open_titles=$(gh issue list --state open --label source-down --limit 100 --json title --jq '.[].title')
 
+# 이슈 생성 하나가 실패해도 나머지 소스는 계속 보고한다. set -e에 맡기면 첫 실패에서
+# 멈춰 나머지 죽은 소스가 영영 알려지지 않는다. 가장 흔한 트리거는 source-down 라벨이
+# 아직 만들어지지 않은 첫 실행이다.
+failed=0
+
 for i in $(seq 0 $((count - 1))); do
   key=$(jq -r ".[$i].key" "$ALERTS")
   err=$(jq -r ".[$i].error" "$ALERTS")
@@ -28,7 +33,7 @@ for i in $(seq 0 $((count - 1))); do
     continue
   fi
 
-  gh issue create --title "$title" --label "source-down" --body "$(cat <<EOF
+  if gh issue create --title "$title" --label "source-down" --body "$(cat <<EOF
 소스 \`${key}\` 가 ${n}회 연속으로 실패했습니다.
 
 마지막 에러:
@@ -42,5 +47,16 @@ ${err}
 
 고칠 곳: \`registry/people/\` 아래 해당 인물 YAML
 EOF
-)"
+)"; then
+    # 같은 실행 안에서 같은 제목을 두 번 만들지 않도록 목록에 더한다.
+    open_titles=$(printf '%s\n%s' "$open_titles" "$title")
+  else
+    echo "::warning::이슈 생성 실패: ${title}"
+    failed=1
+  fi
 done
+
+if [ "$failed" -ne 0 ]; then
+  echo "::error::일부 소스의 이슈 생성에 실패했습니다 (source-down 라벨이 있는지 확인하세요)"
+  exit 1
+fi

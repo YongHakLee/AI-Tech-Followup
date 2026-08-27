@@ -2,6 +2,8 @@ name: weekly
 
 on:
   schedule:
+    # 화요일 00:00 UTC = 화요일 09:00 KST. Actions cron은 항상 UTC다.
+    # weekly.ts는 이 시점 기준으로 "직전에 끝난 주"를 대상으로 삼는다.
     - cron: '0 0 * * 2'
   workflow_dispatch:
 
@@ -15,6 +17,7 @@ permissions:
 jobs:
   highlight:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -22,18 +25,20 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: 시크릿 확인
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # 키가 없으면 큐레이터가 조용히 실패하고 휴리스틱 폴백으로 내려간다.
+          # 폴백은 의도된 동작이지만, 설정 실수 때문에 매주 폴백이 나가는 건 다른 문제다.
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            echo "::error::ANTHROPIC_API_KEY 시크릿이 설정되지 않았습니다"
+            exit 1
+          fi
       - name: 주간 하이라이트 생성
         run: npm run weekly
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: 변경분 커밋
         run: |
-          if [ -z "$(git status --porcelain content)" ]; then
-            echo "변경 없음"
-            exit 0
-          fi
-          git config user.name "followup-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content
-          git commit -m "chore(content): 주간 하이라이트 생성"
-          git push
+          ./.github/scripts/commit-content.sh "chore(content): 주간 하이라이트 생성"
