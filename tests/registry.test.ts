@@ -12,7 +12,6 @@ const FIELDS = `
 const VALID_PERSON = `
 id: test-person
 name: Test Person
-nameKo: 테스트
 affiliation: Somewhere
 fields: [llm]
 bio: 테스트용 인물.

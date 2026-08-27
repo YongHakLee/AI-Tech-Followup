@@ -65,7 +65,7 @@ export default async function HomePage() {
                 className="flex w-20 flex-col items-center gap-2 text-center"
               >
                 <PersonAvatar person={person} size={56} />
-                <span className="text-xs leading-tight text-muted-foreground">{person.nameKo}</span>
+                <span className="text-xs leading-tight text-muted-foreground">{person.name}</span>
               </Link>
             ))}
           </div>

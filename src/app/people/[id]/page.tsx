@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { id } = await params
   const data = await getSiteData()
   const person = data.people.find((p) => p.id === id)
-  return { title: `${person?.nameKo ?? id} · AI Tech Followup` }
+  return { title: `${person?.name ?? id} · AI Tech Followup` }
 }
 
 export default async function PersonPage({ params }: Params) {
@@ -33,8 +33,7 @@ export default async function PersonPage({ params }: Params) {
       <header className="mb-10 flex flex-wrap items-start gap-5">
         <PersonAvatar person={person} size={72} />
         <div className="min-w-0 flex-1">
-          <h1 className="text-2xl font-semibold tracking-tight">{person.nameKo}</h1>
-          <p className="text-sm text-muted-foreground">{person.name}</p>
+          <h1 className="text-2xl font-semibold tracking-tight">{person.name}</h1>
           <p className="mt-2 text-sm">
             {person.affiliation}
             {person.formerly.length > 0 && (

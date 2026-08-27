@@ -1,6 +1,5 @@
 id: simon-willison
 name: Simon Willison
-nameKo: 사이먼 윌리슨
 affiliation: Datasette
 formerly: [Eventbrite, Django]
 fields: [llm, agents, education]

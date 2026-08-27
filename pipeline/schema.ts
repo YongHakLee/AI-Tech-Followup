@@ -16,7 +16,6 @@ export type Source = z.infer<typeof SourceSchema>
 export const PersonSchema = z.object({
   id: z.string().regex(/^[a-z0-9][a-z0-9-]*$/),
   name: z.string().min(1),
-  nameKo: z.string().min(1),
   affiliation: z.string().min(1),
   formerly: z.array(z.string()).default([]),
   fields: z.array(z.string().min(1)).min(1),

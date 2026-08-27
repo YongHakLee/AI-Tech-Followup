@@ -34,7 +34,7 @@ export async function GET(): Promise<Response> {
   const entries = data.items
     .slice(0, MAX_ENTRIES)
     .map((item) => {
-      const authors = item.personIds.map((id) => people.get(id)?.nameKo ?? id).join(', ')
+      const authors = item.personIds.map((id) => people.get(id)?.name ?? id).join(', ')
       const description = `${item.summaryKo ?? item.excerpt}\n\n— ${authors} · ${item.sourceName}`
       const pubDate = rfc822(item.publishedAt)
       return [

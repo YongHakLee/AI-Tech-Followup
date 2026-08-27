@@ -49,7 +49,7 @@ export function ItemCard({
             href={`/people/${person.id}`}
             className="text-muted-foreground hover:text-foreground"
           >
-            {person.nameKo}
+            {person.name}
           </Link>
         ))}
       </div>

@@ -14,7 +14,6 @@ function person(overrides: Partial<Person> = {}): Person {
   return {
     id: 'person-a',
     name: 'Person A',
-    nameKo: '인물 A',
     affiliation: 'Lab',
     formerly: [],
     fields: ['llm'],
