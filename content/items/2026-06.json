@@ -1,0 +1,21 @@
+[
+  {
+    "id": "480567089286a92f10c6038975c02c889c6df101",
+    "personIds": [
+      "lilian-weng"
+    ],
+    "type": "blog",
+    "title": "Scaling Laws, Carefully",
+    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "publishedAt": "2026-06-24T00:00:00.000Z",
+    "collectedAt": "2026-08-27T09:20:26.501Z",
+    "lang": "en-us",
+    "sourceName": "Lil'Log",
+    "excerpt": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log plot. We can view scaling laws as a framework for describing the relationship between compute, loss, model size and data; at its core, it is about how to allocate precious compute optimally between $N$ and $D$.",
+    "summaryKo": "이 글은 딥러닝에서 모델 크기, 데이터셋 크기, 연산량과 학습 손실 간의 관계를 설명하는 스케일링 법칙을 다룬다. 핵심 주장은 학습 손실이 이 세 요소에 따라 거듭제곱 법칙 형태로 예측 가능하게 감소하며, 스케일링 법칙의 본질은 한정된 연산 자원을 모델 크기와 데이터 크기 사이에 최적으로 배분하는 문제로 귀결된다는 것이다. 딥러닝 시스템 설계와 자원 배분 전략을 이해하는 데 유용한 이론적 틀을 제공한다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  }
+]

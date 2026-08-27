@@ -1,0 +1,20 @@
+[
+  {
+    "id": "3c3845f75f98be7d45ab73e75b99397250a953b6",
+    "personIds": [
+      "andrej-karpathy"
+    ],
+    "type": "blog",
+    "title": "Sequoia Ascent 2026 summary",
+    "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
+    "publishedAt": "2026-04-30T16:00:00.000Z",
+    "collectedAt": "2026-08-27T09:20:26.501Z",
+    "lang": "en",
+    "sourceName": "karpathy",
+    "excerpt": "I did a fireside chat at Sequoia Ascent 2026. The YouTube video is here: YouTube Video Link As an experiment, I fed an LLM all of my recent blog posts and tweets, then I had it read this video's transcript and produce 1) a summary and 2) a cleaned up transcript (correcting all transcription mistakes, getting rid of fill words, etc). I am posting both of these below. These can be useful for both people who may want to just read the summary in text format, but also for LLMs so that my content is legible and available to them. AI generated content below for this talk follows. I used a top capabi…",
+    "summaryKo": "Andrej Karpathy가 Sequoia Ascent 2026에서 진행한 대담 영상을 소개하는 글로, 자신의 최근 블로그 글과 트윗을 LLM에 학습시켜 이 영상의 요약본과 교정된 대본을 생성한 과정을 설명한다. 핵심은 AI를 활용해 자신의 발표 내용을 텍스트 형태로 정리함으로써 사람과 LLM 모두가 쉽게 접근할 수 있게 만들었다는 점이다. 원본 영상을 직접 보기 어려운 이들이나 콘텐츠를 기계가 읽기 쉽게 만드는 실험 사례로 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  }
+]

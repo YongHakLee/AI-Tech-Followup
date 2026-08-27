@@ -1,0 +1,60 @@
+[
+  {
+    "id": "63366f5f9044fc451f21041bb0dab6444871db2d",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Qwen3.8-Flash-Next",
+    "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+    "publishedAt": "2026-08-26T23:52:58.000Z",
+    "collectedAt": "2026-08-27T09:20:26.501Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these ). My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL: Via Hacker News Tags: ai , genera…",
+    "summaryKo": "Qwen에서 공개한 오픈 웨이트 멀티모달 MoE 모델 Qwen3.8-Flash-Next를 소개하며, 이는 차기 Qwen4 아키텍처의 초기 미리보기 역할도 한다. 전체 125B 토큰 규모지만 활성 파라미터는 6B에 불과해 성능상 이점을 얻는 구조라는 점이 핵심이다. 저자는 DGX Spark에서 Unsloth의 양자화 버전들을 직접 테스트해보며 결과물을 공유하고 있어, 실제 사용 경험을 참고하기에 좋은 글이다.",
+    "tags": [
+      "llm",
+      "multimodal",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "a9eff291fe40caca50a4e2db315d3bdf60b7e994",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Paul Dix",
+    "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+    "publishedAt": "2026-08-26T08:07:55.000Z",
+    "collectedAt": "2026-08-27T09:20:26.501Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it unti…",
+    "summaryKo": "이 글은 Paul Dix의 발언을 인용하며, AI가 약 100만 줄의 코드를 작성하고 몇 달간 다듬어 수백만 개발자 머신에서 실행되는 신뢰성 있는 소프트웨어로 완성한 사례를 소개한다. 핵심 주장은 언어 간 변환에 참조할 오라클이 있었다는 점을 감안하더라도, 검증 시스템과 적절한 방향 제시가 갖춰지면 AI가 복잡하고 정교한 소프트웨어를 반복적으로 개선해낼 수 있다는 것이다. AI의 실제 소프트웨어 개발 역량과 한계를 가늠하는 구체적 사례로 참고할 만하다.",
+    "tags": [
+      "llm",
+      "agents",
+      "systems"
+    ]
+  },
+  {
+    "id": "7b67d437667cb63c81a0052bb3bdd8d988390717",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "EVE Online: The Move to Python 3 Begins!",
+    "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+    "publishedAt": "2026-08-25T22:59:30.000Z",
+    "collectedAt": "2026-08-27T09:20:26.501Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3. There's nothing in this announcement about how th…",
+    "summaryKo": "이 글은 20년 넘게 Stackless Python으로 운영되어온 게임 EVE Online이 마침내 Python 3로의 전환 작업을 시작했다는 소식을 다룬다. 240만 줄에 달하는 코드베이스에 futurize 스크립트를 적용한 뒤, Python 2와 3의 동작 차이가 나는 약 2만 곳을 수작업으로 검토하는 대규모 마이그레이션 과정이 핵심이다. 대규모 레거시 시스템에서의 언어 버전 업그레이드 사례로서 소프트웨어 엔지니어링 관점에서 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  }
+]
