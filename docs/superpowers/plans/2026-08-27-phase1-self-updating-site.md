@@ -3121,6 +3121,7 @@ git commit -m "feat: 주간 하이라이트 생성 (LLM 큐레이터 + 휴리스
   - `itemsByField(data: SiteData, fieldKey: string): Item[]`
   - `itemsByPerson(data: SiteData, personId: string): Item[]`
   - `fieldName(data: SiteData, key: string): string`
+  - `resolvePicks(highlight: Highlight | null, items: Item[]): ResolvedPick[]` — 하이라이트의 `itemId`를 실제 아이템으로 바꾸고, 찾지 못한 것은 버린다. 홈(Task 12)과 주간 상세(Task 13)가 공유한다
   - `formatDate(iso: string): string` — `"2026.08.20"`
   - `TYPE_LABEL: Record<Item['type'], string>`, `weekLabel(week: string): string`
   - 컴포넌트: `<Monogram name seed />`, `<PersonAvatar person size />`, `<ItemCard item people />`, `<PersonCard person count />`, `<SiteHeader />`, `<SiteFooter />`
@@ -3131,7 +3132,13 @@ git commit -m "feat: 주간 하이라이트 생성 (LLM 큐레이터 + 휴리스
 
 ```ts
 import { describe, expect, it } from 'vitest'
-import { fieldsOfItem, itemsByField, itemsByPerson, type SiteData } from '../src/lib/content'
+import {
+  fieldsOfItem,
+  itemsByField,
+  itemsByPerson,
+  resolvePicks,
+  type SiteData,
+} from '../src/lib/content'
 import type { Item, Person } from '../pipeline/schema'
 
 function person(id: string, fields: string[]): Person {
@@ -3211,6 +3218,30 @@ describe('itemsByPerson', () => {
     expect(itemsByPerson(DATA, 'bob').map((i) => i.title).sort()).toEqual(['Title b', 'Title c'])
   })
 })
+
+describe('resolvePicks', () => {
+  const highlight = {
+    week: '2026-W34',
+    generatedAt: '2026-08-24T00:00:00.000Z',
+    intro: '인트로',
+    picks: [
+      { itemId: 'a'.padEnd(40, '0'), reason: '이유 1' },
+      { itemId: 'z'.padEnd(40, '0'), reason: '없는 항목' },
+    ],
+    origin: 'llm' as const,
+  }
+
+  it('itemId를 실제 아이템으로 바꾼다', () => {
+    const picks = resolvePicks(highlight, DATA.items)
+    expect(picks).toHaveLength(1)
+    expect(picks[0].item.title).toBe('Title a')
+    expect(picks[0].reason).toBe('이유 1')
+  })
+
+  it('하이라이트가 없으면 빈 배열을 준다', () => {
+    expect(resolvePicks(null, DATA.items)).toEqual([])
+  })
+})
 ```
 
 - [ ] **Step 2: 테스트가 실패하는지 확인**
@@ -3283,6 +3314,19 @@ export function itemsByPerson(data: SiteData, personId: string): Item[] {
 export function fieldName(data: SiteData, key: string): string {
   return data.fields.find((f) => f.key === key)?.nameKo ?? key
 }
+
+export interface ResolvedPick {
+  item: Item
+  reason: string
+}
+
+export function resolvePicks(highlight: Highlight | null, items: Item[]): ResolvedPick[] {
+  if (!highlight) return []
+  const byId = new Map(items.map((item) => [item.id, item]))
+  return highlight.picks
+    .map((pick) => ({ item: byId.get(pick.itemId), reason: pick.reason }))
+    .filter((entry): entry is ResolvedPick => entry.item !== undefined)
+}
 ```
 
 `data.items`는 `loadAllItems`가 이미 최신순으로 정렬해 돌려주므로 파생 함수들은 정렬을 다시 하지 않는다.
@@ -3293,7 +3337,7 @@ export function fieldName(data: SiteData, key: string): string {
 npx vitest run tests/content.test.ts
 ```
 
-기대: 5건 PASS.
+기대: 7건 PASS.
 
 - [ ] **Step 5: 포맷 유틸 작성**
 
@@ -3654,7 +3698,7 @@ import {
   getHighlight,
   getSiteData,
   peopleById,
-  type Item,
+  resolvePicks,
   type Person,
 } from '@/lib/content'
 import { weekLabel } from '@/lib/format'
@@ -3667,11 +3711,7 @@ export default async function HomePage() {
   const latestWeek = data.weeks[0] ?? isoWeek(new Date())
   const highlight = await getHighlight(latestWeek)
   const weekItems = itemsInWeek(data.items, latestWeek)
-  const itemsById = new Map(data.items.map((item) => [item.id, item]))
-
-  const picks = (highlight?.picks ?? [])
-    .map((pick) => ({ item: itemsById.get(pick.itemId), reason: pick.reason }))
-    .filter((entry): entry is { item: Item; reason: string } => Boolean(entry.item))
+  const picks = resolvePicks(highlight, data.items)
 
   const activePeople = [...new Set(weekItems.flatMap((item) => item.personIds))]
     .map((id) => people.get(id))
@@ -4046,7 +4086,7 @@ export default async function WeeklyIndexPage() {
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ItemCard } from '@/components/item-card'
-import { getHighlight, getSiteData, peopleById, type Item } from '@/lib/content'
+import { getHighlight, getSiteData, peopleById, resolvePicks } from '@/lib/content'
 import { weekLabel } from '@/lib/format'
 import { itemsInWeek } from '../../../../pipeline/week'
 
@@ -4070,11 +4110,7 @@ export default async function WeekPage({ params }: Params) {
   const people = peopleById(data)
   const highlight = await getHighlight(week)
   const items = itemsInWeek(data.items, week)
-  const itemsById = new Map(data.items.map((item) => [item.id, item]))
-
-  const picks = (highlight?.picks ?? [])
-    .map((pick) => ({ item: itemsById.get(pick.itemId), reason: pick.reason }))
-    .filter((entry): entry is { item: Item; reason: string } => Boolean(entry.item))
+  const picks = resolvePicks(highlight, data.items)
   const pickIds = new Set(picks.map((p) => p.item.id))
 
   return (
