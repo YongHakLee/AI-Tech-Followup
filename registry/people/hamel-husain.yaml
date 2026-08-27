@@ -1,0 +1,13 @@
+id: hamel-husain
+name: Hamel Husain
+affiliation: 독립 컨설턴트
+formerly: [GitHub, Airbnb, DataRobot]
+fields: [agents, systems, education]
+bio: LLM 제품을 실제로 굴리며 평가(eval) 없이는 아무것도 나아지지 않는다고 말한다.
+links:
+  homepage: https://hamel.dev
+  x: https://x.com/HamelHusain
+  github: https://github.com/hamelsmu
+avatar: null
+sources:
+  - { type: rss, url: https://hamel.dev/index.xml }

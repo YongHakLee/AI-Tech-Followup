@@ -1,0 +1,13 @@
+id: nathan-lambert
+name: Nathan Lambert
+affiliation: Allen Institute for AI
+formerly: [HuggingFace]
+fields: [llm, reasoning, policy]
+bio: 사후학습과 RLHF를 파고들며 오픈 모델 생태계의 흐름을 정리한다.
+links:
+  homepage: https://www.natolambert.com
+  x: https://x.com/natolambert
+  github: https://github.com/natolambert
+avatar: null
+sources:
+  - { type: rss, url: https://www.interconnects.ai/feed }

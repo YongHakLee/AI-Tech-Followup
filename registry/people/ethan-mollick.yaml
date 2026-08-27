@@ -1,0 +1,12 @@
+id: ethan-mollick
+name: Ethan Mollick
+affiliation: Wharton
+formerly: []
+fields: [education, policy]
+bio: AI를 실제 업무와 교육에 써본 결과를 실험하듯 기록한다.
+links:
+  homepage: https://www.oneusefulthing.org
+  x: https://x.com/emollick
+avatar: null
+sources:
+  - { type: rss, url: https://www.oneusefulthing.org/feed }

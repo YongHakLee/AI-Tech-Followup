@@ -1,0 +1,12 @@
+id: percy-liang
+name: Percy Liang
+affiliation: Stanford
+formerly: []
+fields: [llm, safety, policy]
+bio: 파운데이션 모델을 어떻게 평가하고 투명하게 만들 것인가를 파고든다.
+links:
+  homepage: https://cs.stanford.edu/~pliang/
+  x: https://x.com/percyliang
+avatar: null
+sources:
+  - { type: arxiv, author: Liang_Percy }

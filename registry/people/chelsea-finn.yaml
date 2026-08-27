@@ -1,0 +1,12 @@
+id: chelsea-finn
+name: Chelsea Finn
+affiliation: Stanford
+formerly: [Google Brain]
+fields: [robotics, reasoning]
+bio: 로봇이 적은 데이터로 새 작업을 배우게 하는 방법을 연구한다.
+links:
+  homepage: https://ai.stanford.edu/~cbfinn/
+  x: https://x.com/chelseabfinn
+avatar: null
+sources:
+  - { type: arxiv, author: Finn_Chelsea }

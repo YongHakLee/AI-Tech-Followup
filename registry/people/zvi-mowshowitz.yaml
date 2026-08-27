@@ -1,0 +1,12 @@
+id: zvi-mowshowitz
+name: Zvi Mowshowitz
+affiliation: 독립
+formerly: [MetaMed]
+fields: [safety, policy]
+bio: 매주 쏟아지는 AI 소식을 안전과 정책 관점에서 길게 뜯어본다.
+links:
+  homepage: https://thezvi.substack.com
+  x: https://x.com/TheZvi
+avatar: null
+sources:
+  - { type: rss, url: https://thezvi.substack.com/feed }

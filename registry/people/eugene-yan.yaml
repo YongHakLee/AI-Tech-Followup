@@ -1,0 +1,13 @@
+id: eugene-yan
+name: Eugene Yan
+affiliation: Amazon
+formerly: [Lazada]
+fields: [systems, agents, llm]
+bio: 추천 시스템과 LLM 응용을 실무 관점의 패턴으로 정리한다.
+links:
+  homepage: https://eugeneyan.com
+  x: https://x.com/eugeneyan
+  github: https://github.com/eugeneyan
+avatar: null
+sources:
+  - { type: rss, url: https://eugeneyan.com/rss/ }

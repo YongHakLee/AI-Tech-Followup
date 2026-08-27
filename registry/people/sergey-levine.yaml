@@ -1,0 +1,12 @@
+id: sergey-levine
+name: Sergey Levine
+affiliation: UC Berkeley
+formerly: [Google Brain]
+fields: [robotics, reasoning]
+bio: 강화학습으로 범용 로봇 정책을 학습시키는 연구를 이끈다.
+links:
+  homepage: https://people.eecs.berkeley.edu/~svlevine/
+  x: https://x.com/svlevine
+avatar: null
+sources:
+  - { type: arxiv, author: Levine_Sergey }

@@ -1,0 +1,12 @@
+id: jack-clark
+name: Jack Clark
+affiliation: Anthropic
+formerly: [OpenAI, Bloomberg]
+fields: [policy, safety]
+bio: 매주 AI 연구와 정책을 함께 훑는 Import AI를 쓴다.
+links:
+  homepage: https://jack-clark.net
+  x: https://x.com/jackclarkSF
+avatar: null
+sources:
+  - { type: rss, url: https://importai.substack.com/feed }

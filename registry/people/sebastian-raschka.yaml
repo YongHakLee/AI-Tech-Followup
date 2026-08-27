@@ -1,0 +1,13 @@
+id: sebastian-raschka
+name: Sebastian Raschka
+affiliation: Lightning AI
+formerly: [Wisconsin-Madison]
+fields: [llm, education, reasoning]
+bio: LLM의 내부 구조와 학습 방법을 코드로 직접 짚어가며 설명한다.
+links:
+  homepage: https://sebastianraschka.com
+  x: https://x.com/rasbt
+  github: https://github.com/rasbt
+avatar: null
+sources:
+  - { type: rss, url: https://magazine.sebastianraschka.com/feed }
