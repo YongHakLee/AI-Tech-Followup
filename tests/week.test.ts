@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isoWeek, itemsInWeek, weekEnd, weekStart } from '../pipeline/week'
+import { completedWeek, isoWeek, itemsInWeek, weekEnd, weekStart } from '../pipeline/week'
 import type { Item } from '../pipeline/schema'
 
 describe('isoWeek', () => {
@@ -72,5 +72,30 @@ describe('itemsInWeek', () => {
 
   it('해당 주에 아무것도 없으면 빈 배열을 준다', () => {
     expect(itemsInWeek([item('a', '2026-01-05T00:00:00.000Z')], '2026-W35')).toEqual([])
+  })
+})
+
+describe('completedWeek', () => {
+  // weekly 워크플로가 실제로 도는 시각. 이 시점에 isoWeek(now)는 이제 막 하루
+  // 지난 주를 가리키므로, 하이라이트가 월요일 하루만 요약하게 된다.
+  const cronFire = new Date('2026-08-25T00:00:00Z') // 화요일 09:00 KST
+
+  it('화요일 cron 시각에 직전에 끝난 주를 준다', () => {
+    expect(isoWeek(cronFire)).toBe('2026-W35')
+    expect(completedWeek(cronFire)).toBe('2026-W34')
+  })
+
+  it('대상 주는 실행 시점보다 완전히 과거다', () => {
+    expect(weekEnd(completedWeek(cronFire)).getTime()).toBeLessThanOrEqual(cronFire.getTime())
+  })
+
+  it('그 주의 어느 시각에 돌아도 같은 주를 준다', () => {
+    const monday = completedWeek(new Date('2026-08-24T00:00:00Z'))
+    const sunday = completedWeek(new Date('2026-08-30T23:59:59Z'))
+    expect(monday).toBe(sunday)
+  })
+
+  it('연초에도 전년도 마지막 주로 넘어간다', () => {
+    expect(completedWeek(new Date('2021-01-05T00:00:00Z'))).toBe('2020-W53')
   })
 })

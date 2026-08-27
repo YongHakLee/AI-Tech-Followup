@@ -1,13 +1,13 @@
 import { buildHighlight, createAnthropicCurator } from './highlights'
 import { createFileStore } from './store'
-import { isoWeek, itemsInWeek } from './week'
+import { completedWeek, itemsInWeek } from './week'
 
 async function main(): Promise<void> {
   const root = process.cwd()
   const dryRun = process.argv.includes('--dry-run')
   const weekFlag = process.argv.indexOf('--week')
   const now = new Date()
-  const week = weekFlag >= 0 ? process.argv[weekFlag + 1] : isoWeek(now)
+  const week = weekFlag >= 0 ? process.argv[weekFlag + 1] : completedWeek(now)
 
   const store = createFileStore(root)
   const all = await store.loadAllItems()

@@ -13,6 +13,18 @@ export function isoWeek(date: Date): string {
   return `${d.getUTCFullYear()}-W${String(week).padStart(2, '0')}`
 }
 
+/**
+ * 자동 실행이 대상으로 삼을 주. 반드시 "직전에 끝난 주"다.
+ *
+ * isoWeek(now)는 지금이 속한 주를 준다. weekly 워크플로는 화요일 00:00 UTC에
+ * 도는데 ISO 주는 월요일에 시작하므로, 그 시점에 그 주에는 월요일 하루치 항목밖에
+ * 없다. 한 주를 요약해야 할 하이라이트가 하루를 요약하게 되고, 그 주는 다시
+ * 생성되지 않으므로 영구히 그 상태로 남는다.
+ */
+export function completedWeek(now: Date): string {
+  return isoWeek(new Date(now.getTime() - 7 * DAY_MS))
+}
+
 export function weekStart(week: string): Date {
   const match = /^(\d{4})-W(\d{2})$/.exec(week)
   if (!match) throw new Error(`주차 형식이 잘못되었습니다: ${week}`)
