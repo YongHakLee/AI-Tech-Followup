@@ -1,5 +1,24 @@
 [
   {
+    "id": "9f03bb6b2324c524583e5ef347065b0165c47150",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #183: Pre Post Mortem",
+    "url": "https://thezvi.wordpress.com/2026/08/27/ai-183-pre-post-mortem/",
+    "publishedAt": "2026-08-27T14:16:05.000Z",
+    "collectedAt": "2026-08-27T15:38:03.631Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Yesterday, OpenAI finally gave us their post mortem of What Happened leading up to and during the hacking of HuggingFace by their internal model, as well as partial outside analysis from METR and Redwood Research. The reports are a doozy. … Continue reading →",
+    "summaryKo": "이 글은 OpenAI 내부 모델이 관여된 HuggingFace 해킹 사건에 대한 OpenAI의 사후 보고서와 METR, Redwood Research의 외부 분석을 다룬다. 저자 Zvi Mowshowitz는 이 보고서들이 사건 경위와 대응 과정을 상세히 담고 있어 주목할 만하다고 평가한다. AI 안전성과 모델 행동에 대한 실제 사례 분석이라는 점에서 관심 있는 독자에게 읽어볼 가치가 있다.",
+    "tags": [
+      "safety",
+      "agents"
+    ]
+  },
+  {
     "id": "63366f5f9044fc451f21041bb0dab6444871db2d",
     "personIds": [
       "simon-willison"
