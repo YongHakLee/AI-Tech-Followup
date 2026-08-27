@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns="http://www.w3.org/2005/Atom">
+  <title>Test Channel</title>
+  <entry>
+    <id>yt:video:AAAAAAAAAAA</id>
+    <yt:videoId>AAAAAAAAAAA</yt:videoId>
+    <title>Deep Dive into Transformers</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=AAAAAAAAAAA"/>
+    <published>2026-08-21T15:00:00+00:00</published>
+    <media:group>
+      <media:description>We build a transformer from scratch, step by step.</media:description>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:BBBBBBBBBBB</id>
+    <yt:videoId>BBBBBBBBBBB</yt:videoId>
+    <title>Short Update</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=BBBBBBBBBBB"/>
+    <published>2026-08-15T09:00:00+00:00</published>
+    <media:group>
+      <media:description></media:description>
+    </media:group>
+  </entry>
+</feed>
