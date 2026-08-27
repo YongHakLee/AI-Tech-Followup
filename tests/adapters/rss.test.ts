@@ -44,6 +44,7 @@ describe('fetchRssItems', () => {
       title: 'Atom Entry',
       url: 'https://atom.example.com/entry-1',
       publishedAt: '2026-08-19T12:00:00.000Z',
+      excerpt: 'An atom summary.',
     })
   })
 
