@@ -1,5 +1,43 @@
 [
   {
+    "id": "587c01b2ceeb858e016df13db1b41dcb94de6d61",
+    "personIds": [
+      "ethan-mollick"
+    ],
+    "type": "blog",
+    "title": "The twilight of the chatbots",
+    "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+    "publishedAt": "2026-06-30T22:18:12.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "One Useful Thing",
+    "excerpt": "How work changes along the exponential",
+    "summaryKo": "이 글은 AI 기술이 지수적으로 발전하면서 단순 챗봇 형태의 상호작용이 점점 더 복잡한 에이전트 기반 작업 방식으로 대체되는 흐름을 다룬다. 저자는 이러한 변화가 업무 수행 방식 자체를 근본적으로 바꾸고 있으며, 챗봇 인터페이스는 과도기적 형태에 불과하다고 주장한다. AI가 조직과 개인의 일하는 방식에 미치는 영향을 이해하려는 이들에게 시사점을 준다.",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "f41228624352b575d2106d3fcdb535c7de71a63d",
+    "personIds": [
+      "hamel-husain"
+    ],
+    "type": "blog",
+    "title": "“It’s Hard to Eval” Is a Product Smell",
+    "url": "https://hamel.dev/blog/posts/eval-smell/",
+    "publishedAt": "2026-06-29T07:00:00.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Hamel's Blog",
+    "excerpt": ".da-fig { max-width: 600px; margin: 1.6rem auto; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; /* proof-surface tint: neutrals nudged toward one hue at low chroma. Change --proof-hue (and --proof-chroma) to retint the whole panel. Hue 75 = warm stone. */ --proof-hue: 75; --proof-chroma: 1; --proof-surface: oklch(0.985 calc(0.006 * var(--proof-chroma)) var(--proof-hue)); /* the disclosure header is a control: step it darker + a touch warmer than the surface so it reads as a distinct band, not part of the body */ --proof-header: oklch(0.945 ca…",
+    "summaryKo": "이 글은 Hamel Husain이 AI 제품 개발에서 '평가하기 어렵다'는 말이 실제로는 제품 설계나 문제 정의 자체의 결함을 드러내는 신호라고 주장하는 내용을 다룬다. 핵심 논지는 평가가 어렵다고 느껴질 때 이를 평가 방법론의 한계로만 보지 말고, 제품이나 태스크 정의가 불명확하거나 잘못되었을 가능성을 점검해야 한다는 것이다. AI 제품을 만들거나 평가 체계를 설계하는 실무자에게 평가 난이도를 진단 도구로 활용하는 관점을 제시한다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
     "id": "480567089286a92f10c6038975c02c889c6df101",
     "personIds": [
       "lilian-weng"
@@ -16,6 +54,44 @@
     "tags": [
       "llm",
       "systems"
+    ]
+  },
+  {
+    "id": "256663348b94da817a09033c981c7b265d083a57",
+    "personIds": [
+      "eugene-yan"
+    ],
+    "type": "blog",
+    "title": "Patterns for Building Cybersecurity Evals",
+    "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
+    "publishedAt": "2026-06-21T00:00:00.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Eugene Yan",
+    "excerpt": "A sandboxed target, inputs that influence task difficulty, tools, and a grader.",
+    "summaryKo": "이 글은 사이버보안 평가 체계를 구축하는 방법에 대해 다룬다. 핵심 주장은 이러한 평가가 샌드박스 처리된 대상, 과제 난이도에 영향을 주는 입력값, 도구, 그리고 채점자로 구성된다는 것이다. AI 시스템의 보안 능력을 측정하는 실질적인 설계 패턴을 이해하고자 하는 사람에게 참고할 만하다.",
+    "tags": [
+      "safety",
+      "agents"
+    ]
+  },
+  {
+    "id": "b2526fa7ce8e4c80f4a92b329d01e837070e1582",
+    "personIds": [
+      "ethan-mollick"
+    ],
+    "type": "blog",
+    "title": "What it feels like to work with Mythos",
+    "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+    "publishedAt": "2026-06-09T17:11:22.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "One Useful Thing",
+    "excerpt": "Claude Fable represents another big jump in AI",
+    "summaryKo": "이 글은 Ethan Mollick이 코드명 Mythos로 언급된 새로운 Claude 모델(Fable)을 사용하며 느낀 경험을 다룬다. 저자는 이 모델이 이전 AI들과 비교해 뚜렷한 성능 도약을 보여준다고 주장한다. AI 성능 발전의 체감 수준을 다룬다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
     ]
   }
 ]

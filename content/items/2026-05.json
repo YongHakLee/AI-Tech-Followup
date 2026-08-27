@@ -1,0 +1,40 @@
+[
+  {
+    "id": "0f53c3741b1bf0b7a22e1ae90e9ffe21901a73e3",
+    "personIds": [
+      "eugene-yan"
+    ],
+    "type": "blog",
+    "title": "Using LLMs to Secure Source Code",
+    "url": "https://eugeneyan.com//writing/secure-source-code/",
+    "publishedAt": "2026-05-27T00:00:00.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Eugene Yan",
+    "excerpt": "Build a threat model, discover vulnerabilities, verify, triage, and patch.",
+    "summaryKo": "이 글은 LLM을 활용해 소스 코드의 보안 취약점을 찾고 수정하는 워크플로우를 다룬다. 위협 모델을 세우고 취약점을 발견한 뒤 검증, 우선순위 지정, 패치 적용까지 이어지는 단계별 접근을 핵심으로 제시한다. LLM을 코드 보안 점검에 실질적으로 적용하는 방법을 살펴보고자 하는 이들에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
+    "id": "9f523b90c0ac1c646a9f5144fb1b13a20855f5d5",
+    "personIds": [
+      "eugene-yan"
+    ],
+    "type": "blog",
+    "title": "How to Work and Compound with AI",
+    "url": "https://eugeneyan.com//writing/working-with-ai/",
+    "publishedAt": "2026-05-03T00:00:00.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Eugene Yan",
+    "excerpt": "Context as infra, taste as config, verification for autonomy, scale via delegation, closing the loop.",
+    "summaryKo": "이 글은 AI와 함께 일하며 성과를 축적하는 방법을 다루며, 컨텍스트를 인프라처럼, 취향을 설정값처럼 다루는 접근을 제시한다. 핵심 주장은 자율성을 위한 검증 체계와 위임을 통한 확장, 그리고 피드백 루프를 닫는 것이 AI 활용의 핵심 요소라는 것이다. 실무에서 AI를 효과적으로 통합하려는 이들에게 구체적인 작업 방식을 제시한다는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "systems"
+    ]
+  }
+]

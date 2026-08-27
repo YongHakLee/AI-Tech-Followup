@@ -1,5 +1,61 @@
 [
   {
+    "id": "fe5f893fdeb707a94d34a20836300ef62963e9d6",
+    "personIds": [
+      "ethan-mollick"
+    ],
+    "type": "blog",
+    "title": "An opinionated guide to which AI to use to do stuff",
+    "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+    "publishedAt": "2026-07-23T18:05:24.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "One Useful Thing",
+    "excerpt": "The Summer 2026 Edition",
+    "summaryKo": "이 글은 Ethan Mollick이 2026년 여름 기준으로 다양한 목적에 맞는 AI 도구 선택에 대한 개인적인 견해를 정리한 가이드이다. 발췌 내용만으로는 구체적인 추천이나 결론이 드러나지 않지만, 용도별로 어떤 AI를 쓰는 것이 좋은지에 대한 실용적인 조언을 담고 있을 것으로 보인다. 최신 AI 도구 지형을 실무자 관점에서 빠르게 파악하고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "28c7ee44d88bdbf23ee25ecf0e088f68b623602b",
+    "personIds": [
+      "sebastian-raschka"
+    ],
+    "type": "blog",
+    "title": "Controlling Reasoning Effort in LLMs",
+    "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+    "publishedAt": "2026-07-18T11:16:09.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Ahead of AI",
+    "excerpt": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+    "summaryKo": "이 글은 대규모 언어모델(LLM)이 저강도, 중강도, 고강도 추론 모드를 어떻게 학습하고 조절할 수 있는지를 다룬다. Sebastian Raschka는 모델이 문제 난이도에 따라 추론 노력을 다르게 배분하도록 훈련하거나 제어하는 방식에 초점을 맞춰 설명한다. 추론 효율성과 비용을 조절하고 싶은 실무자나 연구자에게 실질적인 관점을 제공한다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "b8465a86f12841befbb7468f888289e2fa996a54",
+    "personIds": [
+      "percy-liang"
+    ],
+    "type": "paper",
+    "title": "Extractable Memorization From First Principles",
+    "url": "http://arxiv.org/abs/2607.12649v1",
+    "publishedAt": "2026-07-14T11:31:36.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Recent work on extractable memorization in LLMs suffers from two contrasting validity problems. Some studies overstate extraction, e.g., relying on sequences too short to distinguish memorization from predictability. Others imply that extraction is unreliable evidence of memorization, since models can also reproduce real-world text they weren't explicitly trained on. In different ways, both overlook what makes a valid extraction claim: the model must generate a training sequence with high enough probability to indicate memorization. To determine what's high enough, one has to perform a matche…",
+    "summaryKo": "이 논문은 대형 언어모델(LLM)의 추출 가능한 암기(extractable memorization)를 판단하는 기준 문제를 다룬다. 저자는 기존 연구들이 지나치게 짧은 시퀀스로 암기를 과장하거나, 모델이 학습하지 않은 실제 텍스트도 재생할 수 있다는 이유로 추출 증거 자체를 신뢰할 수 없다고 폄하하는 두 가지 상반된 오류를 범한다고 지적하며, 유효한 암기 판단을 위해서는 모델이 학습 데이터 시퀀스를 충분히 높은 확률로 생성하는지에 대한 원칙적인 기준이 필요하다고 주장한다. 암기 평가 방법론의 근본적 허점을 짚어낸다는 점에서 LLM 안전성 및 데이터 프라이버시 논의에 참고할 만하다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
     "id": "b44fa46ddb2918a2c5f5b5b6d40256c44f2f4f07",
     "personIds": [
       "lilian-weng"

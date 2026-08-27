@@ -20,6 +20,26 @@
     ]
   },
   {
+    "id": "cf678d0e6bb109ab1212d083f63d9bfe1b0e969c",
+    "personIds": [
+      "percy-liang"
+    ],
+    "type": "paper",
+    "title": "Prefix Sliding for efficient test-time scaling",
+    "url": "http://arxiv.org/abs/2608.26070v1",
+    "publishedAt": "2026-08-26T17:37:15.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find most intermediate reasoning tokens lose importance as the model continues reasoning. This calls into question whether retaining them is worth the cost. Based on this insight, we propose Prefix Sliding, which discards tokens during reasoning that are not part of the prefix or the window of the last few…",
+    "summaryKo": "이 논문은 언어 모델이 추론 시간을 늘려 성능을 높이는 test-time scaling에서 발생하는 메모리 비용 문제를 다룬다. 저자들은 추론이 진행될수록 중간 추론 토큰들의 중요성이 감소한다는 점을 관찰하고, 이를 근거로 프리픽스와 최근 윈도우에 속하지 않는 토큰을 버리는 Prefix Sliding 기법을 제안한다. 긴 추론 과정의 메모리 및 연산 비용을 줄이면서도 성능을 유지할 수 있는 실용적인 효율화 방법을 제시한다는 점에서 살펴볼 가치가 있다.",
+    "tags": [
+      "llm",
+      "reasoning",
+      "systems"
+    ]
+  },
+  {
     "id": "a9eff291fe40caca50a4e2db315d3bdf60b7e994",
     "personIds": [
       "simon-willison"
@@ -55,6 +75,251 @@
     "summaryKo": "이 글은 20년 넘게 Stackless Python으로 운영되어온 게임 EVE Online이 마침내 Python 3로의 전환 작업을 시작했다는 소식을 다룬다. 240만 줄에 달하는 코드베이스에 futurize 스크립트를 적용한 뒤, Python 2와 3의 동작 차이가 나는 약 2만 곳을 수작업으로 검토하는 대규모 마이그레이션 과정이 핵심이다. 대규모 레거시 시스템에서의 언어 버전 업그레이드 사례로서 소프트웨어 엔지니어링 관점에서 참고할 만하다.",
     "tags": [
       "systems"
+    ]
+  },
+  {
+    "id": "d4813469dd4c77ec30fde97f686d271663af9620",
+    "personIds": [
+      "sergey-levine"
+    ],
+    "type": "paper",
+    "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
+    "url": "http://arxiv.org/abs/2608.23831v2",
+    "publishedAt": "2026-08-24T21:19:50.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "While reinforcement learning (RL) allows generalist robot policies to continually improve during deployment, the large model size of modern generalist policies, such as VLAs, poses a fundamental obstacle to effective RL improvement. In particular, their severe inference latency---which can lead to pauses or jerky movements---can alter the effective environment dynamics and, if not correctly accounted for, break the Markov assumption that RL relies on, causing standard RL algorithms to fail completely. In this work, we introduce a latency-aware framework, Asynchronous RL with Intermediate Info…",
+    "summaryKo": "이 논문은 VLA와 같은 대형 범용 로봇 정책을 배포 중 RL로 개선하는 과정에서 추론 지연이 유발하는 문제를 다룬다. 큰 모델의 추론 지연으로 환경 반응이 지체되거나 끊기는 현상이 발생하면 RL이 전제하는 마르코프 가정이 깨져 표준 RL 알고리즘이 제대로 작동하지 않는다고 주장하며, 이를 해결하기 위해 지연을 인식하는 비동기 RL 프레임워크를 제안한다. 대형 정책의 실전 배포와 지속적 학습을 가능하게 하는 실용적 접근이라는 점에서 주목할 만하다.",
+    "tags": [
+      "robotics",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "df5399c7f9d2448ea3e533409c9f720c164c8730",
+    "personIds": [
+      "sebastian-raschka"
+    ],
+    "type": "blog",
+    "title": "How Claude Watermarks AI-Generated Text",
+    "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+    "publishedAt": "2026-08-22T11:11:39.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Ahead of AI",
+    "excerpt": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+    "summaryKo": "이 영상은 Claude가 AI 생성 텍스트에 워터마크를 삽입하는 방식을 다루며, 토큰 샘플링 과정과 워터마크 탐지 및 제거 방법을 48분에 걸쳐 설명한다. 구체적인 결론이나 주장보다는 관련 기술 원리를 단계별로 설명하는 데 초점을 맞춘다. LLM의 텍스트 생성과 워터마킹 기법의 작동 원리를 이해하려는 사람에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
+    "id": "01617462c1f752ee5dc2993929c0425effcb03c8",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "Q-Learning With World Models",
+    "url": "http://arxiv.org/abs/2608.17163v1",
+    "publishedAt": "2026-08-17T22:00:42.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Off-policy reinforcement learning (RL) has become increasingly sample-efficient, enabling applications such as RL fine-tuning of Vision-Language-Action models into reliable, high-performing policies. World models offer a further lever for sample efficiency, as they predict state changes rather than actions alone, but their success has largely been confined to supervised policy learning. Prior model-based RL methods often optimize the policy or value function directly on imagined rollouts, which is prone to compounding bias and struggles to scale to large, high-dimensional problems such as rea…",
+    "summaryKo": "이 논문은 오프폴리시 강화학습과 월드모델을 결합해 샘플 효율성을 높이는 방법을 다룬다. 기존 모델 기반 RL은 상상된 롤아웃 위에서 정책이나 가치함수를 직접 최적화해 오차가 누적되고 고차원 문제로 확장하기 어려운 한계가 있었는데, 이를 극복하기 위한 새로운 Q-러닝 방식의 접근을 제안한다. 로봇 제어와 같은 실제 응용에서 비전-언어-행동 모델의 강화학습 미세조정 성능을 개선할 잠재력이 있어 주목할 만하다.",
+    "tags": [
+      "robotics",
+      "agents"
+    ]
+  },
+  {
+    "id": "9281ee7ce82e1245ad33dfbd41d68b1246ff801a",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "Teaching Everyone to Fish for Tokens",
+    "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+    "publishedAt": "2026-08-17T15:07:49.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
+    "summaryKo": "이 글은 Nvidia가 기업들이 외부 AI 모델(Anthropic, OpenAI 등)을 구매하기보다 자체 모델을 구축하도록 유도하는 전략을 다룬다. 저자는 Nvidia의 이런 접근이 하드웨어 판매 확대와 생태계 종속을 노린 것이라는 관점을 제시한다. AI 산업의 공급망과 각 기업의 이해관계를 이해하는 데 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems",
+      "policy"
+    ]
+  },
+  {
+    "id": "5f1504853eb8510097b585e7e0d5b8a1600a3281",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "Pre-training Visual Dexterity in Simulation",
+    "url": "http://arxiv.org/abs/2608.15917v1",
+    "publishedAt": "2026-08-16T20:21:33.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Large-scale pre-training has made robot policy fine-tuning increasingly data-efficient, but this progress has largely been driven by datasets and embodiments built around simple parallel-jaw grippers. Dexterous, multi-fingered hands remain comparatively data-starved because real teleoperation is costly to scale, while human hand video is off-embodiment and requires lossy pose estimation and retargeting. We introduce Simulation Pre-training for Dexterity (SPD), a pre-training framework for dexterous manipulation that uses data entirely collected in simulation. In SPD, humans manipulate virtual…",
+    "summaryKo": "이 논문은 다지 다관절 로봇 손을 위한 조작 정책을 시뮬레이션에서 전적으로 수집한 데이터로 사전학습하는 프레임워크 SPD를 제안한다. 기존에는 텔레오퍼레이션 비용이나 사람 손 영상의 embodiment 불일치 문제로 인해 다지 손 조작 데이터가 부족했는데, SPD는 사람이 가상 손을 조작해 데이터를 생성함으로써 이러한 병목을 해결하려 한다. 병렬 그리퍼 중심으로 발전해온 로봇 사전학습 흐름을 다지 손 조작으로 확장한다는 점에서 주목할 만하다.",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "53ddef6230f10e588c9ea09ce7e78e9d5da1aa9d",
+    "personIds": [
+      "sebastian-raschka"
+    ],
+    "type": "blog",
+    "title": "Building an AI Text Detector From Scratch",
+    "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+    "publishedAt": "2026-08-15T11:54:24.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Ahead of AI",
+    "excerpt": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+    "summaryKo": "이 글은 AI 텍스트 판별기를 처음부터 만드는 프로젝트를 다루며, 데이터셋 구축부터 모델 학습, 로컬 배포, RLVR 적용까지 전 과정을 설명한다. 저자는 이 과정을 단계별로 직접 수행한 결과를 공유하며 실전적인 구현 방법을 제시한다. 이론에 그치지 않고 실제로 동작하는 시스템을 처음부터 끝까지 구축하는 사례를 보고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "education"
+    ]
+  },
+  {
+    "id": "f7617e4b22758ba93f18b884100d1ef70968faf8",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+    "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+    "publishedAt": "2026-08-14T21:23:35.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "Hint: It’s really not a distillation story.",
+    "summaryKo": "이 글은 중국 AI 연구소들이 GLM-5.3과 같은 모델로 최신 기술 수준을 어떻게 따라잡고 있는지를 다룬다. 저자는 이러한 성과가 단순히 서구 모델을 모방하는 증류(distillation) 전략의 결과가 아니라는 점을 핵심 주장으로 제시한다. 중국 랩들의 실제 경쟁력 확보 방식에 대한 통념을 재검토한다는 점에서 읽어볼 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "926fb43dc42d7bff23e2b9f7470b087888074632",
+    "personIds": [
+      "sergey-levine"
+    ],
+    "type": "paper",
+    "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+    "url": "http://arxiv.org/abs/2608.12253v2",
+    "publishedAt": "2026-08-12T16:55:50.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theoretically and propose two complementary solutions, one at inference time and one at training time. …",
+    "summaryKo": "이 논문은 인간-AI 상호작용을 위한 멀티에이전트 강화학습에서 단일 대형언어모델을 사용자 시뮬레이터로 사용하는 방식의 한계를 다룬다. 시뮬레이터 LLM이 특정 모드로 붕괴되어 있으면, 이에 대해 학습된 정책이 시뮬레이터의 지배적 패턴만을 악용하는 좁은 전략에 과적합되어 다른 시뮬레이터나 실제 사용자에게 잘 일반화되지 않는다는 '시뮬레이터 붕괴' 현상을 이론적으로 규명한다. 저자들은 추론 시점과 학습 시점 각각에 적용 가능한 두 가지 보완적 해결책을 제안하여, 시뮬레이터 기반 학습의 근본적 취약점을 다룬다는 점에서 주목할 만하다.",
+    "tags": [
+      "llm",
+      "agents",
+      "safety"
+    ]
+  },
+  {
+    "id": "822acd1a4708135ff2c69ff4fee78539cacb2405",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "I wrote an AI textbook — how long until AI can do it better?",
+    "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+    "publishedAt": "2026-08-12T13:01:16.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "Reflections on AI's writing ability and how AI models get more capable.",
+    "summaryKo": "저자가 직접 AI 교과서를 집필한 경험을 바탕으로, AI의 글쓰기 능력과 향후 모델 발전 속도에 대해 성찰한 글이다. 핵심은 현재 AI가 전문적인 교재 수준의 글을 쓰는 데 아직 한계가 있지만, 이러한 격차가 얼마나 빨리 좁혀질지에 대한 저자의 견해를 다룬다는 점이다. AI 발전 속도와 전문 저술 작업의 자동화 가능성을 가늠해보고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "education"
+    ]
+  },
+  {
+    "id": "f4072691237edb34b4286ef471cc67a1ad8cfc17",
+    "personIds": [
+      "hamel-husain"
+    ],
+    "type": "blog",
+    "title": "AI Product Engineering Notes",
+    "url": "https://hamel.dev/",
+    "publishedAt": "2026-08-12T07:00:00.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "Hamel's Blog",
+    "excerpt": "Notes from 13 sessions on evals, context, and systems. 9.5 hours of talks distilled into about 20 minutes of reading.",
+    "summaryKo": "이 글은 평가(evals), 컨텍스트, 시스템 구축을 주제로 한 13개 세션, 총 9.5시간 분량의 발표 내용을 정리한 노트다. 저자는 이를 약 20분 분량으로 압축하여 AI 제품 엔지니어링에 필요한 핵심 실무 지식을 전달한다. 방대한 강연 내용을 짧은 시간에 파악하고 싶은 실무자에게 유용한 요약 자료다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  },
+  {
+    "id": "7823cc7e52c61691615122eccbfd8824d6bbaf3e",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2608.09138v2",
+    "publishedAt": "2026-08-10T05:31:41.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "While learned robotic policies hold promise for advancing generalizable manipulation, their practical deployment is often hindered by suboptimal execution speeds. Imitation learning policies are inherently limited by hardware constraints and the speed of the operator during data collection. In addition, there are no established methods for accelerating policies learned via imitation, and the empirical relationship between execution speed and task success remains underexplored. To address these issues, we introduce SpeedTuning, a reinforcement learning framework specifically designed to enhanc…",
+    "summaryKo": "이 논문은 모방학습으로 학습된 로봇 정책의 실행 속도가 하드웨어와 데이터 수집 시 조작자의 속도에 제약받아 느려지는 문제를 다룬다. 저자들은 경량 강화학습 프레임워크인 SpeedTuning을 제안하여 기존 모방학습 정책의 실행 속도를 향상시키고자 하며, 실행 속도와 작업 성공률 간의 관계를 실증적으로 탐구한다. 정책 가속화를 위한 확립된 방법이 부재한 상황에서 이 연구는 실용적 로봇 배포 성능을 개선할 수 있는 접근법을 제시한다는 점에서 주목할 만하다.",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "8b8dccc8b0c20a8d2c70fecd5e3f147611bdfb85",
+    "personIds": [
+      "percy-liang"
+    ],
+    "type": "paper",
+    "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
+    "url": "http://arxiv.org/abs/2608.05004v1",
+    "publishedAt": "2026-08-05T16:11:08.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Mental health professionals have raised concerns about risks of psychological harm from interaction with large language models (LLMs), including \"delusional spirals\" in which concerning human and LLM behaviors reinforce each other over time. With growing public use of LLM-powered chatbots, there is an urgent need to build evaluations grounded in real-world episodes of psychological harm experienced by users. We developed DelusionEval, an evaluation protocol that tests a model's tendencies to exhibit behaviors linked to promoting user delusions. We prompt each model with 589 unique conversatio…",
+    "summaryKo": "이 논문은 LLM 챗봇 사용 중 발생할 수 있는 '망상 나선'과 같은 심리적 위해 가능성을 평가하기 위해 DelusionEval이라는 평가 프로토콜을 제시한다. 연구진은 실제 심리적 피해 사례를 바탕으로 589개의 대화 시나리오를 구성해 모델이 사용자의 망상적 사고를 강화하는 행동을 보이는지 테스트한다. 실제 사용자 피해 사례에 기반한 평가라는 점에서 LLM 안전성 연구에 실질적인 참고 자료가 될 수 있다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
+    "id": "7fc86ce193221481bb13a760f263dedf5abdebca",
+    "personIds": [
+      "sergey-levine"
+    ],
+    "type": "paper",
+    "title": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
+    "url": "http://arxiv.org/abs/2608.02547v1",
+    "publishedAt": "2026-08-03T17:32:45.000Z",
+    "collectedAt": "2026-08-27T10:16:06.289Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Action chunking---predicting and executing multiple actions instead of a single action---has proven to be a critical component for learning effective robotic control policies. However, our precise understanding of why action chunking improves performance has remained limited. In this work we seek to close this gap. Through rigorous experimental evaluations in both simulated and real-world settings, we show that existing hypotheses for the success of action chunking---temporal consistency, horizon reduction, and representation learning---fail to explain the success of action chunking. Instead,…",
+    "summaryKo": "이 논문은 로봇 제어를 위한 행동 복제(behavioral cloning)에서 여러 동작을 한번에 예측·실행하는 '액션 청킹'이 왜 성능을 향상시키는지 규명하고자 한다. 저자들은 시뮬레이션과 실제 실험을 통해 기존에 제기된 원인들인 시간적 일관성, 계획 지평 축소, 표현 학습 개선 가설이 액션 청킹의 성공을 설명하지 못함을 보인다. 대신 다른 요인을 제시하며 이는 로봇 정책 학습 설계에 실질적 시사점을 준다는 점에서 주목할 만하다.",
+    "tags": [
+      "robotics"
     ]
   }
 ]
