@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import { arxivQueryUrl, fetchArxivItems } from '../../pipeline/adapters/arxiv'
 import type { FetchContext } from '../../pipeline/adapters/types'
 
-const SOURCE = { type: 'arxiv' as const, author: 'Karpathy_A' }
+const SOURCE = { type: 'arxiv' as const, author: 'Karpathy_Andrej' }
 
 function fixtureContext(
   fixtureName = 'arxiv.xml',
@@ -22,8 +22,8 @@ function fixtureContext(
 
 describe('arxivQueryUrl', () => {
   it('저자명을 인용부호로 감싸 인코딩한다', () => {
-    const url = arxivQueryUrl('Karpathy_A')
-    expect(url).toContain('search_query=au%3A%22Karpathy_A%22')
+    const url = arxivQueryUrl('Karpathy_Andrej')
+    expect(url).toContain('search_query=au%3A%22Karpathy_Andrej%22')
     expect(url).toContain('sortBy=submittedDate')
     expect(url).toContain('sortOrder=descending')
   })

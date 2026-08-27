@@ -12,6 +12,13 @@ const MAX_RESULTS = 20
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' })
 
+/**
+ * `author`는 arXiv 인덱스의 저자 표기 그대로 `성_이름` 형식이어야 한다
+ * (예: `Karpathy_Andrej`). `성_이니셜`(`Karpathy_A`)은 따옴표 유무와 무관하게
+ * HTTP 200에 0건을 반환하거나(Karpathy) 일부만 매칭되어(`Weng_L` 6건 vs
+ * `Weng_Lilian` 23건) 조용히 결과를 잃는다. 실패가 아니라 빈 결과로 나타나므로
+ * 연속 실패 알림에도 걸리지 않는다.
+ */
 export function arxivQueryUrl(author: string): string {
   const params = new URLSearchParams({
     search_query: `au:"${author}"`,
@@ -19,7 +26,7 @@ export function arxivQueryUrl(author: string): string {
     sortOrder: 'descending',
     max_results: String(MAX_RESULTS),
   })
-  return `http://export.arxiv.org/api/query?${params.toString()}`
+  return `https://export.arxiv.org/api/query?${params.toString()}`
 }
 
 function collapse(value: unknown): string {

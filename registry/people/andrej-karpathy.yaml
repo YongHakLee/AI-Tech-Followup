@@ -13,4 +13,4 @@ avatar: null
 sources:
   - { type: rss, url: https://karpathy.bearblog.dev/feed/ }
   - { type: youtube, channelId: UCXUPKJO5MZQN11PqgIvyuvQ }
-  - { type: arxiv, author: Karpathy_A }
+  - { type: arxiv, author: Karpathy_Andrej }
