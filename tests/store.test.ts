@@ -134,6 +134,7 @@ describe('upsertItems', () => {
     expect(written).toHaveLength(1)
     // publishedAt is not overwritten by a later candidate's value either;
     // the stored item keeps living where it was originally filed.
+    expect(written[0].publishedAt).toBe('2026-08-20T00:00:00.000Z')
     expect(written[0].personIds.sort()).toEqual(['person-a', 'person-b'])
   })
 
