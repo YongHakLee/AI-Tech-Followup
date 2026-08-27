@@ -27,6 +27,11 @@ export default async function WeekPage({ params }: Params) {
   const items = itemsInWeek(data.items, week)
   const picks = resolvePicks(highlight, data.items)
   const pickIds = new Set(picks.map((p) => p.item.id))
+  const remainingItems = items.filter((item) => !pickIds.has(item.id))
+  // Once every item in the week is already shown as a highlight above, "이번 주 전체"
+  // (this week overall) would still be true of the count but not of what this section
+  // renders, so the label switches to "나머지" (the rest) to match the filtered list.
+  const restSectionTitle = picks.length > 0 ? '이번 주 나머지' : '이번 주 전체'
 
   return (
     <div>
@@ -48,15 +53,19 @@ export default async function WeekPage({ params }: Params) {
       )}
 
       <section>
-        <h2 className="mb-4 text-lg font-semibold">이번 주 전체 ({items.length})</h2>
-        {items.length > 0 ? (
+        <h2 className="mb-4 text-lg font-semibold">
+          {restSectionTitle} ({remainingItems.length})
+        </h2>
+        {remainingItems.length > 0 ? (
           <div className="grid gap-4 md:grid-cols-2">
-            {items
-              .filter((item) => !pickIds.has(item.id))
-              .map((item) => (
-                <ItemCard key={item.id} item={item} people={people} />
-              ))}
+            {remainingItems.map((item) => (
+              <ItemCard key={item.id} item={item} people={people} />
+            ))}
           </div>
+        ) : picks.length > 0 ? (
+          <p className="text-sm text-muted-foreground">
+            이번 주 항목은 모두 위 하이라이트에 포함되어 있습니다.
+          </p>
         ) : (
           <p className="text-sm text-muted-foreground">아직 수집된 항목이 없습니다.</p>
         )}
