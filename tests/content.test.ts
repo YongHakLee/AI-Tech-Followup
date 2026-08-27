@@ -1,4 +1,4 @@
-import { mkdir, mkdtemp, writeFile } from 'node:fs/promises'
+import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { afterEach, describe, expect, it, vi } from 'vitest'
@@ -179,5 +179,54 @@ describe('getSiteData', () => {
     expect(data.weeks).toEqual([])
     expect(data.people).toHaveLength(1)
     expect(data.fields).toHaveLength(1)
+  })
+
+  it('첫 호출이 실패하면 캐시를 남기지 않고, 원인이 사라진 뒤 재호출하면 실제로 다시 읽어 성공한다', async () => {
+    const root = await mkdtemp(path.join(tmpdir(), 'site-data-retry-'))
+
+    // registry/ does not exist yet, so the first call must reject.
+    vi.resetModules()
+    const { getSiteData } = await import('../src/lib/content')
+
+    process.chdir(root)
+
+    await expect(getSiteData()).rejects.toThrow()
+
+    // Now fix the underlying cause.
+    await mkdir(path.join(root, 'registry/people'), { recursive: true })
+    await writeFile(
+      path.join(root, 'registry/fields.yaml'),
+      '- { key: llm, nameKo: LLM }\n',
+      'utf8',
+    )
+    await writeFile(
+      path.join(root, 'registry/people/test-person.yaml'),
+      [
+        'id: test-person',
+        'name: Test Person',
+        'nameKo: 테스트',
+        'affiliation: Somewhere',
+        'fields: [llm]',
+        'bio: 테스트용 인물.',
+        'sources:',
+        '  - { type: rss, url: https://example.com/feed.xml }',
+        '',
+      ].join('\n'),
+      'utf8',
+    )
+
+    // The retry must actually re-read the filesystem and return real data,
+    // not replay the earlier rejection.
+    const data = await getSiteData()
+    expect(data.people).toHaveLength(1)
+    expect(data.fields).toHaveLength(1)
+    expect(data.items).toEqual([])
+    expect(data.weeks).toEqual([])
+
+    // The successful result must now be memoized: removing registry/ again
+    // must not affect a subsequent call, since it should not re-read the fs.
+    await rm(path.join(root, 'registry'), { recursive: true, force: true })
+    const dataAgain = await getSiteData()
+    expect(dataAgain).toBe(data)
   })
 })

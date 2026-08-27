@@ -15,13 +15,21 @@ let cached: Promise<SiteData> | null = null
 
 export function getSiteData(): Promise<SiteData> {
   if (!cached) {
-    cached = (async () => {
+    const load = (async () => {
       const root = process.cwd()
       const { people, fields } = await loadRegistry(root)
       const store = createFileStore(root)
       const [items, weeks] = await Promise.all([store.loadAllItems(), store.listWeeks()])
       return { people, fields, items, weeks }
     })()
+    // If loading fails, clear the memo so the next call retries instead of
+    // replaying the same failure forever. The `.catch` here both observes
+    // `load`'s rejection (so it never goes unhandled) and rethrows it into
+    // `cached`, which is the promise actually returned to callers.
+    cached = load.catch((err) => {
+      cached = null
+      throw err
+    })
   }
   return cached
 }
