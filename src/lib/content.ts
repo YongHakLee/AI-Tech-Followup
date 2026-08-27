@@ -94,3 +94,16 @@ export function splitWeekItems(
   const remaining = items.filter((item) => !pickIds.has(item.id))
   return { remaining, allPicked: remaining.length === 0 && picks.length > 0 }
 }
+
+/**
+ * 홈 히어로 문구. 하이라이트가 없다는 것과 항목이 없다는 것은 다른 사실인데
+ * 예전에는 둘을 같은 문장으로 처리해서, 주간 워크플로가 아직 안 돈 상태에서
+ * 항목 6건을 그려 놓고 사이트에서 가장 큰 글자로 "아직 수집된 항목이 없습니다"를
+ * 띄웠다. 무엇이 비었는지에 따라 다른 말을 해야 한다.
+ */
+export function heroIntro(highlight: Highlight | null, weekItems: Item[]): string {
+  const intro = highlight?.intro?.trim()
+  if (intro) return intro
+  if (weekItems.length > 0) return '이번 주 하이라이트는 아직 생성되지 않았습니다.'
+  return '아직 수집된 항목이 없습니다.'
+}

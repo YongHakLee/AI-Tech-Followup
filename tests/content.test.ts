@@ -6,6 +6,7 @@ import {
   fieldsOfItem,
   itemsByField,
   itemsByPerson,
+  heroIntro,
   resolvePicks,
   splitWeekItems,
   type SiteData,
@@ -277,5 +278,31 @@ describe('splitWeekItems', () => {
     const input = [...week]
     splitWeekItems(input, picksOf(a))
     expect(input).toEqual(week)
+  })
+})
+
+describe('heroIntro', () => {
+  const withIntro = { week: '2026-W35', generatedAt: '', intro: '이번 주 흐름.', picks: [], origin: 'llm' as const }
+
+  it('하이라이트가 있으면 그 인트로를 쓴다', () => {
+    expect(heroIntro(withIntro, [item('a')])).toBe('이번 주 흐름.')
+  })
+
+  // 배포된 사이트에서 실제로 났던 문제: 주간 워크플로가 아직 안 돌아 하이라이트가
+  // 없는데 항목은 있었고, 히어로가 "아직 수집된 항목이 없습니다"라고 말했다.
+  it('하이라이트가 없고 항목은 있으면 항목이 없다고 하지 않는다', () => {
+    const text = heroIntro(null, [item('a')])
+    expect(text).not.toContain('수집된 항목이 없습니다')
+    expect(text).toBe('이번 주 하이라이트는 아직 생성되지 않았습니다.')
+  })
+
+  it('둘 다 없으면 항목이 없다고 한다', () => {
+    expect(heroIntro(null, [])).toBe('아직 수집된 항목이 없습니다.')
+  })
+
+  it('인트로가 공백뿐이면 없는 것으로 본다', () => {
+    expect(heroIntro({ ...withIntro, intro: '   ' }, [item('a')])).toBe(
+      '이번 주 하이라이트는 아직 생성되지 않았습니다.',
+    )
   })
 })

@@ -5,6 +5,7 @@ import {
   fieldsOfItem,
   getHighlight,
   getSiteData,
+  heroIntro,
   peopleById,
   resolvePicks,
   type Person,
@@ -38,7 +39,7 @@ export default async function HomePage() {
       <section className="mb-12">
         <div className="mb-1 text-sm text-muted-foreground">{weekLabel(latestWeek)} 하이라이트</div>
         <p className="mb-8 text-2xl font-semibold leading-snug tracking-tight">
-          {highlight?.intro ?? '아직 수집된 항목이 없습니다.'}
+          {heroIntro(highlight, weekItems)}
         </p>
 
         {picks.length > 0 && (
