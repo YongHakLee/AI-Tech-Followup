@@ -6,7 +6,7 @@ export function PersonCard({ person, count }: { person: Person; count: number })
   return (
     <Link
       href={`/people/${person.id}`}
-      className="flex items-center gap-4 rounded-xl border border-border p-4 transition-colors hover:border-foreground/30"
+      className="flex items-center gap-4 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/45"
     >
       <PersonAvatar person={person} size={48} />
       <div className="min-w-0">

@@ -43,3 +43,6 @@ next-env.d.ts
 
 .pipeline-out/
 .superpowers/
+
+# playwright MCP 산출물
+.playwright-mcp/

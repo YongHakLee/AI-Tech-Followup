@@ -16,8 +16,8 @@ export function ItemCard({
 
   return (
     <article
-      className={`group flex h-full flex-col gap-3 rounded-xl border p-5 transition-colors hover:border-foreground/30 ${
-        emphasis ? 'border-foreground/25 bg-muted/40' : 'border-border'
+      className={`group flex h-full flex-col gap-3 rounded-xl border bg-card p-5 transition-colors hover:border-primary/45 ${
+        emphasis ? 'border-primary/45 ring-1 ring-primary/15' : 'border-border'
       }`}
     >
       <div className="flex items-center gap-2 text-xs text-muted-foreground">

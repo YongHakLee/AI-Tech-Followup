@@ -23,6 +23,9 @@ export function Monogram({
   size?: number
 }) {
   const h = hue(seed)
+  // 색상만 인물에서 나오고, 명도·채도는 테마가 정한다. 예전에는 세 값이 모두
+  // 하드코딩이라 다크 모드에서 원이 배경에 묻혔다 — 인물 고유 색은 이 사이트의
+  // 시그니처라 한쪽 모드에서만 살아서는 안 된다.
   return (
     <svg
       width={size}
@@ -30,9 +33,10 @@ export function Monogram({
       viewBox="0 0 48 48"
       role="img"
       aria-label={name}
-      className="shrink-0 rounded-full"
+      className="monogram shrink-0 rounded-full"
+      style={{ '--mono-h': h } as React.CSSProperties}
     >
-      <rect width="48" height="48" rx="24" fill={`hsl(${h} 60% 22%)`} />
+      <rect width="48" height="48" rx="24" className="monogram-disc" />
       <text
         x="24"
         y="24"
@@ -40,8 +44,8 @@ export function Monogram({
         textAnchor="middle"
         fontSize="18"
         fontWeight="600"
-        fill={`hsl(${h} 70% 82%)`}
-        fontFamily="system-ui, sans-serif"
+        className="monogram-initials"
+        fontFamily="var(--font-geist-sans), system-ui, sans-serif"
       >
         {initials(name)}
       </text>
