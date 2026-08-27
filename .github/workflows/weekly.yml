@@ -1,0 +1,39 @@
+name: weekly
+
+on:
+  schedule:
+    - cron: '0 0 * * 2'
+  workflow_dispatch:
+
+concurrency:
+  group: content-write
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  highlight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: 주간 하이라이트 생성
+        run: npm run weekly
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: 변경분 커밋
+        run: |
+          if [ -z "$(git status --porcelain content)" ]; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name "followup-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git commit -m "chore(content): 주간 하이라이트 생성"
+          git push

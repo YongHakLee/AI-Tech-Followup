@@ -1,0 +1,45 @@
+name: collect
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: content-write
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: 수집과 요약
+        run: npm run collect
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: 변경분 커밋
+        run: |
+          if [ -z "$(git status --porcelain content)" ]; then
+            echo "새 아이템 없음 — 커밋하지 않음"
+            exit 0
+          fi
+          git config user.name "followup-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git commit -m "chore(content): $(date -u +%Y-%m-%dT%H:%MZ) 수집"
+          git push
+      - name: 죽은 소스 이슈 생성
+        if: always()
+        run: ./.github/scripts/report-alerts.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
