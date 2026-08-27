@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Blog</title>
+    <language>en</language>
+    <link>https://blog.example.com</link>
+    <item>
+      <title>On Scaling Laws</title>
+      <link>https://blog.example.com/scaling?utm_source=rss</link>
+      <pubDate>Wed, 20 Aug 2026 10:00:00 GMT</pubDate>
+      <description>&lt;p&gt;A &lt;b&gt;short&lt;/b&gt; note about scaling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second Post</title>
+      <link>https://blog.example.com/second</link>
+      <pubDate>Mon, 18 Aug 2026 08:30:00 GMT</pubDate>
+      <description>Plain text description.</description>
+    </item>
+    <item>
+      <title>Broken Post</title>
+      <pubDate>Mon, 18 Aug 2026 08:30:00 GMT</pubDate>
+      <description>No link here.</description>
+    </item>
+  </channel>
+</rss>
