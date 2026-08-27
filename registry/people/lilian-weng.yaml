@@ -1,0 +1,13 @@
+id: lilian-weng
+name: Lilian Weng
+nameKo: 릴리안 웽
+affiliation: Thinking Machines Lab
+formerly: [OpenAI]
+fields: [llm, agents, safety, reasoning]
+bio: 에이전트와 정렬 문제를 긴 호흡의 정리글로 풀어낸다.
+links:
+  homepage: https://lilianweng.github.io
+  github: https://github.com/lilianweng
+avatar: null
+sources:
+  - { type: rss, url: https://lilianweng.github.io/index.xml }

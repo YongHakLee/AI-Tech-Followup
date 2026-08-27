@@ -1,0 +1,10 @@
+- { key: llm,        nameKo: LLM / 파운데이션 모델 }
+- { key: agents,     nameKo: AI 에이전트 }
+- { key: reasoning,  nameKo: 추론 / 학습 방법론 }
+- { key: multimodal, nameKo: 멀티모달 }
+- { key: robotics,   nameKo: 로보틱스 / 체화 AI }
+- { key: safety,     nameKo: 안전 / 정렬 }
+- { key: systems,    nameKo: 시스템 / 인프라 }
+- { key: science,    nameKo: 과학 응용 }
+- { key: policy,     nameKo: 정책 / 사회 }
+- { key: education,  nameKo: 교육 / 해설 }

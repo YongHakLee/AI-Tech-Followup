@@ -1,0 +1,13 @@
+id: simon-willison
+name: Simon Willison
+nameKo: 사이먼 윌리슨
+affiliation: Datasette
+formerly: [Eventbrite, Django]
+fields: [llm, agents, education]
+bio: LLM을 실제로 써보며 매일 기록하고, 도구와 위험을 함께 짚는다.
+links:
+  homepage: https://simonwillison.net
+  github: https://github.com/simonw
+avatar: null
+sources:
+  - { type: rss, url: https://simonwillison.net/atom/everything/ }

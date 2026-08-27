@@ -1,0 +1,16 @@
+id: andrej-karpathy
+name: Andrej Karpathy
+nameKo: 안드레이 카파시
+affiliation: Eureka Labs
+formerly: [Tesla, OpenAI, Stanford]
+fields: [llm, education, reasoning]
+bio: 신경망 학습 방법과 AI 교육에 관해 쓰고 가르친다.
+links:
+  homepage: https://karpathy.ai
+  x: https://x.com/karpathy
+  github: https://github.com/karpathy
+avatar: null
+sources:
+  - { type: rss, url: https://karpathy.bearblog.dev/feed/ }
+  - { type: youtube, channelId: UCXUPKJO5MZQN11PqgIvyuvQ }
+  - { type: arxiv, author: Karpathy_A }
