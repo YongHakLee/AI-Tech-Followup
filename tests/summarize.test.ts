@@ -42,6 +42,14 @@ describe('sanitizeOutput', () => {
     expect(result.tags).toEqual(['llm', 'agents'])
   })
 
+  it('공백 차이만 있는 동일 태그는 정리 후 중복 제거되어 하나로 합쳐진다', () => {
+    const result = sanitizeOutput(
+      { summaryKo: '요약', tags: ['llm', ' llm ', 'agents'] },
+      ALLOWED,
+    )
+    expect(result.tags).toEqual(['llm', 'agents'])
+  })
+
   it('정확히 3개의 유효한 태그는 모두 남긴다', () => {
     const result = sanitizeOutput({ summaryKo: '요약', tags: ['llm', 'agents', 'safety'] }, ALLOWED)
     expect(result.tags).toEqual(['llm', 'agents', 'safety'])
