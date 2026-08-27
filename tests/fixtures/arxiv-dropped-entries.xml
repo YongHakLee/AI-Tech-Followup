@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ArXiv Query</title>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00001v1</id>
+    <published>2026-01-01T00:00:00Z</published>
+    <title>Kept One</title>
+    <summary>This entry is well formed and should survive.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00001v1" rel="alternate" type="text/html"/>
+  </entry>
+  <entry>
+    <published>2026-01-02T00:00:00Z</published>
+    <title>Missing Id</title>
+    <summary>This entry has no id element.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00002v1" rel="alternate" type="text/html"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00003v1</id>
+    <published>2026-01-03T00:00:00Z</published>
+    <title>Kept Two</title>
+    <summary>This entry is also well formed and should survive.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00003v1" rel="alternate" type="text/html"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00004v1</id>
+    <published>not-a-real-date</published>
+    <title>Bad Published Date</title>
+    <summary>This entry has an unparseable published date.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00004v1" rel="alternate" type="text/html"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00005v1</id>
+    <published>2026-01-05T00:00:00Z</published>
+    <title>Kept Three</title>
+    <summary>This entry is well formed and should survive.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00005v1" rel="alternate" type="text/html"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00006v1</id>
+    <published>2026-01-06T00:00:00Z</published>
+    <summary>This entry has no title element.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00006v1" rel="alternate" type="text/html"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00007v1</id>
+    <published>2026-01-07T00:00:00Z</published>
+    <title>Kept Four</title>
+    <summary>This entry is well formed and should survive.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2601.00007v1" rel="alternate" type="text/html"/>
+  </entry>
+</feed>

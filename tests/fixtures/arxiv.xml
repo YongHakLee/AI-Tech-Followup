@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ArXiv Query</title>
+  <entry>
+    <id>http://arxiv.org/abs/2508.12345v1</id>
+    <updated>2026-08-22T09:00:00Z</updated>
+    <published>2026-08-20T17:45:00Z</published>
+    <title>A Study of
+      Long Context Models</title>
+    <summary>  We study how models handle very long contexts,
+      and report several findings.
+    </summary>
+    <author><name>Jane Researcher</name></author>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2508.12345v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2508.12345v1" rel="related" type="application/pdf"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.00001v2</id>
+    <published>2026-07-01T00:00:00Z</published>
+    <title>Older Paper</title>
+    <summary>An older abstract.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2507.00001v2" rel="alternate" type="text/html"/>
+  </entry>
+</feed>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ArXiv Query</title>
+  <entry>
+    <id>http://arxiv.org/abs/2506.54321v1</id>
+    <published>2026-06-15T08:30:00Z</published>
+    <title>Solo Paper on Sparse Attention</title>
+    <summary>A single paper abstract describing sparse attention mechanisms.</summary>
+    <author><name>Andrej Karpathy</name></author>
+    <link href="http://arxiv.org/abs/2506.54321v1" rel="alternate" type="text/html"/>
+  </entry>
+</feed>
