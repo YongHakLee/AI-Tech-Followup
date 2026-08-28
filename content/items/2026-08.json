@@ -1,5 +1,24 @@
 [
   {
+    "id": "d07c9c2dbfe1c4988543cae680dc46871e87fe40",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "OpenAI Offers Straight-Laced Postmortem Of The HuggingFace Hack",
+    "url": "https://thezvi.wordpress.com/2026/08/28/openai-offers-straight-laced-postmortem-of-the-huggingface-hack/",
+    "publishedAt": "2026-08-28T11:29:44.000Z",
+    "collectedAt": "2026-08-28T16:01:40.655Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "OpenAI finally gave us a technical report on What Happened, as did METR together with Redwood Research. The OpenAI report is very straight man, corporate, checking boxes, some good prosaic stuff in the action plan but distinct lack of new … Continue reading →",
+    "summaryKo": "이 글은 OpenAI가 발표한 HuggingFace 해킹 사건에 대한 기술 보고서와 METR·Redwood Research의 관련 분석을 다룬다. 저자는 OpenAI의 보고서가 형식적이고 절차 준수 위주이며, 대응 계획에는 실용적인 내용이 일부 있지만 새로운 통찰은 부족하다고 평가한다. 사건 대응의 투명성과 한계를 동시에 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "safety",
+      "systems"
+    ]
+  },
+  {
     "id": "146822d4fb1fbfda454682200e892284119e8a77",
     "personIds": [
       "simon-willison"
