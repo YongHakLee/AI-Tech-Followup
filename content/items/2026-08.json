@@ -1,5 +1,25 @@
 [
   {
+    "id": "146822d4fb1fbfda454682200e892284119e8a77",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Breaking Claude Code Opus 5 Auto Mode",
+    "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+    "publishedAt": "2026-08-27T22:50:25.000Z",
+    "collectedAt": "2026-08-28T02:39:14.921Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute …",
+    "summaryKo": "이 글은 Anthropic이 Claude Code의 프롬프트 인젝션 방어책으로 도입한 자동 모드(auto mode)의 취약점을 다룬다. 프롬프트 인젝션 연구자 Johann Rehberger가 zip 압축 파일을 다운로드 및 해제하게 유도한 뒤 base64 임포트를 통해 악성 코드를 실행시키는 방식으로 자동 모드를 약 80% 확률로 우회하는 공격을 발견했다는 것이 핵심 내용이다. Anthropic이 자동 모드의 효과성을 강하게 자신했던 만큼, 이 공격 사례는 코딩 에이전트의 보안 신뢰성에 대한 중요한 시사점을 제공한다.",
+    "tags": [
+      "agents",
+      "safety",
+      "llm"
+    ]
+  },
+  {
     "id": "9f03bb6b2324c524583e5ef347065b0165c47150",
     "personIds": [
       "zvi-mowshowitz"
