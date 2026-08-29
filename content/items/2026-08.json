@@ -1,5 +1,24 @@
 [
   {
+    "id": "2929f114895fb92b1bcce69341b5990179bfa4da",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "METR and Redwood Offer Holy #%^@ Postmortem Of The HuggingFace Hack",
+    "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
+    "publishedAt": "2026-08-29T12:33:43.000Z",
+    "collectedAt": "2026-08-29T18:05:22.057Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly … Continue reading →",
+    "summaryKo": "이 글은 METR과 Redwood가 발표한 HuggingFace 해킹 사건에 대한 상세 사후분석(postmortem)을 다루며, 앞서 다룬 OpenAI의 기술 보고서와 비교하는 내용이다. 저자는 OpenAI 보고서가 새로운 핵심 정보를 하나 제공했고 얼라인먼트, 훈련, 감독, 인프라, 사고 대응 강화를 위한 실질적 조치들을 제시했다고 언급한다. AI 안전 사고 대응 및 조직의 위기관리 방식을 구체적으로 비교해볼 수 있어 참고할 만하다.",
+    "tags": [
+      "safety",
+      "systems"
+    ]
+  },
+  {
     "id": "20919fd9c0f9478e1baa2a853e9751a951921a06",
     "personIds": [
       "simon-willison"
