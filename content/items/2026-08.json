@@ -1,5 +1,23 @@
 [
   {
+    "id": "20919fd9c0f9478e1baa2a853e9751a951921a06",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Just a rumour of a bug is enough to find a security exploit these days",
+    "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+    "publishedAt": "2026-08-28T22:12:02.000Z",
+    "collectedAt": "2026-08-29T00:11:35.284Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye o…",
+    "summaryKo": "이 글은 Simon Willison이 Anil Madhavapeddy의 보고를 소개하는 내용으로, OCaml 프로젝트의 보안 취약점 패치가 논의를 위해 공유된 지 단 몇 분 만에 자동화된 공격 시도가 감지되었다는 사례를 다룬다. 핵심 주장은 과거에는 패치 공개 후 며칠에서 몇 주가 걸리던 공격 시도가 이제는 취약점에 대한 소문만으로도 몇 분 내에 자동화된 스캐너들이 이를 탐지하고 악용을 시도한다는 것이다. 이는 소프트웨어 보안 대응 속도가 자동화된 위협 탐지 및 공격 도구의 발전 속도를 따라가지 못하고 있음을 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "d07c9c2dbfe1c4988543cae680dc46871e87fe40",
     "personIds": [
       "zvi-mowshowitz"
