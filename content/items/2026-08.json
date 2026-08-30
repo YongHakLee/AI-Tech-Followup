@@ -1,5 +1,24 @@
 [
   {
+    "id": "bf0f613e910ac8fdf40c5511b53aaef524a08ce8",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Introducing Hy4 Preview",
+    "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+    "publishedAt": "2026-08-29T23:53:13.000Z",
+    "collectedAt": "2026-08-30T00:13:55.982Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. Here's Hy4's chat_template.jinja on Hugging Face, which includes this section: {% - if not reasoning_effort is defined %} {% - set reasoning_effort = 'high' %} {% - elif reasoning_effort not in [ 'hig…",
+    "summaryKo": "Simon Willison이 중국 텐센트가 공개한 오픈 웨이트 텍스트 전용 LLM 'Hy4 Preview'를 소개한다. 이 모델은 총 770B, 활성 49B 파라미터에 100만 토큰 컨텍스트 윈도우를 지원하며, 지난 7월 공개된 Hy3(295B, 21B 활성, 25.6만 토큰)에 비해 크게 확장된 규모를 보여준다. 저자는 모델의 채팅 템플릿(chat_template.jinja)을 분석해 reasoning_effort 설정 등 세부 기능을 파악하는 방식을 소개하며, 이를 통해 모델 능력을 이해하는 방법론을 제시한다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
     "id": "2929f114895fb92b1bcce69341b5990179bfa4da",
     "personIds": [
       "zvi-mowshowitz"
