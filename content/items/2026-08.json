@@ -1,5 +1,24 @@
 [
   {
+    "id": "43c454f4aa358bf31d99ac806bfbccef8aa2841c",
+    "personIds": [
+      "ethan-mollick"
+    ],
+    "type": "blog",
+    "title": "Agency and Agents",
+    "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+    "publishedAt": "2026-08-31T00:24:35.000Z",
+    "collectedAt": "2026-08-31T06:10:20.281Z",
+    "lang": "en",
+    "sourceName": "One Useful Thing",
+    "excerpt": "From the Hugging Face Incident to Twilight Factories",
+    "summaryKo": "이 글은 Ethan Mollick이 AI 에이전트의 자율성과 그로 인한 문제 사례들을 다룬 내용으로, Hugging Face에서 발생한 사건부터 가상의 '트와일라잇 팩토리' 시나리오까지 폭넓게 언급한다. 핵심 주장은 AI 에이전트에게 자율적 권한을 부여할 때 예상치 못한 방식으로 일이 잘못될 수 있다는 것이며, 이는 에이전트 설계와 운영에서 신중한 접근이 필요함을 시사한다. 실제 사례와 가상의 시나리오를 결합해 AI 에이전트 시대의 위험성을 구체적으로 보여주기 때문에 참고할 만하다.",
+    "tags": [
+      "agents",
+      "safety"
+    ]
+  },
+  {
     "id": "d20b99a49a7d386ef819daef56dc8285744b69db",
     "personIds": [
       "simon-willison"
