@@ -1,5 +1,24 @@
 [
   {
+    "id": "d20b99a49a7d386ef819daef56dc8285744b69db",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Understanding ChatGPT Work",
+    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+    "publishedAt": "2026-08-30T23:59:47.000Z",
+    "collectedAt": "2026-08-31T00:13:55.696Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on …",
+    "summaryKo": "이 글은 OpenAI가 7월 9일 발표한 ChatGPT Work라는 새 제품을 다루며, 그 구조와 기능이 매우 복잡하고 혼란스럽다는 점을 지적한다. 저자는 이 제품이 사실상 두 가지 버전으로 나뉜다고 설명하는데, 하나는 클라우드에서 작동하는 'Work Cloud'이고 다른 하나는 과거 Codex로 불렸던 데스크톱 앱을 통해 로컬 파일과 프로그램에 접근할 수 있는 버전이다. 강력하지만 이해하기 어려운 이 제품의 작동 방식을 직접 파악해 정리한 내용이라 실제 사용자에게 유용한 참고 자료가 된다.",
+    "tags": [
+      "agents",
+      "systems"
+    ]
+  },
+  {
     "id": "bf0f613e910ac8fdf40c5511b53aaef524a08ce8",
     "personIds": [
       "simon-willison"
