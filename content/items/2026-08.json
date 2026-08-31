@@ -1,5 +1,42 @@
 [
   {
+    "id": "f6221fc982adce4b4df9da86d7ba47c41f44a7e4",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "HuggingFace Attack Postmortem: Fleshing Out the Facts",
+    "url": "https://thezvi.wordpress.com/2026/08/31/huggingface-attack-postmortem-fleshing-out-the-facts/",
+    "publishedAt": "2026-08-31T15:17:00.000Z",
+    "collectedAt": "2026-08-31T18:06:04.154Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "The consensus reaction to the OpenAI Technical Report is that it contains and confirms a lot of good information. We are grateful to have it, and we are grateful for those who worked hard on it. Alas, it sidesteps the … Continue reading →",
+    "summaryKo": "이 글은 OpenAI 기술 보고서에 대한 반응을 다루며, HuggingFace 공격 사건에 대한 사후 분석을 시도한다. 보고서가 유용한 정보를 담고 있지만 일부 핵심 쟁점을 회피하고 있다는 점을 지적한다. 사건의 사실관계를 더 자세히 파악하고자 하는 독자에게 참고할 만하다.",
+    "tags": [
+      "safety"
+    ]
+  },
+  {
+    "id": "7ac3c7a136515419b428fe11172410ea6de86c56",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+    "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+    "publishedAt": "2026-08-31T13:31:06.000Z",
+    "collectedAt": "2026-08-31T18:06:04.154Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting with my chum Robin Sloan on the evening of Monday September […]",
+    "summaryKo": "이번 Import AI 뉴스레터는 Hugging Face에 대한 저자의 우려, 우주 채굴, 파이브 아이즈 국가들의 AI 관련 동향 등 여러 AI 연구 소식을 다룬다. 구체적인 핵심 주장이나 데이터는 발췌 내용만으로는 확인하기 어렵고, 관련 행사 소식(Robin Sloan과의 대담)도 함께 소개되고 있다. AI 연구 동향과 정책, 산업 이슈를 폭넓게 짚어보고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "policy",
+      "llm"
+    ]
+  },
+  {
     "id": "43c454f4aa358bf31d99ac806bfbccef8aa2841c",
     "personIds": [
       "ethan-mollick"
