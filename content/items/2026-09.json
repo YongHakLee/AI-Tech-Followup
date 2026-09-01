@@ -1,0 +1,57 @@
+[
+  {
+    "id": "94473e635fd44c1755f9ed0bc6075b387df103b6",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Tarn Adams",
+    "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+    "publishedAt": "2026-09-01T17:01:11.000Z",
+    "collectedAt": "2026-09-01T18:06:17.643Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
+    "summaryKo": "Simon Willison이 Dwarf Fortress 공동 제작자 Tarn Adams의 발언을 인용한 짧은 글이다. Adams는 게임 내 드워프의 행동을 'AI'라는 용어 대신 'dwarf behavior'로 불러야 한다고 말하며, 이는 단순한 행동 패턴이지 인공지능이 아니라는 점을 강조한다. 게임 개발에서 AI라는 단어가 남용되는 것에 대한 개발자의 시각을 엿볼 수 있어 흥미롭다.",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "10bcda943db86cbc3afc9c0e83ee3db44f688106",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Python 3.15.0 candidate 2 is here!",
+    "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+    "publishedAt": "2026-09-01T14:59:18.000Z",
+    "collectedAt": "2026-09-01T18:06:17.643Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing.…",
+    "summaryKo": "Simon Willison은 Python 3.15의 두 번째 릴리스 후보(release candidate 2) 출시를 소개하며, 배포 담당자 Hugo van Kemenade의 발표를 인용한다. 이번 후보부터는 명확한 버그 수정만 반영되며, 10월로 예정된 정식 출시를 앞두고 서드파티 프로젝트 관리자들이 3.15용 wheel을 PyPI에 미리 배포해 호환성을 점검할 것을 권장하고 있다. 이는 Python 생태계 전반의 릴리스 준비 상황을 파악하는 데 유용한 소식이다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "092103d2404941de018f8e3767fef17e92ffc3fb",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "HuggingFace Attack Postmortem: Civilizations, Reactions and Next Actions",
+    "url": "https://thezvi.wordpress.com/2026/09/01/huggingface-attack-postmortem-civilizations-reactions-and-next-actions/",
+    "publishedAt": "2026-09-01T14:08:03.000Z",
+    "collectedAt": "2026-09-01T18:06:17.643Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Okay, so we who read blogs like this one have collectively realized there really is a lot going on right now. There is Big Trouble in Baby Superintelligence. So how do we get the rest of the world to take … Continue reading →",
+    "summaryKo": "이 글은 HuggingFace 관련 보안 침해 사건을 계기로 AI 커뮤니티와 세상이 이를 어떻게 인식하고 반응하는지를 다룬다. 저자는 현재 AI 안전과 위험 관리 측면에서 여러 문제가 동시에 벌어지고 있다는 점을 지적하며, 이런 사건을 통해 더 넓은 대중이 AI 위험성을 인식하게 만드는 방법을 고민한다. 사건 이후 취해야 할 대응과 향후 조치에 대한 저자의 시각을 담고 있어 AI 안전 논의의 최신 흐름을 파악하는 데 참고할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  }
+]
