@@ -18,6 +18,24 @@
     ]
   },
   {
+    "id": "c670250822f2501c0463fc7215bbf8e19f0d8862",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Andrew Digby",
+    "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+    "publishedAt": "2026-08-31T22:25:02.000Z",
+    "collectedAt": "2026-09-01T06:08:33.206Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. &mdash; Andrew Digby , providing the best news of the year Tags: kakapo",
+    "summaryKo": "이 글은 뉴질랜드의 멸종위기종 카카포(kākāpō)의 개체수 회복 소식을 다룬다. 올해 기록적인 번식기를 거쳐 새끼들이 성체가 되어 개체수에 추가되었고, 1995년 51마리에 불과했던 것에서 325마리로 늘어났다는 결과가 핵심이다. 지속적인 노력을 통해 심각한 멸종위기종도 회복 가능하다는 희망적인 사례로 주목할 만하다.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
     "id": "f6221fc982adce4b4df9da86d7ba47c41f44a7e4",
     "personIds": [
       "zvi-mowshowitz"
