@@ -1,5 +1,23 @@
 [
   {
+    "id": "0adf9656a4797e5eb45549b96cf8c4d1b49bc929",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Introducing wrapture",
+    "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+    "publishedAt": "2026-08-31T23:59:36.000Z",
+    "collectedAt": "2026-09-01T00:14:47.104Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value. It acts as both an alternative to unittest.mock and a way to implement tracing against an existing project: Attaching observation to code you do not control, recording what flows through i…",
+    "summaryKo": "이 글은 Graham Dumpleton이 새로 공개한 파이썬 라이브러리 Wrapture를 소개한다. Wrapture는 기존 wrapt 라이브러리의 몽키패칭 아이디어를 확장해, 함수나 메서드 호출을 추적하거나 반환값을 오버라이드할 수 있게 해주며, unittest.mock의 대안이자 기존 코드베이스에 트레이싱을 적용하는 도구로 활용될 수 있다. 코드 제어권이 없는 외부 라이브러리에도 관찰 기능을 붙일 수 있다는 점에서 테스트와 디버깅 워크플로우에 유용한 도구로 소개되고 있다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "f6221fc982adce4b4df9da86d7ba47c41f44a7e4",
     "personIds": [
       "zvi-mowshowitz"
