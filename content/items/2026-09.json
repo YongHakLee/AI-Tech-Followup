@@ -1,5 +1,43 @@
 [
   {
+    "id": "0e0a28d0130f277a123cd5c9756f531f1d36e784",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Claude Fable 5.1 made me a really nice animated pelican",
+    "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+    "publishedAt": "2026-09-01T23:57:28.000Z",
+    "collectedAt": "2026-09-02T00:13:04.856Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in t…",
+    "summaryKo": "이 글은 Anthropic이 발표한 Claude Fable 5.1 모델을 다루며, 저자가 자신만의 벤치마크인 '자전거 타는 펠리컨 그리기' 테스트로 성능을 평가한다. Anthropic은 새로운 Terminal-Bench-Science 벤치마크에서 52.6% 점수를 기록해 이전 모델과 경쟁 모델보다 크게 향상됐다고 주장하지만, 다른 벤치마크에서는 개선폭이 크지 않다. 저자가 꾸준히 진행해온 펠리컨 테스트를 통해 실제 코딩 능력 외의 창작적 결과물을 확인할 수 있어 흥미롭다.",
+    "tags": [
+      "llm",
+      "science"
+    ]
+  },
+  {
+    "id": "123fd05b4f2a5eea76df079a52feb3b21c5061a3",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Codex bundles LibreOffice",
+    "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "publishedAt": "2026-09-01T19:03:01.000Z",
+    "collectedAt": "2026-09-02T00:13:04.856Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those bi…",
+    "summaryKo": "Simon Willison은 자신의 ~/.cache 폴더를 살펴보다가 OpenAI의 Codex(현 ChatGPT) 데스크톱 앱이 codex-primary-runtime 폴더에 1.7GB에 달하는 Python, Node.js 전체 설치본과 Poppler, git, LibreOffice 같은 네이티브 바이너리를 번들로 포함하고 있음을 발견했다. 그는 이 documents 폴더 안에 있는 스킬 파일들이 Codex에게 이러한 도구들을 문서 처리에 어떻게 찾고 활용하는지 알려준다는 점을 지적한다. 이는 AI 에이전트 도구가 내부적으로 얼마나 방대한 소프트웨어 스택을 숨겨서 탑재하는지 보여주는 흥미로운 사례라 볼 만하다.",
+    "tags": [
+      "agents",
+      "systems"
+    ]
+  },
+  {
     "id": "94473e635fd44c1755f9ed0bc6075b387df103b6",
     "personIds": [
       "simon-willison"

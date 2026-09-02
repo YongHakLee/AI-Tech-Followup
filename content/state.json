@@ -2,7 +2,7 @@
   "version": 1,
   "sources": {
     "andrej-karpathy:rss:https://karpathy.bearblog.dev/feed/": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "3c3845f75f98be7d45ab73e75b99397250a953b6",
         "9b35b2ab1d76c3a555b42f35af54af8a7e64bed5",
@@ -19,7 +19,7 @@
       "lastError": null
     },
     "andrej-karpathy:youtube:UCXUPKJO5MZQN11PqgIvyuvQ": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "57c103ef4fa9d048825b110fc1b2de699505ab77",
         "8e36e2de4e730067642c06aa3a908ed364d9bde7",
@@ -41,7 +41,7 @@
       "lastError": null
     },
     "andrej-karpathy:arxiv:Karpathy_Andrej": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "6e43ee9d93819bd9f7789b8d9557f92a55155534",
         "d125a3b4d982253bf864d7954f786a25b51bb64e",
@@ -52,11 +52,11 @@
         "084bcee47347745e14643d5dea665ae80a89788b",
         "0d4b20aa3aaa99999b51d490c8261ef407ccfb49"
       ],
-      "consecutiveFailures": 0,
-      "lastError": null
+      "consecutiveFailures": 1,
+      "lastError": "The operation was aborted due to timeout"
     },
     "lilian-weng:rss:https://lilianweng.github.io/index.xml": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "b44fa46ddb2918a2c5f5b5b6d40256c44f2f4f07",
         "480567089286a92f10c6038975c02c889c6df101",
@@ -116,8 +116,10 @@
       "lastError": null
     },
     "simon-willison:rss:https://simonwillison.net/atom/everything/": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
+        "0e0a28d0130f277a123cd5c9756f531f1d36e784",
+        "123fd05b4f2a5eea76df079a52feb3b21c5061a3",
         "94473e635fd44c1755f9ed0bc6075b387df103b6",
         "10bcda943db86cbc3afc9c0e83ee3db44f688106",
         "0adf9656a4797e5eb45549b96cf8c4d1b49bc929",
@@ -161,7 +163,7 @@
       "lastError": null
     },
     "chelsea-finn:arxiv:Finn_Chelsea": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "01617462c1f752ee5dc2993929c0425effcb03c8",
         "5f1504853eb8510097b585e7e0d5b8a1600a3281",
@@ -188,7 +190,7 @@
       "lastError": null
     },
     "ethan-mollick:rss:https://www.oneusefulthing.org/feed": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "43c454f4aa358bf31d99ac806bfbccef8aa2841c",
         "fe5f893fdeb707a94d34a20836300ef62963e9d6",
@@ -216,7 +218,7 @@
       "lastError": null
     },
     "eugene-yan:rss:https://eugeneyan.com/rss/": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "256663348b94da817a09033c981c7b265d083a57",
         "0f53c3741b1bf0b7a22e1ae90e9ffe21901a73e3",
@@ -435,7 +437,7 @@
       "lastError": null
     },
     "hamel-husain:rss:https://hamel.dev/index.xml": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "f4072691237edb34b4286ef471cc67a1ad8cfc17",
         "f41228624352b575d2106d3fcdb535c7de71a63d",
@@ -461,7 +463,7 @@
       "lastError": "HTTP 403 — https://importai.substack.com/feed"
     },
     "nathan-lambert:rss:https://www.interconnects.ai/feed": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "9281ee7ce82e1245ad33dfbd41d68b1246ff801a",
         "f7617e4b22758ba93f18b884100d1ef70968faf8",
@@ -488,7 +490,7 @@
       "lastError": null
     },
     "percy-liang:arxiv:Liang_Percy": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "cf678d0e6bb109ab1212d083f63d9bfe1b0e969c",
         "8b8dccc8b0c20a8d2c70fecd5e3f147611bdfb85",
@@ -511,11 +513,11 @@
         "b081f2c2feb257e2dd759d883d81a8d5b90dabf7",
         "ecf30d05f5485f08a3285aeb2f3ce1b33075b4f0"
       ],
-      "consecutiveFailures": 0,
-      "lastError": null
+      "consecutiveFailures": 1,
+      "lastError": "The operation was aborted due to timeout"
     },
     "sebastian-raschka:rss:https://magazine.sebastianraschka.com/feed": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "df5399c7f9d2448ea3e533409c9f720c164c8730",
         "53ddef6230f10e588c9ea09ce7e78e9d5da1aa9d",
@@ -542,7 +544,7 @@
       "lastError": null
     },
     "sergey-levine:arxiv:Levine_Sergey": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "d4813469dd4c77ec30fde97f686d271663af9620",
         "926fb43dc42d7bff23e2b9f7470b087888074632",
@@ -575,7 +577,7 @@
       "lastError": "HTTP 403 — https://thezvi.substack.com/feed"
     },
     "jack-clark:rss:https://jack-clark.net/feed/": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "7ac3c7a136515419b428fe11172410ea6de86c56",
         "7a2319af6658c357537441bce82a0bb16482f7e8",
@@ -593,7 +595,7 @@
       "lastError": null
     },
     "zvi-mowshowitz:rss:https://thezvi.wordpress.com/feed/": {
-      "lastRunAt": "2026-09-01T18:06:17.643Z",
+      "lastRunAt": "2026-09-02T00:13:04.856Z",
       "seenIds": [
         "092103d2404941de018f8e3767fef17e92ffc3fb",
         "f6221fc982adce4b4df9da86d7ba47c41f44a7e4",
