@@ -1,5 +1,24 @@
 [
   {
+    "id": "cd5da1960a4afcad7e4926ab40f6aad1d8b8468f",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Rick Brewster",
+    "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+    "publishedAt": "2026-09-02T05:50:57.000Z",
+    "collectedAt": "2026-09-02T06:08:19.181Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean th…",
+    "summaryKo": "Simon Willison이 Rick Brewster의 글을 인용하며 Paint.NET이 WINE에서 실행될 때 필요한 Direct2D 기능을 대체하기 위해 자체적으로 클린룸 방식의 재구현체를 만든 사례를 소개한다. 이 코드는 Claude가 작성했으며 대부분 '바이브 코딩' 방식으로 진행되어, AI 없이는 불가능했을 프로젝트임을 강조한다. AI가 실제 소프트웨어 호환성 문제를 해결하는 데 활용된 구체적 사례로 흥미롭다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  },
+  {
     "id": "0e0a28d0130f277a123cd5c9756f531f1d36e784",
     "personIds": [
       "simon-willison"
@@ -38,6 +57,26 @@
     ]
   },
   {
+    "id": "5c2753a2624a1b50b58ca4cae38702368739d435",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "GeoJSON Map Viewer",
+    "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+    "publishedAt": "2026-09-01T18:05:45.000Z",
+    "collectedAt": "2026-09-02T06:08:19.181Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool. As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Governmen…",
+    "summaryKo": "Simon Willison은 지역 정치 경계 지도를 다루기 위해 GeoJSON 파일을 지도에 표시하고 PNG로 내보낼 수 있는 도구가 필요해 AI 모델들의 도움을 받아 직접 제작한 과정을 소개한다. GPT 계열 모델에게 도구 아이디어를 물었더니 자발적으로 툴을 만들어주었고, 이후 Claude Code와 Fable을 활용해 반복 개선하여 완성했으며, ChatGPT를 통해 정부 자료에서 경계 데이터를 추출·결합하는 방식도 함께 다룬다. 여러 AI 도구를 조합해 실용적인 지도 시각화 유틸리티를 빠르게 만들어낸 실제 사례로 참고할 만하다.",
+    "tags": [
+      "llm",
+      "agents",
+      "systems"
+    ]
+  },
+  {
     "id": "94473e635fd44c1755f9ed0bc6075b387df103b6",
     "personIds": [
       "simon-willison"
@@ -53,6 +92,25 @@
     "summaryKo": "Simon Willison이 Dwarf Fortress 공동 제작자 Tarn Adams의 발언을 인용한 짧은 글이다. Adams는 게임 내 드워프의 행동을 'AI'라는 용어 대신 'dwarf behavior'로 불러야 한다고 말하며, 이는 단순한 행동 패턴이지 인공지능이 아니라는 점을 강조한다. 게임 개발에서 AI라는 단어가 남용되는 것에 대한 개발자의 시각을 엿볼 수 있어 흥미롭다.",
     "tags": [
       "agents"
+    ]
+  },
+  {
+    "id": "1a5adf2188977d1fd9fe6015fc3b7f1d51091430",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette-mcp 0.2",
+    "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+    "publishedAt": "2026-09-01T15:30:12.000Z",
+    "collectedAt": "2026-09-02T06:08:19.181Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself. Tags: datasette , model-context-protocol",
+    "summaryKo": "이 글은 Datasette용 MCP 플러그인의 0.2 버전 릴리스를 소개한다. execute_sql 실행 결과의 rows 형식이 배열의 배열에서 객체 배열로 변경되어, 성능이 약한 모델도 각 값이 어떤 컬럼에 해당하는지 더 쉽게 파악할 수 있게 되었으며 mcp 2.1.1 이상을 요구한다. 저자가 직접 충분히 사용해본 뒤 내놓은 첫 정식(non-alpha) 릴리스라는 점에서 실사용 안정성을 확인할 수 있다.",
+    "tags": [
+      "llm",
+      "systems"
     ]
   },
   {

@@ -36,6 +36,26 @@
     ]
   },
   {
+    "id": "c3dfc1fb27c7346b1573c30de22557f812abcfb8",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
+    "url": "http://arxiv.org/abs/2609.00196v1",
+    "publishedAt": "2026-08-31T18:12:55.000Z",
+    "collectedAt": "2026-09-02T06:08:19.181Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Agent performance depends jointly on the model parameters and the executable harness code that manages context and control flow. Optimizing either component in isolation can leave the system bottlenecked by its frozen counterpart: weight updates can change which harness is effective, while harness updates can change which model capabilities are exposed. Existing joint-adaptation methods optimize weights and textual prompts but leave the broader harness fixed. We propose Weight-Harness Alternating LEarning (WHALE), a simple recipe that alternates two phases: updating the model under the curren…",
+    "summaryKo": "이 논문은 에이전트 성능이 모델 파라미터와 컨텍스트·제어흐름을 관리하는 실행 하니스 코드에 동시에 의존한다는 점을 다루며, 기존 방법들이 가중치와 텍스트 프롬프트만 함께 최적화하고 하니스 자체는 고정해둔 한계를 지적한다. 이를 해결하기 위해 현재 하니스 하에서 모델을 업데이트하고 이어서 하니스를 갱신하는 과정을 번갈아 수행하는 WHALE(Weight-Harness Alternating LEarning)이라는 간단한 방법을 제안한다. 모델 가중치와 하니스 코드를 별도로 최적화할 때 발생하는 상호 병목 문제를 해소하려는 실용적 접근으로서 주목할 만하다.",
+    "tags": [
+      "agents",
+      "llm",
+      "systems"
+    ]
+  },
+  {
     "id": "f6221fc982adce4b4df9da86d7ba47c41f44a7e4",
     "personIds": [
       "zvi-mowshowitz"
