@@ -1,5 +1,24 @@
 [
   {
+    "id": "1e10d94b24675c5636be93920dbbfe9a53c96c0c",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #184: Post Post Mortem",
+    "url": "https://thezvi.wordpress.com/2026/09/03/ai-184-post-post-mortem/",
+    "publishedAt": "2026-09-03T14:28:49.000Z",
+    "collectedAt": "2026-09-03T18:05:48.092Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "I am exhausted. We may finally be nearing the end of direct coverage of What Happened with the attack on HuggingFace, and the subsequent near term reactions. That took up a full five posts in the last week: OpenAI Offers … Continue reading →",
+    "summaryKo": "이 글은 AI 뉴스레터 저자가 최근 발생한 사건(허깅페이스 관련 공격 및 그 여파)에 대한 연속 보도를 마무리하며 지친 심경을 전하는 후기 성격의 포스트다. 지난 주 다섯 편의 글에 걸쳐 사건 경위와 OpenAI를 포함한 관련 업계의 대응을 다뤘음을 언급한다. 사건의 전말과 업계 반응 흐름을 정리해 보고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "policy",
+      "safety"
+    ]
+  },
+  {
     "id": "43c216d63c8bd92a013dd4b763c47d8ed491a908",
     "personIds": [
       "simon-willison"
