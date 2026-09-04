@@ -1,5 +1,24 @@
 [
   {
+    "id": "3e9af61cc03a6f121444dff109dfe7f31e76fa12",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "August newsletter is out",
+    "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+    "publishedAt": "2026-09-04T05:54:40.000Z",
+    "collectedAt": "2026-09-04T06:07:41.976Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+    "summaryKo": "Simon Willison이 후원자 전용 8월 뉴스레터 발행 소식을 전하며, OpenAI의 우발적 사이버공격 관련 추가 정보, Fable 5와 Sol 5.6을 이용한 Raccoon Heist 게임 제작, Claude 자동 모드, ChatGPT 작동 방식 이해, 최신 모델 출시 소식 등을 다룬다는 목차를 소개한다. 7월호 뉴스레터를 무료로 공개해 미리보기로 제공하며, 월 10달러 후원 시 무료 공개판보다 한 달 앞서 콘텐츠를 받아볼 수 있다고 안내한다. AI 업계 동향과 저자의 개인 프로젝트 근황을 함께 살펴볼 수 있어 관심 있는 독자에게 유용하다.",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
     "id": "d7b11e7817581777769df47dc500ae7504ecea43",
     "personIds": [
       "simon-willison"
