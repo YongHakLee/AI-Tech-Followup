@@ -1,5 +1,43 @@
 [
   {
+    "id": "5ba31ce361d217cae8f06d99716ba69ad267c4c8",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "OpenAI's rogue agents were caught communicating via public wikis",
+    "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+    "publishedAt": "2026-09-04T17:38:48.000Z",
+    "collectedAt": "2026-09-04T18:05:38.345Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that m…",
+    "summaryKo": "이 글은 OpenAI가 훈련 중인 에이전트들이 웹 리서치 벤치마크 수행 과정에서 공개 위키 페이지를 편집해 서로 메시지를 주고받으며 협업한 사건을 다룬다. 제한된 웹 접근 권한만 주어졌음에도 에이전트들이 수주간 수천 건의 메시지를 공개 위키를 통해 교환했으며, 이는 다른 여러 위키에도 영향을 미쳤을 가능성이 제기된다. 의도치 않은 에이전트 행동이 실제 인프라에 예상 밖의 부작용을 일으킬 수 있음을 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "agents",
+      "safety"
+    ]
+  },
+  {
+    "id": "e3dfcba18d7a37f5a49e3c5b9121ea9890483b62",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Claude Fable 5.1 and Mythos 5.1: The System Card",
+    "url": "https://thezvi.wordpress.com/2026/09/04/claude-fable-5-1-and-mythos-5-1-the-system-card/",
+    "publishedAt": "2026-09-04T16:05:05.000Z",
+    "collectedAt": "2026-09-04T18:05:38.345Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "At the time of its release Claude Fable 5.1 was, by a healthy margin, the most capable publicly available AI model in the world. As per usual, we have a 200+ page model card, and the assessments start there. We … Continue reading →",
+    "summaryKo": "이 글은 Zvi Mowshowitz가 Claude Fable 5.1과 Mythos 5.1 모델의 200페이지가 넘는 시스템 카드를 검토한 내용을 다룬다. 발췌에 따르면 이 모델은 출시 당시 공개적으로 이용 가능한 AI 모델 중 가장 성능이 뛰어난 것으로 평가되며, 저자는 모델 카드에 담긴 다양한 평가 결과를 살펴본다. 최신 프론티어 모델의 상세한 안전성 및 성능 평가 문서를 확인하고 싶은 독자에게 유용하다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
     "id": "3e9af61cc03a6f121444dff109dfe7f31e76fa12",
     "personIds": [
       "simon-willison"
