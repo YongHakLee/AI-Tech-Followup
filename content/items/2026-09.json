@@ -1,5 +1,23 @@
 [
   {
+    "id": "d7b11e7817581777769df47dc500ae7504ecea43",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "GPT‑6 Astra",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+    "publishedAt": "2026-09-03T20:18:41.000Z",
+    "collectedAt": "2026-09-04T00:16:34.812Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the re…",
+    "summaryKo": "OpenAI가 GPT-6 Astra를 공개하며 일부 조직을 대상으로 순차 출시를 시작했고, 이후 ChatGPT 전 요금제와 API, AWS를 통해 확대 제공될 예정이다. API 가격은 입력 100만 토큰당 10달러, 출력 100만 토큰당 50달러로 Claude 시리즈와 동일하게 책정되어 경쟁 모델을 직접 겨냥한 것으로 보이며, 자체 벤치마크에서 대체로 더 높은 점수를 기록했다고 밝혔다. 아직 저자가 직접 사용해보지 않은 상태에서 작성된 초기 소개 글이라는 점에서, 향후 실사용 평가가 이어질 만한 주목할 만한 출시 소식이다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "1e10d94b24675c5636be93920dbbfe9a53c96c0c",
     "personIds": [
       "zvi-mowshowitz"
