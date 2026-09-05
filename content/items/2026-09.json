@@ -1,5 +1,25 @@
 [
   {
+    "id": "b3b9e98febac2b86707b07c47f6b36e0bb04fb58",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "The Pelican comparison grid for Astra is pretty interesting",
+    "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+    "publishedAt": "2026-09-04T23:59:05.000Z",
+    "collectedAt": "2026-09-05T00:12:02.152Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhig…",
+    "summaryKo": "Simon Willison이 GPT-6 Astra 모델에 접근 권한을 얻어 여러 추론 수준(low부터 max까지)에서 자전거를 타는 펠리컨 SVG를 생성하고, 이를 GPT-5.6의 여러 변종(Sol, Terra, Luna)과 비교 그리드로 정리했다. 결과적으로 Astra가 생성한 펠리컨이 이전 GPT-5.6 계열 최고 결과물보다 시각적으로 더 우수하게 나타났다. 이는 단순한 재미를 넘어 모델 간 성능 차이를 직관적으로 비교할 수 있는 유용한 벤치마크 방법으로 흥미롭다.",
+    "tags": [
+      "llm",
+      "multimodal",
+      "reasoning"
+    ]
+  },
+  {
     "id": "5ba31ce361d217cae8f06d99716ba69ad267c4c8",
     "personIds": [
       "simon-willison"
