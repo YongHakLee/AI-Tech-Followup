@@ -1,5 +1,23 @@
 [
   {
+    "id": "b0e2d5854a26abcc240bee2f19850d5ef0950dc1",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Zach Kehs",
+    "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+    "publishedAt": "2026-09-06T08:42:49.000Z",
+    "collectedAt": "2026-09-06T12:06:05.120Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. &mdash; Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+    "summaryKo": "이 글은 Zach Kehs의 발언을 인용하며 소프트웨어 코드의 품질 저하에 한계가 없다는 점을 다룬다. 건물은 물리적 제약 때문에 무한정 나빠질 수 없지만, 소프트웨어는 성능 저하나 불필요한 간접 계층이 계속 추가되어도 무너지지 않고 계속 나빠질 수 있다는 것이 핵심 주장이다. 기술 부채의 본질을 짧고 인상적인 비유로 짚어낸 점에서 눈여겨볼 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "b8133850cc1999481e7010078d52773a6883fd92",
     "personIds": [
       "simon-willison"
