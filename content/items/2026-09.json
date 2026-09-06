@@ -1,5 +1,43 @@
 [
   {
+    "id": "b8133850cc1999481e7010078d52773a6883fd92",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Introducing GPT-6 Astra for developers",
+    "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+    "publishedAt": "2026-09-05T23:27:48.000Z",
+    "collectedAt": "2026-09-06T00:13:44.336Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+    "summaryKo": "이 글은 개발자용으로 공개된 GPT-6 Astra 모델을 소개하는 짧은 글이다. 저자는 Astra가 사용자 프롬프트를 더 세밀하게 이해하고 정원, 조선소, 동물, 도시 풍경, 다이슨 구 등 복잡한 3D 모델을 뛰어나게 만들어낸다고 언급한다. 특히 자전거를 타는 펠리컨에 빨간 목도리를 씌우는 등 상세한 렌더링 능력을 보여주는 예시가 흥미롭다.",
+    "tags": [
+      "multimodal",
+      "llm"
+    ]
+  },
+  {
+    "id": "f34b92581f73c1aa3be47d14d0010d2c8a3ede9a",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
+    "url": "https://thezvi.wordpress.com/2026/09/05/claude-mythos-5-1-and-fable-5-1-capabilities/",
+    "publishedAt": "2026-09-05T19:41:17.000Z",
+    "collectedAt": "2026-09-06T00:13:44.336Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "This is the weirdest situation in which to write a capabilities review. Introducing the world’s most powerful model, by a substantial margin. No wait, this just in, we also have someone else introducing the world’s most powerful model. Claude Fable … Continue reading →",
+    "summaryKo": "이 글은 Zvi Mowshowitz가 새로 공개된 Claude 계열 모델(Mythos 5.1, Fable 5.1)의 성능을 리뷰하는 내용이다. 비슷한 시기에 여러 곳에서 각자 세계 최강 모델이라 주장하는 발표가 겹쳐 나오면서 평가가 이례적으로 혼란스러운 상황임을 지적한다. 저자는 이런 경쟁적 발표 흐름 속에서 실제 능력을 가늠해보려는 시도로 이 리뷰를 작성했다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
     "id": "22aacec03e469cb8ff0d2414798a2527bd6373bc",
     "personIds": [
       "simon-willison"
