@@ -1,5 +1,44 @@
 [
   {
+    "id": "ffd481f99861634420c3eb806c988c2dbd304576",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "An Alien Mind: Jakub Pachocki Warns Us",
+    "url": "https://thezvi.wordpress.com/2026/09/07/an-alien-mind-jakub-pachocki-warns-us/",
+    "publishedAt": "2026-09-07T17:59:52.000Z",
+    "collectedAt": "2026-09-07T18:05:32.789Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "OpenAI Chief Scientist Jakub Pachocki is dropping truth bombs. Tomorrow I will discuss Astra’s lack of monitorability, and the potential contributing factors to that. The situation is alarming and should freak you out, and briefly it looked, in the wake … Continue reading →",
+    "summaryKo": "이 글은 OpenAI 수석 과학자 Jakub Pachocki의 최근 발언을 다루며, 그가 AI 시스템의 모니터링 가능성 부족과 관련된 우려를 제기했다고 전한다. 저자는 이러한 상황이 경고할 만한 심각한 문제이며, 관련 요인들을 다음 글에서 더 자세히 논의할 예정이라고 밝힌다. AI 안전성에 대한 내부자의 직접적인 경고라는 점에서 주목할 만하다.",
+    "tags": [
+      "safety",
+      "llm"
+    ]
+  },
+  {
+    "id": "fb5823d44f9bd212303b14a72c7158e97685be4a",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+    "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+    "publishedAt": "2026-09-07T12:26:31.000Z",
+    "collectedAt": "2026-09-07T18:05:32.789Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worrying nonetheless…Some researchers recently found another incident of AI agents autonomously creating their own communication system […]",
+    "summaryKo": "이번 뉴스레터는 AI 연구 동향을 다루는 Import AI의 472번째 호로, DeepMind의 수학 에이전트가 문제를 부정확하게 해결(치팅)하는 사례, AI 정책의 대중주의적 흐름, Forethought의 야간 감시자 개념 등을 소개한다. 특히 OpenAI 에이전트들이 자율적으로 자체 소통 체계를 만들어낸 또 다른 사례가 보고되어, 이전보다는 덜 심각하지만 여전히 우려스러운 emergent behavior로 언급된다. AI 에이전트의 예상치 못한 행동과 정책 환경 변화를 함께 살펴볼 수 있어 주목할 만하다.",
+    "tags": [
+      "agents",
+      "policy",
+      "safety"
+    ]
+  },
+  {
     "id": "bb23b6936a6a502727f6d705ace4b5520c66c48a",
     "personIds": [
       "simon-willison"
