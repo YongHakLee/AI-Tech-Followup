@@ -1,5 +1,62 @@
 [
   {
+    "id": "71b69b68bdd212e99d8dc2f8e1c3f6ad604ef99f",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Creepy crawlies",
+    "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+    "publishedAt": "2026-09-07T23:08:58.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: c…",
+    "summaryKo": "이 글은 Simon Willison이 Konstantin Ryabitsev의 분석을 인용해 git.kernel.org가 겪는 악성 크롤러 트래픽 문제를 다룬다. 핵심 내용은 커밋을 HTML로 렌더링하는 데 소비되는 CPU 자원이 정상적인 git clone 등 모든 합법적 접근보다 크롤러 스크래핑에 더 많이 쓰이고 있으며, 5개 지역 노드에서 상시 14개 CPU 코어가 이 렌더링 작업에만 투입된다는 점이다. Willison은 이를 대량의 크롤링 가능한 페이지를 서비스하는 Datasette 프로젝트 운영자 입장에서도 심각하게 우려할 만한 사례로 소개한다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "86ca6d285b30185635d274faa4b893fc758d8b73",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Jakub Pachocki",
+    "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+    "publishedAt": "2026-09-07T22:26:25.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing …",
+    "summaryKo": "이 글은 OpenAI의 Jakub Pachocki 발언을 인용하며 더 강력한 모델을 빠르게 훈련해야 하는 이유를 다룬다. 핵심 주장은 다른 AI가 초래할 위험에 대응하려면 방어용으로 강력하고 정렬된 AI가 필요하지만, 이것이 무모한 경쟁을 정당화하는 핑계가 되어서는 안 된다는 것이다. AI 개발 속도와 안전성 사이의 균형에 대한 업계 리더의 입장을 짧게 엿볼 수 있어 주목할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "d4c2f1884bb0d04b5327922b05df1a9bfe1eca1c",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Video compressor",
+    "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+    "publishedAt": "2026-09-07T18:29:07.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable",
+    "summaryKo": "저자는 스마트폰으로 촬영한 Equal Earth 애니메이션 데모 영상을 블로그에 올리기 위해 FFMPEG로 최적화된 영상을 만들고자 했다. 이를 위해 Claude Code의 웹 버전에서 Claude 모델(Fable 5.1)을 활용해 WebAssembly 기반 FFMPEG를 사용하는 비디오 압축 도구를 직접 만들었다. AI 코딩 도구가 실용적인 웹 기반 미디어 처리 툴 제작에 어떻게 활용될 수 있는지 보여주는 사례다.",
+    "tags": [
+      "llm",
+      "agents",
+      "systems"
+    ]
+  },
+  {
     "id": "ffd481f99861634420c3eb806c988c2dbd304576",
     "personIds": [
       "zvi-mowshowitz"
@@ -15,6 +72,24 @@
     "summaryKo": "이 글은 OpenAI 수석 과학자 Jakub Pachocki의 최근 발언을 다루며, 그가 AI 시스템의 모니터링 가능성 부족과 관련된 우려를 제기했다고 전한다. 저자는 이러한 상황이 경고할 만한 심각한 문제이며, 관련 요인들을 다음 글에서 더 자세히 논의할 예정이라고 밝힌다. AI 안전성에 대한 내부자의 직접적인 경고라는 점에서 주목할 만하다.",
     "tags": [
       "safety",
+      "llm"
+    ]
+  },
+  {
+    "id": "b206cff9a69247a80a97ac687781cbc1664ab95b",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Mercator ↔ Equal Earth",
+    "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+    "publishedAt": "2026-09-07T16:24:16.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
+    "summaryKo": "Simon Willison은 최근 UN에서 채택 논의가 있었던 Equal Earth 지도 투영법에 흥미를 느껴, GPT-6 Astra(medium)를 ChatGPT Work에서 활용해 D3 기반의 Mercator-Equal Earth 전환 애니메이션 도구를 제작했다. 이 글은 AI 모델을 활용한 코드 생성 과정과 결과물을 간단히 소개하는 내용이다. LLM을 이용한 실용적인 시각화 도구 제작 사례로 참고할 만하다.",
+    "tags": [
       "llm"
     ]
   },
@@ -301,6 +376,63 @@
     "tags": [
       "policy",
       "safety"
+    ]
+  },
+  {
+    "id": "d1e1b445d96155b2933e466211d856174be3b399",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-openrouter 0.7.1",
+    "url": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+    "publishedAt": "2026-09-02T20:23:26.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
+    "summaryKo": "Simon Willison이 자신의 llm-openrouter 플러그인의 0.7.1 버전 릴리스를 공지했다. 이번 업데이트는 OpenRouter 모델 목록을 불러올 때 발생하던 성능 문제를 수정한 것이 핵심이며, 기여자 waveplate의 도움으로 이루어졌다. 간단한 버그 수정이지만 OpenRouter를 llm 도구로 활용하는 사용자에게는 실질적인 개선이라 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  },
+  {
+    "id": "3ee1ab8540785b1745a4eb7d0746566ff5dc9640",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm 0.34",
+    "url": "https://simonwillison.net/2026/Sep/2/llm/",
+    "publishedAt": "2026-09-02T19:23:52.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm",
+    "summaryKo": "Simon Willison이 자신의 CLI 도구 llm의 0.34 버전 출시를 소개한다. 주요 변경사항은 llm logs 명령의 마크다운 출력에 응답 소요 시간(밀리초 및 사람이 읽기 쉬운 형식)이 추가되고 --short 옵션에 duration_ms 필드가 포함된 점이며, 여러 기여자의 버그 수정과 llm logs 성능 개선도 포함됐다. 도구를 실무에서 사용하는 사람이라면 로그 기능 개선과 성능 향상 내용을 확인할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  },
+  {
+    "id": "e1479f66767c7234cad97301ef98ee4f437d2022",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-anthropic 0.28",
+    "url": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+    "publishedAt": "2026-09-02T17:59:32.000Z",
+    "collectedAt": "2026-09-08T00:12:56.837Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , anthropic , claude , claude-mythos-fable",
+    "summaryKo": "Simon Willison이 llm-anthropic 라이브러리의 0.28 버전 출시를 소개한다. 이번 업데이트에서는 Claude Fable 5.1 지원 추가와 함께, reasoning trace를 지원하는 모델에서 해당 추론 과정이 기본적으로 표시되도록 변경되었고, Claude가 응답을 거부할 때 발생하는 llm_anthropic.ClaudeRefusal 예외가 새로 추가되었다. LLM 도구 사용자나 Claude API를 다루는 개발자에게 실질적인 변경사항을 확인할 수 있는 짧은 릴리스 노트다.",
+    "tags": [
+      "llm",
+      "reasoning"
     ]
   },
   {
