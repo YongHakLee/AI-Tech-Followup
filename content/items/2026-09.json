@@ -1,5 +1,24 @@
 [
   {
+    "id": "0b82f3a3b822f138437c8e95be2a304779577162",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+    "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+    "publishedAt": "2026-09-08T14:15:25.000Z",
+    "collectedAt": "2026-09-08T18:06:01.826Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "The open model ecosystem continues to expand in its breadth",
+    "summaryKo": "이 글은 Motif-3, GLM-5.3, Hy4-preview 등 최근 공개된 오픈 모델들과 이들의 라이선스 정책을 다룬다. 저자는 오픈 모델 생태계가 다양한 주체와 접근 방식으로 계속 확장되고 있다는 점을 핵심 관찰로 제시한다. 최신 오픈소스 AI 모델 동향과 라이선스 이슈를 한눈에 파악하고 싶은 독자에게 유용하다.",
+    "tags": [
+      "llm",
+      "policy"
+    ]
+  },
+  {
     "id": "f763e2b7a3ed13e03763f0073aa30c0a73ff3b14",
     "personIds": [
       "zvi-mowshowitz"
