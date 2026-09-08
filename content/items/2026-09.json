@@ -1,5 +1,24 @@
 [
   {
+    "id": "f763e2b7a3ed13e03763f0073aa30c0a73ff3b14",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Astra Is Hard to Monitor",
+    "url": "https://thezvi.wordpress.com/2026/09/08/astra-is-hard-to-monitor/",
+    "publishedAt": "2026-09-08T11:25:36.000Z",
+    "collectedAt": "2026-09-08T12:07:22.667Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "OpenAI’s central message on Astra is that it is three things: Highly capable and can do all the things for you. Hard to monitor. The most aligned model. The first claim largely checks out. Astra and Fable are both clearly … Continue reading →",
+    "summaryKo": "이 글은 OpenAI의 새 모델 Astra에 대한 평가를 다루며, OpenAI가 내세운 세 가지 특징인 높은 능력, 모니터링의 어려움, 최고 수준의 정렬성을 검토한다. 저자는 능력이 뛰어나다는 주장은 대체로 사실로 확인되지만, 모니터링이 어렵다는 점과 정렬성 주장에는 의문을 제기하는 것으로 보인다. AI 안전성과 투명성 문제에 관심 있는 독자에게 참고할 만한 분석이다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
     "id": "1bfd7f6e1b29d8f30cc239af306ef95156166337",
     "personIds": [
       "simon-willison"
