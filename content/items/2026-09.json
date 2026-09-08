@@ -1,5 +1,23 @@
 [
   {
+    "id": "1bfd7f6e1b29d8f30cc239af306ef95156166337",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm 0.35",
+    "url": "https://simonwillison.net/2026/Sep/7/llm/",
+    "publishedAt": "2026-09-07T23:54:54.000Z",
+    "collectedAt": "2026-09-08T06:07:59.321Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+    "summaryKo": "이 글은 Simon Willison의 llm 도구 버전 0.35 릴리스를 다룬다. 이번 업데이트에서는 OpenAI의 새로운 모델인 GPT-6 Astra(gpt-6-astra)에 대한 지원이 추가되었다. 새 OpenAI 모델을 명령줄 도구에서 바로 사용할 수 있게 되었다는 점에서 llm 사용자에게 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "71b69b68bdd212e99d8dc2f8e1c3f6ad604ef99f",
     "personIds": [
       "simon-willison"
