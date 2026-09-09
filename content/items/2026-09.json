@@ -1,5 +1,44 @@
 [
   {
+    "id": "048aa76fa30eaedcfb781239b745168746c39536",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+    "publishedAt": "2026-09-08T23:55:12.000Z",
+    "collectedAt": "2026-09-09T00:12:19.864Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published v…",
+    "summaryKo": "OpenAI가 미공개 모델을 활용해 밀레니엄 문제 중 하나인 나비에-스토크스 존재성 및 매끄러움 문제 해결에 진전을 이뤘다고 발표한 사건을 다룬다. 이 성과는 NYU 수학 교수 Tristan Buckmaster가 관련 문제를 공동 연구 중이던 Anthropic 소속 수학자 Levent Alpöge와의 협업 과정에서 부정 행위가 있었다는 의혹을 제기하면서 논란에 휩싸였다. AI가 난제 수학 문제에 기여했다는 주장과 그 이면의 연구 윤리 분쟁이 함께 얽혀 있어 주목할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning",
+      "science"
+    ]
+  },
+  {
+    "id": "2fe1662d48d75d27a9eeb68ebae9c89c20d076a7",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Introducing ChatGPT Images 2.5",
+    "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+    "publishedAt": "2026-09-08T22:46:33.000Z",
+    "collectedAt": "2026-09-09T00:12:19.864Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday…",
+    "summaryKo": "이 글은 OpenAI가 공개한 새 이미지 생성 모델 ChatGPT Images 2.5를 소개한다. 이 모델은 이전보다 다중 턴에서 지시를 더 잘 따르고, 응답 속도가 빨라졌으며, 참조 사진 속 피사체를 더 잘 유지하는 성능을 보인다. API에는 gpt-image-2.5-sunburst와 gpt-image-2.5-flare 두 가지 모델이 추가되었는데, 저자는 정밀한 편집이 필요할 때는 Sunburst를, 빠르고 일상적인 작업에는 Flare를 추천하며 실제 사용 관점에서 차이를 짚어준다.",
+    "tags": [
+      "multimodal",
+      "llm"
+    ]
+  },
+  {
     "id": "0b82f3a3b822f138437c8e95be2a304779577162",
     "personIds": [
       "nathan-lambert"
