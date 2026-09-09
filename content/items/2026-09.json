@@ -1,5 +1,42 @@
 [
   {
+    "id": "44084287147f6737176b69adf6e595baa9748e77",
+    "personIds": [
+      "sebastian-raschka"
+    ],
+    "type": "blog",
+    "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+    "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+    "publishedAt": "2026-09-09T11:14:25.000Z",
+    "collectedAt": "2026-09-09T12:06:56.040Z",
+    "lang": "en",
+    "sourceName": "Ahead of AI",
+    "excerpt": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+    "summaryKo": "이 글은 Sebastian Raschka가 GPT-6 Astra와 관련하여 순환 깊이(recurrent depth) 구조와 트랜스포머 블록을 반복 사용하는 최신 연구 동향을 다룬다. 핵심 주장은 이러한 루핑 트랜스포머 구조가 숨겨진 사고 과정(hidden chain of thought)을 형성하는 데 활용될 수 있다는 점이다. 트랜스포머의 구조적 개선과 추론 방식에 관심 있는 독자에게 최신 연구 흐름을 파악하는 데 도움이 된다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "0512b5a83e4bd8d57e72e696ed57acc45016d106",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "When will average people feel AI’s impact?",
+    "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+    "publishedAt": "2026-09-09T11:01:23.000Z",
+    "collectedAt": "2026-09-09T12:06:56.040Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
+    "summaryKo": "이 글은 AI 발전이 앞으로 수십 년에 걸쳐 누적적으로 진행될 변화의 초기 5년 단계에 불과하다는 관점에서, 일반 대중이 그 영향을 실제로 체감하게 될 시점을 다룬다. 저자는 이러한 장기적이고 복합적인 변화 속에서 AI 산업이 어떻게 대응하고 관리해야 하는지를 핵심 주장으로 제시한다. 기술 발전 속도와 사회적 체감 사이의 시차 문제를 다룬다는 점에서 주목할 만하다.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
     "id": "928ae2e79333242934905dd2cc2996f7caa51855",
     "personIds": [
       "simon-willison"
