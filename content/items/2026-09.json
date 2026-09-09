@@ -1,5 +1,24 @@
 [
   {
+    "id": "928ae2e79333242934905dd2cc2996f7caa51855",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Terence Tao",
+    "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+    "publishedAt": "2026-09-09T00:20:17.000Z",
+    "collectedAt": "2026-09-09T06:08:07.222Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science …",
+    "summaryKo": "이 글은 Terence Tao의 발언을 인용하며, 좋은 미해결 수학 문제들이 재생 불가능한 자원처럼 소모되고 있다는 우려를 다룬다. 핵심 주장은 어떤 문제를 연구 중이라는 소문만으로도 AI를 활용한 대규모 작업이 몰려들어 원래 연구가 충분히 성숙하기 전에 문제를 '평정'해버릴 수 있다는 것이며, 이는 연구자들이 유망한 연구 방향을 공개하지 않으려는 유인을 만들어 개방 과학의 전통을 뒤흔들 수 있다는 것이다. AI가 학술 연구 생태계와 지식 공유 관행에 미치는 구조적 영향을 짚고 있어 주목할 만하다.",
+    "tags": [
+      "science",
+      "policy"
+    ]
+  },
+  {
     "id": "048aa76fa30eaedcfb781239b745168746c39536",
     "personIds": [
       "simon-willison"
@@ -206,6 +225,25 @@
       "agents",
       "policy",
       "safety"
+    ]
+  },
+  {
+    "id": "7bf3ab9fe7c897b750853ec6e114a9e3291f272e",
+    "personIds": [
+      "sergey-levine"
+    ],
+    "type": "paper",
+    "title": "Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching",
+    "url": "http://arxiv.org/abs/2609.07303v1",
+    "publishedAt": "2026-09-07T10:21:41.000Z",
+    "collectedAt": "2026-09-09T06:08:07.222Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Current paradigms for training language models via reinforcement learning rely heavily on sparse outcome rewards. However, as we pursue tasks that require longer and more complicated trajectories, such strategies result in slow learning. Prior work has attempted to address this problem by rewarding partial progress; however, naive formulations are often biased and converge to suboptimal policies. We show that a simple and unbiased dense reward formulation, which we term progressive point matching, scales exponentially more efficiently to long-horizon tasks by rewarding partial progress on a s…",
+    "summaryKo": "이 논문은 언어모델을 강화학습으로 훈련할 때 희소한 결과 보상에 의존하는 기존 방식이 길고 복잡한 작업에서 학습 속도가 느려지는 문제를 다룬다. 저자들은 부분적 진행 상황에 편향 없이 보상을 부여하는 방식인 'progressive point matching'을 제안하며, 이 방법이 장기 과제에 대해 지수적으로 더 효율적으로 확장됨을 보인다. 기존의 단순한 부분 보상 방식이 최적이 아닌 정책으로 수렴하는 문제를 해결한다는 점에서 장기 추론 및 다단계 작업을 다루는 LLM 훈련 연구자들에게 참고할 가치가 있다.",
+    "tags": [
+      "llm",
+      "reasoning"
     ]
   },
   {
