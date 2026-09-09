@@ -1,5 +1,24 @@
 [
   {
+    "id": "ee32fa54962ec3bc6530f8d1fc628f7b400a6433",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "GPT-6 Astra: The System Card, Alignment and What Comes Next",
+    "url": "https://thezvi.wordpress.com/2026/09/09/gpt-6-astra-the-system-card-alignment-and-what-comes-next/",
+    "publishedAt": "2026-09-09T13:05:30.000Z",
+    "collectedAt": "2026-09-09T18:06:27.094Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "OpenAI claims that Astra is ‘the most intelligent and most aligned [available] model’ in the world. Not the most intelligent and aligned OpenAI model, but the most period. That is bold talk. It risks overstepping, and by doing so souring … Continue reading →",
+    "summaryKo": "이 글은 OpenAI가 새로 발표한 GPT-6 Astra 모델과 그 시스템 카드를 다룬다. 저자는 OpenAI가 Astra를 '세계에서 가장 지능적이고 가장 정렬된 모델'이라 주장한 점에 주목하며, 이런 강한 표현이 과장으로 비칠 위험이 있다고 지적한다. 모델의 정렬 상태와 향후 전망에 대한 저자의 분석을 담고 있어 AI 안전성 논의에 관심 있는 독자에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
     "id": "44084287147f6737176b69adf6e595baa9748e77",
     "personIds": [
       "sebastian-raschka"
