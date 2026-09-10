@@ -1,5 +1,40 @@
 [
   {
+    "id": "e09c59999fdb9e0e13bc76c54db6446966b59095",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Calif Research",
+    "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+    "publishedAt": "2026-09-10T00:56:41.000Z",
+    "collectedAt": "2026-09-10T06:08:23.215Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment a…",
+    "summaryKo": null,
+    "tags": []
+  },
+  {
+    "id": "8df2f50f6f23c0b445fb20b862089c5c4caec3aa",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": ".blend URL Viewer",
+    "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+    "publishedAt": "2026-09-09T23:58:32.000Z",
+    "collectedAt": "2026-09-10T06:08:23.215Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt : Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first It gave me this - honestly not bad for a first attempt! Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted: Use your blend…",
+    "summaryKo": "Simon Willison이 GPT-6 Astra와 Blender, ChatGPT Images 2.5를 활용해 파베르제 달걀 이미지를 생성하고 이를 3D 모델(.blend)로 변환하는 실험을 소개한다. TV쇼 Pluribus를 테마로 한 달걀 이미지를 생성한 뒤, 이를 Codex의 GPT-6 Astra에 붙여넣어 3D blend 파일로 만드는 과정을 보여준다. 이미지 생성부터 3D 모델링까지 이어지는 창의적인 AI 도구 활용 사례를 재미있게 다룬다는 점에서 볼 만하다.",
+    "tags": [
+      "multimodal",
+      "agents"
+    ]
+  },
+  {
     "id": "ee32fa54962ec3bc6530f8d1fc628f7b400a6433",
     "personIds": [
       "zvi-mowshowitz"
