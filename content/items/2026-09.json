@@ -1,5 +1,43 @@
 [
   {
+    "id": "f42b07b3f93832223c7ecfbe828e083a89709570",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "One resignation turned the embers of AI fear into a wildfire",
+    "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+    "publishedAt": "2026-09-10T15:28:52.000Z",
+    "collectedAt": "2026-09-10T18:06:03.412Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "Some quick notes on a truly weird week.",
+    "summaryKo": "이 글은 한 인물의 사임을 계기로 AI 위험에 대한 논쟁이 급격히 확산된 한 주간의 상황을 짧게 정리한다. 저자는 이번 사건이 그동안 잠재해 있던 AI 안전 관련 우려를 촉발시켜 논쟁을 격화시켰다고 지적한다. 업계 내부의 긴장과 반응이 빠르게 확산된 과정을 다루고 있어 AI 안전 논의의 흐름을 파악하는 데 참고할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "95adc9d9b6146f796a385991f77ba60e52c6f27c",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #185: Preference Cascade",
+    "url": "https://thezvi.wordpress.com/2026/09/10/ai-185-preference-cascade/",
+    "publishedAt": "2026-09-10T15:05:04.000Z",
+    "collectedAt": "2026-09-10T18:06:03.412Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "The world of AI is inside my OODA loop. Even if I can process all the incoming information and sculpt it into posts, and even using Saturday and Sunday as flex slots, I don’t have enough days of the week … Continue reading →",
+    "summaryKo": "이 글은 Zvi Mowshowitz의 'AI #185: Preference Cascade'로, AI 분야 소식이 너무 빠르게 쏟아져 이를 정리해 다루는 정기 뉴스레터 형식의 글이다. 저자는 매주 쏟아지는 방대한 정보를 모두 처리하고 글로 정리하기에 시간이 부족하다는 어려움을 언급하며 시작한다. AI 동향을 꾸준히 추적하는 저자의 관점을 통해 최신 이슈들을 폭넓게 파악하고 싶은 독자에게 유용하다.",
+    "tags": [
+      "llm",
+      "policy"
+    ]
+  },
+  {
     "id": "e09c59999fdb9e0e13bc76c54db6446966b59095",
     "personIds": [
       "simon-willison"
