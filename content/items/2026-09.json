@@ -1,5 +1,24 @@
 [
   {
+    "id": "a2193a1e2c9f0fa804eacdb529ec3c6475e75463",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Datasette 1.0a39 and 0.65.4 security releases",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+    "publishedAt": "2026-09-11T03:27:16.000Z",
+    "collectedAt": "2026-09-11T06:07:56.627Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues reported by Sevban Dönmez , Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes…",
+    "summaryKo": "Simon Willison이 Datasette 데이터베이스 도구의 보안 패치 버전인 1.0a39와 0.65.4를 발표했다. 외부 연구자 제보를 계기로 여러 AI 모델을 활용해 코드 감사를 진행했고, 공개 및 비공개 테이블이 혼합된 인스턴스에서 발생할 수 있는 취약점을 수정했다. 공개 웹에서 Datasette를 운영 중이라면 즉시 업데이트가 필요한 보안 릴리스라는 점에서 주목할 만하다.",
+    "tags": [
+      "systems",
+      "safety"
+    ]
+  },
+  {
     "id": "7e7cf51a2f38432b19c624ae3ef1c386141dbee6",
     "personIds": [
       "simon-willison"
@@ -33,6 +52,25 @@
     "summaryKo": "Shopify가 2020년 코드 중복 제거와 개발 효율화를 위해 React Native로 전환했으나, 이제 다시 Swift와 Kotlin 기반의 네이티브 코드베이스로 회귀하고 있다는 소식을 다룬다. 두 플랫폼을 유지하는 비용 자체는 사라지지 않았지만, AI 에이전트가 구현과 변환 작업의 상당 부분을 대신할 수 있게 되면서 네이티브로 돌아가는 결정이 가능해졌다는 것이 핵심이다. 크로스플랫폼 프레임워크 선택의 이유였던 개발 비용 문제가 AI 에이전트의 발전으로 재평가되는 사례라는 점에서 주목할 만하다.",
     "tags": [
       "agents",
+      "systems"
+    ]
+  },
+  {
+    "id": "ad42ed210eb6afa5add86311cdf283d4e117367b",
+    "personIds": [
+      "percy-liang"
+    ],
+    "type": "paper",
+    "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+    "url": "http://arxiv.org/abs/2609.11917v1",
+    "publishedAt": "2026-09-10T17:57:33.000Z",
+    "collectedAt": "2026-09-11T06:07:56.627Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant sparse architectures such as Mixture-of-Experts (MoE), despite their increased compute efficiency. We vary data repetition rates across single- and multi-domain data mixes, and across MoE settings, including expert count and granularity. We consistently find, for models ranging from 80M to 1B active (8.5B total) para…",
+    "summaryKo": "이 논문은 언어모델 학습 시 데이터를 반복 사용하는 관행이 Mixture-of-Experts(MoE)와 같은 희소 아키텍처에 미치는 영향을 다룬다. 단일 및 다중 도메인 데이터 조합과 전문가 수, 세분화 등 다양한 MoE 설정에서 반복률을 조절한 실험을 통해, 80M부터 1B 활성 파라미터(총 8.5B) 규모의 모델에서 MoE가 밀집 모델보다 반복 데이터에 더 쉽게 과적합되는 경향을 발견했다. 이는 계산 효율성이 높은 MoE 구조를 채택할 때 데이터 반복에 따른 성능 저하 위험을 재고해야 함을 시사한다.",
+    "tags": [
+      "llm",
       "systems"
     ]
   },
