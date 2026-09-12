@@ -1,5 +1,24 @@
 [
   {
+    "id": "218699288e36e0e6112925afefbbbd23832a63f9",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "So you want to use OpenRouter?",
+    "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+    "publishedAt": "2026-09-11T22:49:18.000Z",
+    "collectedAt": "2026-09-12T00:11:59.600Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model and get routed to the best available backend provider. Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different serving software with different optimizations and settings, which means that the same OpenRouter endpoint can serve model requests that behave in different ways. Some providers even lack vision capability for…",
+    "summaryKo": "이 글은 여러 백엔드 제공자에게 요청을 자동 라우팅하는 OpenRouter 서비스의 문제점을 다룬다. Mohamed Moustafa의 지적을 인용해, 제공자마다 서빙 소프트웨어와 설정이 달라 같은 모델 엔드포인트라도 응답 품질이나 기능(예: 비전 지원 여부)이 달라질 수 있음을 핵심 주장으로 제시한다. API 라우팅 서비스의 숨겨진 신뢰성 문제를 구체적으로 짚어준다는 점에서 실무자에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  },
+  {
     "id": "f6ab17a7f37e7a865cc94b096b1ae54a5fbfc35c",
     "personIds": [
       "simon-willison"
@@ -17,6 +36,25 @@
       "agents",
       "safety",
       "systems"
+    ]
+  },
+  {
+    "id": "acad04a359be10717f40558faa7b8754c4248a3c",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Feeling sad about AI",
+    "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+    "publishedAt": "2026-09-11T17:28:37.000Z",
+    "collectedAt": "2026-09-12T00:11:59.600Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on Feeling sad about AI &mdash; Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side. The initial reaction, when some coding agent does a piece of work that would have taken you a week in an hour and does it well , is to be very disheartened by it. Once you come to terms with the idea that translating an exact specification into decent code isn't a unique skill any more, you can start looking at the larger set of problems that you fac…",
+    "summaryKo": "이 글은 Simon Willison이 AI 코딩 에이전트의 발전으로 인해 개발자들이 겪는 실존적 불안감에 대해 논평한 것이다. 그는 정확한 명세를 코드로 옮기는 능력이 더 이상 희소한 기술이 아니라는 점을 받아들이면, 개발자가 마주한 더 큰 범위의 문제들로 시야를 넓힐 수 있다고 주장한다. 자신도 몇 년 전 비슷한 위기를 겪었지만 극복했다는 개인적 경험을 바탕으로 위안을 전한다는 점에서 읽어볼 만하다.",
+    "tags": [
+      "llm",
+      "agents"
     ]
   },
   {
@@ -146,6 +184,80 @@
     "sourceName": "Simon Willison's Weblog",
     "excerpt": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues reported by Sevban Dönmez , Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes…",
     "summaryKo": "Simon Willison이 Datasette 데이터베이스 도구의 보안 패치 버전인 1.0a39와 0.65.4를 발표했다. 외부 연구자 제보를 계기로 여러 AI 모델을 활용해 코드 감사를 진행했고, 공개 및 비공개 테이블이 혼합된 인스턴스에서 발생할 수 있는 취약점을 수정했다. 공개 웹에서 Datasette를 운영 중이라면 즉시 업데이트가 필요한 보안 릴리스라는 점에서 주목할 만하다.",
+    "tags": [
+      "systems",
+      "safety"
+    ]
+  },
+  {
+    "id": "340d6065278f59e9bfbfb6fcef4f2f46c78b1b80",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette-publish-fly 1.4",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette-publish-fly/",
+    "publishedAt": "2026-09-11T02:58:52.000Z",
+    "collectedAt": "2026-09-12T00:11:59.600Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette-publish-fly 1.4 Sets force_https=true in fly.toml . #31 Fix for Volume could not be found bug. #32 Compatible with app-scoped deploy tokens. #34 Tags: datasette , fly",
+    "summaryKo": "이 글은 Datasette를 Fly.io에 배포하는 플러그인인 datasette-publish-fly의 1.4 버전 릴리스 노트를 다룬다. 주요 변경 사항으로는 fly.toml에 force_https=true 설정 추가, 볼륨을 찾을 수 없는 버그 수정, 앱 범위의 배포 토큰과의 호환성 지원이 포함된다. 배포 안정성과 보안 관련 개선이 이루어졌으므로 해당 플러그인 사용자라면 업데이트를 확인할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "f7c37a72afda1076becc8a29c99c0eeae6c7537a",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "github-to-sqlite 2.9.1",
+    "url": "https://simonwillison.net/2026/Sep/11/github-to-sqlite/",
+    "publishedAt": "2026-09-11T00:28:39.000Z",
+    "collectedAt": "2026-09-12T00:11:59.600Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: github-to-sqlite 2.9.1 Fix for compatibility with sqlite-utils 4.x . #85 Tags: github , sqlite",
+    "summaryKo": "이 글은 Simon Willison이 공개한 github-to-sqlite 2.9.1 버전의 릴리스 노트를 다룬다. 이번 업데이트는 sqlite-utils 4.x 버전과의 호환성 문제를 수정한 패치 릴리스이다. GitHub 데이터를 SQLite로 다루는 도구를 사용하는 개발자라면 업데이트를 확인할 필요가 있다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "d4bf9ac9c8df25add0fdc192eed1321075009f18",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette 0.65.4",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette/",
+    "publishedAt": "2026-09-11T00:06:55.000Z",
+    "collectedAt": "2026-09-12T00:11:59.600Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette 0.65.4 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette",
+    "summaryKo": "이 글은 Datasette 0.65.4 버전 출시를 다루며, 이는 1.0a39와 함께 보안 관련 릴리스임을 밝히고 있다. 핵심 내용은 보안 취약점을 수정한 패치 릴리스라는 점이다. 소프트웨어를 사용 중인 사용자라면 보안 업데이트 적용을 위해 확인할 필요가 있다.",
+    "tags": [
+      "systems",
+      "safety"
+    ]
+  },
+  {
+    "id": "c7ce4d5731000f9ab6628fa43e897963de05243f",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette 1.0a39",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette-2/",
+    "publishedAt": "2026-09-11T00:05:54.000Z",
+    "collectedAt": "2026-09-12T00:11:59.600Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette 1.0a39 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette",
+    "summaryKo": "Simon Willison이 Datasette 1.0a39와 0.65.4 버전 릴리스를 발표했으며, 이는 보안 패치를 포함한 업데이트다. 자세한 내용은 Datasette 블로그의 보안 릴리스 게시글에서 확인할 수 있다. 보안 관련 패치가 포함된 만큼 Datasette 사용자라면 업데이트를 확인해볼 필요가 있다.",
     "tags": [
       "systems",
       "safety"
