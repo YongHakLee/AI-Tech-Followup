@@ -1,5 +1,41 @@
 [
   {
+    "id": "ee6663ae007ebe6f665e0854515195fe1b9c96e7",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Paul Ford",
+    "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+    "publishedAt": "2026-09-12T18:00:21.000Z",
+    "collectedAt": "2026-09-12T18:05:16.066Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t. &mdash; Paul Ford , A.I. Was Supposed to Give Us New Kille…",
+    "summaryKo": "이 글은 Simon Willison이 Paul Ford의 글을 인용하며 AI 시대 소프트웨어 개발자의 역할에 대한 견해를 소개한다. 핵심 주장은 AI가 코드를 잘 작성할 수 있지만 동시에 남의 일을 엉성하게 대신하기 쉽게 만들어 많은 프로젝트가 실패하며, 결국 뛰어난 소프트웨어 제작에는 여전히 인간의 협업과 전문성이 필요하다는 것이다. 누구나 코딩할 수 있게 된 지금, 오히려 왜 많은 이들이 코딩을 하지 말아야 하는지가 분명해졌다는 통찰이 짧지만 인상적이어서 읽어볼 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "98b45964366baac738f34b21d71aa3080f85de4d",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "GPT-6-Astra Can Do Ambitious Things",
+    "url": "https://thezvi.wordpress.com/2026/09/12/gpt-6-astra-can-do-ambitious-things/",
+    "publishedAt": "2026-09-12T16:01:57.000Z",
+    "collectedAt": "2026-09-12T18:05:16.066Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Astra is an excellent model. The jump from Sol to Astra is larger than the jump from Fable 5 to Fable 5.1. This is a big deal. Astra is the best model for what one would broadly call ‘ambitious projects,’ … Continue reading →",
+    "summaryKo": "이 글은 새로 출시된 AI 모델 'Astra'를 이전 모델 'Sol' 및 'Fable' 시리즈와 비교하며 평가한다. 핵심 주장은 Sol에서 Astra로의 성능 향상 폭이 Fable 5에서 5.1로의 개선보다 훨씬 크며, Astra가 이른바 '야심찬 프로젝트'에 적합한 최고의 모델이라는 점이다. 최신 모델 세대 간 성능 도약의 크기와 실제 활용 가능성을 가늠하고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "6481e999f333c4a3d45d96068c98d12d9846968e",
     "personIds": [
       "simon-willison"
