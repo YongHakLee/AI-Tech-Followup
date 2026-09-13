@@ -1,5 +1,40 @@
 [
   {
+    "id": "2981ecf752e154a88a3bba53fbf0d83688df9994",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+    "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+    "publishedAt": "2026-09-12T23:56:42.000Z",
+    "collectedAt": "2026-09-13T00:13:12.409Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When I asked it how it had created the route, it replied: I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails , then calculated the loops locally. Frustratingly, the actual code it ran and exact d…",
+    "summaryKo": "Simon Willison은 ChatGPT Work의 GPT-6 Astra(Max) 모델에 자신의 집 주소를 기반으로 5K와 10K 러닝 루프 경로를 요청한 사례를 소개한다. 모델은 약 27분간 작업하여 Nominatim으로 주소를 찾고 Overpass로 OpenStreetMap 도로·트레일 데이터를 받아온 뒤 로컬에서 루프를 계산했으며, 시각화와 GPX·GeoJSON 파일까지 생성했다. 실제 코드나 처리 과정이 투명하게 공개되지 않은 점이 아쉬웠지만, 에이전트형 AI가 실용적인 실세계 작업을 자율적으로 수행하는 구체적 사례로 참고할 만하다.",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
+    "id": "dbc729f998e780cb8daec04e81a3078ef55a151d",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "California Brown Pelican",
+    "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
+    "publishedAt": "2026-09-12T21:16:09.000Z",
+    "collectedAt": "2026-09-13T00:13:12.409Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife",
+    "summaryKo": "미국 캘리포니아주 산마테오 카운티의 퍼시피카 부두가 콘크리트 보행로 균열로 인해 6월 초부터 폐쇄되었다. 그 결과 사람의 출입이 끊긴 부두를 갈색 사다새(California Brown Pelican) 무리가 완전히 점령했다. AI와 무관한 짧은 야생동물 관찰 기록이지만, 인간 활동이 멈춘 공간을 야생동물이 빠르게 차지하는 모습을 보여준다는 점에서 흥미롭다.",
+    "tags": []
+  },
+  {
     "id": "ee6663ae007ebe6f665e0854515195fe1b9c96e7",
     "personIds": [
       "simon-willison"
