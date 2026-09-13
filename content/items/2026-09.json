@@ -1,5 +1,24 @@
 [
   {
+    "id": "45aa56346e62e5f6d01da24ac059d6be7ef0ab09",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Brand New AI Solves a Millennium Prize",
+    "url": "https://thezvi.wordpress.com/2026/09/13/brand-new-ai-solves-a-millennium-prize/",
+    "publishedAt": "2026-09-13T15:49:03.000Z",
+    "collectedAt": "2026-09-13T18:05:20.614Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "The first Millennium Prize, Navier-Stokes, has fallen to AI. A deeply unfortunate situation has arisen involving what should have been some combination of a positive story about new progress in AI-assisted mathematical research and yet another opportunity to freak out … Continue reading →",
+    "summaryKo": "이 글은 AI가 밀레니엄 난제 중 하나인 나비에-스토크스 방정식 관련 문제를 해결했다는 소식을 다룬다. 저자는 이를 AI 지원 수학 연구의 성과로 긍정적으로 평가할 수 있었지만, 동시에 이 상황을 둘러싸고 불필요한 논란이나 과잉 반응이 발생했다고 지적한다. AI가 실제 수학적 난제 해결에 기여한 구체적 사례이자 그에 따른 담론의 복잡성을 보여준다는 점에서 주목할 만하다.",
+    "tags": [
+      "reasoning",
+      "science"
+    ]
+  },
+  {
     "id": "2981ecf752e154a88a3bba53fbf0d83688df9994",
     "personIds": [
       "simon-willison"
