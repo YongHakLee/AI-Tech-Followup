@@ -1,5 +1,43 @@
 [
   {
+    "id": "626807bb4eaed1c478cc5baf3b077ff47286e77b",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "We Must Pace The Frontier",
+    "url": "https://thezvi.wordpress.com/2026/09/14/we-must-pace-the-frontier/",
+    "publishedAt": "2026-09-14T15:22:21.000Z",
+    "collectedAt": "2026-09-14T18:05:29.029Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Dario Amodei has a new essay that finally says the thing: We Must Pace the Frontier, naming his call after the Pacing the Frontier letter lab employees signed in July. As in, we need to slow the rate at which … Continue reading →",
+    "summaryKo": "이 글은 Dario Amodei의 새 에세이 'We Must Pace the Frontier'를 다룬다. 이 에세이는 AI 연구소 직원들이 7월에 서명한 'Pacing the Frontier' 서한의 이름을 딴 것으로, AI 발전 속도를 늦출 필요가 있다는 주장을 담고 있다. Zvi Mowshowitz는 이 주장을 소개하며 관련 논의를 이어간다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "09740d2129789fa6a064f8287e07c400195fefd1",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Laurie Voss",
+    "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+    "publishedAt": "2026-09-14T14:34:29.000Z",
+    "collectedAt": "2026-09-14T18:05:29.029Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job. &mdash; Laurie Voss , We are all Product Engineers now Tags: laurie-voss , generative-ai , agentic-engineering , ai , llms , deep-blue , careers",
+    "summaryKo": "이 글은 Laurie Voss의 발언을 인용하며 코드 작성 비용이 급격히 낮아지고 있고 리뷰, 수정, 운영 비용도 뒤따라 낮아질 것이라는 전망을 다룬다. 핵심 주장은 결국 소프트웨어 제작의 본질은 사용자가 진짜 원하는 것을 파악하고 이를 정확히 정의하며 사용성을 높이는 작업으로 귀결되며, 이는 소프트웨어마다 개별적으로 필요한 비용이라 소프트웨어 수요가 무한히 늘어날수록 이 부분이 일의 전부가 된다는 것이다. AI로 인한 개발 생산성 변화가 엔지니어의 역할을 어떻게 재정의하는지 짚어본다는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "systems"
+    ]
+  },
+  {
     "id": "3dab7f1784c134f3dee50b741612d6405b1c5a53",
     "personIds": [
       "simon-willison"
