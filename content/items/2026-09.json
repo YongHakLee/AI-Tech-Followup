@@ -1,5 +1,42 @@
 [
   {
+    "id": "3dab7f1784c134f3dee50b741612d6405b1c5a53",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "commit-rewriter 0.1",
+    "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+    "publishedAt": "2026-09-14T00:28:10.000Z",
+    "collectedAt": "2026-09-14T06:10:22.639Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need t…",
+    "summaryKo": "Simon Willison이 Git 커밋 메시지를 편집하기 위한 웹 앱 commit-rewriter 0.1을 공개했다. Datasette 보안 릴리스 작업 중 코딩 에이전트가 남긴 불필요한 내용과 비공개 저장소의 이슈 ID 참조가 섞인 커밋 메시지를 정리할 필요가 있어 만들었으며, uvx commit-rewriter 명령으로 실행하고 편집 시 되돌릴 수 있도록 타임스탬프가 찍힌 브랜치를 자동 생성한다. 코딩 에이전트 사용 시 발생하는 커밋 이력 정리 문제를 간단히 해결하는 실용적인 도구라는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "systems"
+    ]
+  },
+  {
+    "id": "0fb6fdee2c1ad5cb0f6100ff71bf0dca62ff44ad",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "shot-scraper 1.12",
+    "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+    "publishedAt": "2026-09-13T23:58:14.000Z",
+    "collectedAt": "2026-09-14T06:10:22.639Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples. I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool . Tags: playwright , shot…",
+    "summaryKo": "이 글은 Simon Willison이 만든 웹페이지 스크린샷 자동화 도구 shot-scraper의 1.12 버전 업데이트를 다룬다. 새 버전에서는 WebP 형식 스크린샷 지원이 추가되어 --quality 옵션으로 품질을 조절할 수 있으며, 옵션 없이는 무손실 WebP 파일이 생성되고 대체로 JPEG나 PNG보다 파일 크기가 작다. 이 기능은 저자가 새로 만든 commit-rewriter 도구의 스크린샷 생성을 위해 추가한 것으로, 개발 도구 체인 개선 사례를 보여준다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "45aa56346e62e5f6d01da24ac059d6be7ef0ab09",
     "personIds": [
       "zvi-mowshowitz"
