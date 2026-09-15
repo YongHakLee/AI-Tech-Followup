@@ -1,0 +1,20 @@
+{
+  "week": "2026-W37",
+  "generatedAt": "2026-09-15T00:01:18.026Z",
+  "intro": "이번 주에는 논문 2건, 글 42건이 올라왔습니다.",
+  "picks": [
+    {
+      "itemId": "ad42ed210eb6afa5add86311cdf283d4e117367b",
+      "reason": "이번 주 새로 공개된 논문 · 1명 관련"
+    },
+    {
+      "itemId": "7bf3ab9fe7c897b750853ec6e114a9e3291f272e",
+      "reason": "이번 주 새로 공개된 논문 · 1명 관련"
+    },
+    {
+      "itemId": "0fb6fdee2c1ad5cb0f6100ff71bf0dca62ff44ad",
+      "reason": "이번 주 발행된 글 · 1명 관련"
+    }
+  ],
+  "origin": "heuristic"
+}
