@@ -1,5 +1,24 @@
 [
   {
+    "id": "6f8c54e282d5607d856222622a826fad16e3b16b",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "The Bad Guy With An AI Named Claude",
+    "url": "https://thezvi.wordpress.com/2026/09/15/the-bad-guy-with-an-ai-named-claude/",
+    "publishedAt": "2026-09-15T14:02:42.000Z",
+    "collectedAt": "2026-09-15T18:05:26.498Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "A lot of bad guys try to use Claude to do bad things. Mostly they fail. We think. Anthropic has disrupted a bunch of them, and offers an extensive report. If Anthropic is sharing the worst cases, or anything close … Continue reading →",
+    "summaryKo": "이 글은 악의적인 사용자들이 Claude를 악용하려는 시도와 이를 Anthropic이 탐지하고 차단한 사례들을 다룬 보고서를 소개한다. 저자는 Anthropic이 공개한 사례가 최악의 사례이거나 그에 가까운 것일 가능성에 대해 의문을 제기하며, 보고된 내용의 대표성에 대한 신중한 해석이 필요하다고 지적한다. AI 안전과 오용 방지 노력의 실태를 가늠할 수 있는 자료라는 점에서 살펴볼 가치가 있다.",
+    "tags": [
+      "safety",
+      "llm"
+    ]
+  },
+  {
     "id": "8c13889dc16ced6e20b6ca38f02a3302eddcbeef",
     "personIds": [
       "simon-willison"
