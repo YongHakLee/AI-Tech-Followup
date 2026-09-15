@@ -1,5 +1,42 @@
 [
   {
+    "id": "8c13889dc16ced6e20b6ca38f02a3302eddcbeef",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "The contagion of fear",
+    "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+    "publishedAt": "2026-09-14T21:18:13.000Z",
+    "collectedAt": "2026-09-15T00:12:23.406Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrap…",
+    "summaryKo": "이 글은 전 Anthropic 직원 Jacob Coxon의 트윗과 이에 대한 Bryan Cantrill의 반응을 다룬다. Cantrill은 AI가 10년 안에 인류를 멸망시킬 수 있다는 주장들이 근거 없는 추측성 확장 논리에 의존한다고 지적하며, 자신의 젊은 시절 경험을 예로 들어 비전문가들 사이에 근거 없는 공포가 확산되는 것을 경계해야 한다고 경고한다. AI 위험 담론이 대중적 관심을 받는 상황에서 이러한 주장들의 논리적 근거를 비판적으로 검토한다는 점에서 참고할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "6fda9df2a11dbe4546ea1d54e897518f5ab8ff4f",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "What blog posts influenced your thinking the most?",
+    "url": "https://simonwillison.net/2026/Sep/14/influences/",
+    "publishedAt": "2026-09-14T20:21:48.000Z",
+    "collectedAt": "2026-09-15T00:12:23.406Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks. A more recent one, from 2018, is Migrations: the sole scalable fix to tech debt by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of …",
+    "summaryKo": "이 글은 Simon Willison이 자신의 사고에 영향을 준 블로그 글들을 회고하는 내용이다. 그는 Joel Spolsky의 '누수되는 추상화의 법칙'이 시스템의 하위 계층을 이해하려는 태도를 심어주었고, Will Larson의 'Migrations' 글이 기술 부채 해결을 위한 마이그레이션의 중요성을 일깨워주었다고 설명한다. 개발자로서의 사고방식 형성에 영향을 준 오래된 글들을 소개한다는 점에서 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "626807bb4eaed1c478cc5baf3b077ff47286e77b",
     "personIds": [
       "zvi-mowshowitz"
