@@ -1,5 +1,24 @@
 [
   {
+    "id": "c9a269061424d5c4027c249bb82ded3cc5ff35eb",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Gemini Live audio",
+    "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+    "publishedAt": "2026-09-15T22:47:07.000Z",
+    "collectedAt": "2026-09-16T00:11:58.244Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking. The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/goog…",
+    "summaryKo": "Simon Willison이 구글의 새로운 음성-음성 모델인 Gemini Live audio와 Live Extended Thinking을 소개하는 글이다. 그는 문서를 참고해 라이브러리 없이 작동하는 웹 UI를 직접 만들어, 모델과 음성 프리셋을 선택하고 시스템 프롬프트를 입력해 브라우저에서 음성 대화를 테스트할 수 있게 했으며, 대화 중 모델의 말을 끊는 기능도 지원한다. 새로운 음성 모델을 직접 웹소켓으로 실험해볼 수 있는 간단한 데모라는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "multimodal"
+    ]
+  },
+  {
     "id": "6f8c54e282d5607d856222622a826fad16e3b16b",
     "personIds": [
       "zvi-mowshowitz"
