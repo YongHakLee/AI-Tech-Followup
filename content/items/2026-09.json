@@ -1,5 +1,43 @@
 [
   {
+    "id": "d200db485db2e845d60b77d2b9eaf1605b8ec74d",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Mustafa Suleyman",
+    "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+    "publishedAt": "2026-09-16T16:00:54.000Z",
+    "collectedAt": "2026-09-16T18:05:58.147Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder. &mdash; Mustafa Suleyman , A warning about ‘model welfare’ Tags: ai-ethics , generative-ai , ai , microsoft , llms",
+    "summaryKo": "이 글은 Mustafa Suleyman이 AI 모델의 '복지' 개념에 대해 경고한 내용을 인용한다. 그는 모델에게 감정, 선호, 권리나 복지에 대한 자격을 부여해서는 안 되며, 의식이 윤리·법·정치 체계의 근간이므로 이를 AI에 확장하는 것은 증거로 뒷받침되지 않고 AI 통제와 정렬 문제를 더 어렵게 만든다고 주장한다. AI 의인화 논쟁에서 주요 업계 인사의 입장을 짧게 확인할 수 있어 참고할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "5ddc3fb5c2bce91385779af2e83a6c5e2add7fad",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Trump Goes Full Hoax on AI Existential Risk",
+    "url": "https://thezvi.wordpress.com/2026/09/16/trump-goes-full-hoax-on-ai-existential-risk/",
+    "publishedAt": "2026-09-16T15:01:30.000Z",
+    "collectedAt": "2026-09-16T18:05:58.147Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "This is our reality. I suppose we have to talk about it. Everyone in a position to know is freaking out about AI potentially killing everyone this decade and wants to pace the frontier, and people are finally listening. It … Continue reading →",
+    "summaryKo": "이 글은 트럼프 진영이 AI 실존적 위험 논의를 사실상 가짜뉴스로 취급하는 태도를 다룬다. 저자는 AI 전문가들이 향후 몇 년 내 AI가 인류에 심각한 위협이 될 수 있다는 우려를 진지하게 제기하고 있으며, 이에 대한 정책적 대응이 필요하다고 주장한다. 정치권의 이런 위험 부인 태도가 실제 안전 논의와 얼마나 괴리되어 있는지를 보여준다는 점에서 주목할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
     "id": "c9a269061424d5c4027c249bb82ded3cc5ff35eb",
     "personIds": [
       "simon-willison"
