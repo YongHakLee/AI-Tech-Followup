@@ -1,5 +1,24 @@
 [
   {
+    "id": "1e3a56e9d6aae26947eaf4c62a2d7aa627487678",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #186: The World Takes Notice",
+    "url": "https://thezvi.wordpress.com/2026/09/17/ai-186-the-world-takes-notice/",
+    "publishedAt": "2026-09-17T12:05:53.000Z",
+    "collectedAt": "2026-09-17T12:07:28.154Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "In the wake of Jacob Coxon’s resignation, and the resulting preference cascade, things have escalated quickly. The mainstream media picked it up. Anthropic CEO Dario Amodei came out and said We Must Pace the Frontier, promising to take the unilateral … Continue reading →",
+    "summaryKo": "이 글은 Jacob Coxon의 사임 이후 벌어진 연쇄적 반응과 그로 인해 주류 언론까지 이 사안을 다루게 된 상황을 정리한다. 핵심 내용은 Anthropic CEO Dario Amodei가 'We Must Pace the Frontier'라는 입장을 발표하며 프론티어 AI 개발 속도 조절과 관련된 독자적 조치를 예고했다는 점이다. AI 업계 내부의 안전성 논쟁이 외부로 확산되는 흐름을 보여준다는 점에서 주목할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
     "id": "e0185c5368f10b1c382a89f7319e658a8685567c",
     "personIds": [
       "simon-willison"
