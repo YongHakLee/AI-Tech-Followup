@@ -1,5 +1,42 @@
 [
   {
+    "id": "e0185c5368f10b1c382a89f7319e658a8685567c",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette 1.0a40",
+    "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+    "publishedAt": "2026-09-16T23:51:43.000Z",
+    "collectedAt": "2026-09-17T06:08:16.866Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes , many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security , datasette",
+    "summaryKo": "Datasette 1.0a40 릴리스를 다루며, 0.65.5와 동일한 보안 수정 사항이 포함되었다. 플러그인이 백그라운드 작업을 실행하고 관리할 수 있는 새 메서드가 추가되었고, 내부 HTTP 클라이언트가 httpx2로 마이그레이션되었으며, 1.0 안정 버전을 위한 이슈 정리 과정에서 여러 버그가 수정되었다. 보안 패치와 안정화 작업이 포함되어 있어 Datasette 사용자라면 확인할 가치가 있다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "cc26b568e6969136580d22853f91a5e319a4e200",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette 0.65.5",
+    "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+    "publishedAt": "2026-09-16T23:51:08.000Z",
+    "collectedAt": "2026-09-17T06:08:16.866Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: security , datasette",
+    "summaryKo": "이 글은 Simon Willison이 공개한 datasette 0.65.5 릴리스에 대한 내용을 다룬다. 요청된 테이블 이름 끝에 개행 문자를 붙이면 테이블 권한 검사를 우회해 비공개 행이 노출될 수 있는 보안 취약점을 수정했으며, 이는 dpfkdlemtp가 GHSA-h547-rmjf-5m2m을 통해 제보한 것이다. datasette 사용자라면 데이터 노출 방지를 위해 이 보안 패치 적용을 확인할 필요가 있다.",
+    "tags": [
+      "safety",
+      "systems"
+    ]
+  },
+  {
     "id": "6833b5283211773a6c5756f4e214e6a272ecf95a",
     "personIds": [
       "simon-willison"
@@ -54,6 +91,25 @@
     "tags": [
       "safety",
       "policy"
+    ]
+  },
+  {
+    "id": "0f1aadc10dea00ada22ed02277f958064e66040c",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+    "url": "http://arxiv.org/abs/2609.18207v1",
+    "publishedAt": "2026-09-16T06:38:36.000Z",
+    "collectedAt": "2026-09-17T06:08:16.866Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Reinforcement learning fine-tuning on top of large, pretrained Vision-Language-Action (VLA) models offers promise for highly reliable robot deployment. However, because of their scale, modern VLA models suffer from high inference latency, so the observation used to select an action is often stale by execution time, creating a distribution shift that can substantially degrade reliability and performance. Prior work has explored asynchronous policy execution to reduce the effect of latency, but these methods are mostly built on imitation learning and offer no mechanism for moving beyond the tra…",
+    "summaryKo": "이 논문은 대규모 사전학습된 Vision-Language-Action(VLA) 모델에 강화학습 파인튜닝을 적용해 로봇 배포의 신뢰성을 높이는 방법을 다룬다. 모델 규모가 커서 추론 지연이 발생하면 행동 선택 시점의 관측이 실행 시점에는 이미 낡아 분포 변화가 생기고 성능이 저하되는데, 기존의 비동기 정책 실행 기법들은 대부분 모방학습 기반이라 이 문제를 근본적으로 개선하지 못한다는 점을 지적한다. 강화학습을 통해 지연에 강건한 정책을 학습함으로써 기존 접근의 한계를 넘어서려는 시도라는 점에서 주목할 만하다.",
+    "tags": [
+      "robotics",
+      "reasoning"
     ]
   },
   {
