@@ -1,5 +1,24 @@
 [
   {
+    "id": "6833b5283211773a6c5756f4e214e6a272ecf95a",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Claude Cowork and chat are now one Claude",
+    "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+    "publishedAt": "2026-09-16T18:09:49.000Z",
+    "collectedAt": "2026-09-17T00:11:26.300Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. I guess this means Claude is becoming a general agent in its own right. Echoes of …",
+    "summaryKo": "Simon Willison은 Anthropic이 별도 제품이던 Claude Cowork와 Claude 채팅을 하나의 Claude로 통합한다는 소식을 전한다. 이제 간단한 질문부터 마감이 있는 작업까지 맡길 수 있으며, 노트북을 닫아도 백그라운드에서 작업이 계속 진행되는 방식으로, Pro와 Max 플랜 사용자부터 웹·데스크톱·모바일에 순차 적용된다. 저자는 이를 Claude가 독자적인 범용 에이전트로 발전하는 신호로 해석하며, 그동안 혼란스러웠던 제품 구분이 정리된다는 점에서 주목할 만하다고 본다.",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
     "id": "d200db485db2e845d60b77d2b9eaf1605b8ec74d",
     "personIds": [
       "simon-willison"
