@@ -1,5 +1,59 @@
 [
   {
+    "id": "a84fff8827c52297c423054638c600e8c85ecc73",
+    "personIds": [
+      "ethan-mollick"
+    ],
+    "type": "blog",
+    "title": "The Overhang",
+    "url": "https://www.oneusefulthing.org/p/the-overhang",
+    "publishedAt": "2026-09-18T17:54:32.000Z",
+    "collectedAt": "2026-09-18T18:05:50.049Z",
+    "lang": "en",
+    "sourceName": "One Useful Thing",
+    "excerpt": "Using your deep knowledge, wide knowledge, taste, and agency",
+    "summaryKo": "이 글은 개인이 지닌 깊은 전문지식과 폭넓은 지식, 취향, 주체성을 AI 시대에 어떻게 활용할 수 있는지를 다룬다. 저자는 이러한 개인적 역량들이 AI 도구와 결합될 때 새로운 형태의 가치와 기회를 만들어낼 수 있다는 관점을 제시한다. 개인 역량과 AI의 상호작용을 고민하는 이들에게 참고할 만한 시각을 제공한다.",
+    "tags": [
+      "agents",
+      "education"
+    ]
+  },
+  {
+    "id": "4bc72a77b750ca8bc570390376addd87ac323c98",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "The Preference Cascade Is Only Getting Started",
+    "url": "https://thezvi.wordpress.com/2026/09/18/the-preference-cascade-is-only-getting-started/",
+    "publishedAt": "2026-09-18T14:40:50.000Z",
+    "collectedAt": "2026-09-18T18:05:50.049Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "We are in the midst of a preference cascade about existential risk from AI. A preference cascade is, alas, the best method we have to change the debate. The avalanche has started. There is still time for the pebbles to … Continue reading →",
+    "summaryKo": "이 글은 AI로 인한 실존적 위험에 대한 여론이 '선호도 연쇄(preference cascade)' 현상을 통해 빠르게 변화하고 있다는 점을 다룬다. 저자는 이러한 연쇄 반응이 담론을 바꾸는 최선의 방법이며 이미 시작되었다고 주장하면서도, 아직 흐름을 되돌릴 여지가 남아있다고 본다. AI 안전 담론이 어떻게 대중적 합의로 전환되는지에 관심 있는 독자에게 시의적절한 관점을 제공한다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "d67392c986c1fddf7e9aea3eb515b28ebb623e04",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "The Creative Spirit of Who Framed Roger Rabbit",
+    "url": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+    "publishedAt": "2026-09-18T14:36:41.000Z",
+    "collectedAt": "2026-09-18T18:05:50.049Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from early in the movie: It's a pelican riding a bicycle! Look closely and you'll note that the pelican is animated while the bicycle is a real bicycle. Apparently they filled the wheels with water to add stability, then set it running and guided it with a cable. Cypress gathered more details on the scene. What a delight. Via @cypressf.bsky.social Tags: animation , film , pelican-rid…",
+    "summaryKo": "Simon Willison이 1988년 영화 '누가 로저 래빗을 모함했나'의 한 장면을 소개하며, 펠리컨이 자전거를 타는 장면이 애니메이션과 실제 자전거를 결합해 만들어졌음을 설명한다. 자전거 바퀴에 물을 채워 안정성을 높이고 케이블로 조종하며 촬영했다는 제작 비화가 핵심이다. 오래된 영화의 창의적인 특수효과 제작 방식을 다시 조명한다는 점에서 흥미롭다.",
+    "tags": []
+  },
+  {
     "id": "170a7e1a5b5021b4d3244791f9fc10c81c9b7cec",
     "personIds": [
       "simon-willison"
