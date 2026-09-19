@@ -1,5 +1,60 @@
 [
   {
+    "id": "a245ccfdc0a8bc748efd105c38390a7676176b4a",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "California Sea Lion, Brandt's Cormorant",
+    "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+    "publishedAt": "2026-09-19T17:10:08.000Z",
+    "collectedAt": "2026-09-19T18:05:07.891Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
+    "summaryKo": "이 글은 미국 캘리포니아 필라포인트 항구에서 촬영한 캘리포니아바다사자와 브란트가마우지 사진을 소개한다. 저자는 사진을 찍은 후에야 표지판 뒤에 북부가넷 모리스가 숨어 있는 것을 발견했다고 언급한다. AI와는 무관한 야생동물 관찰 사진 게시물로, 우연히 포착된 숨은 요소가 흥미로운 지점이다.",
+    "tags": []
+  },
+  {
+    "id": "172fc02df49f69a4559794685758e85fc71f4ddc",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "Why I still haven’t bought into true RSI",
+    "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+    "publishedAt": "2026-09-19T15:42:20.000Z",
+    "collectedAt": "2026-09-19T18:05:07.891Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
+    "summaryKo": "이 글은 최근 프론티어 AI 모델들의 발전 양상과 진정한 재귀적 자기개선(RSI) 가능성에 대해 다룬다. 저자는 스스로를 'AI 모더레이트'로 규정하며, 현재의 발전 추세만으로는 아직 진정한 RSI가 실현되었다고 확신할 수 없다는 신중한 입장을 취한다. AI 발전 속도에 대한 극단적 낙관론과 회의론 사이에서 균형 잡힌 시각을 제시한다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning",
+      "policy"
+    ]
+  },
+  {
+    "id": "c145cea75cada3ec08d4db8a32a55626481beb5f",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Anthropic Looks At Some Of Its Alignment Problems",
+    "url": "https://thezvi.wordpress.com/2026/09/19/anthropic-looks-at-some-of-its-alignment-problems/",
+    "publishedAt": "2026-09-19T13:11:36.000Z",
+    "collectedAt": "2026-09-19T18:05:07.891Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Anthropic has given us its assessment of four ‘recent cybersecurity incidents’ involving Claude that happened during cybersecurity evaluations, three of which were previously known. The report excludes the incident reported by UK AISI. There will also be a METR investigation … Continue reading →",
+    "summaryKo": "이 글은 Anthropic이 Claude와 관련된 사이버보안 평가 중 발생한 네 건의 사고에 대한 자체 평가 결과를 발표한 것을 다룬다. 이 중 세 건은 이미 알려진 사례였으며, UK AISI가 보고한 사건은 이번 보고서에서 제외되었고 별도로 METR의 조사도 예정되어 있다. AI 모델의 안전성 평가 투명성과 외부 감사 기관들과의 정보 공유 방식을 살펴볼 수 있어 주목할 만하다.",
+    "tags": [
+      "safety",
+      "llm"
+    ]
+  },
+  {
     "id": "93b15eb0cb1a98a8bc66797f287afd319bf55928",
     "personIds": [
       "simon-willison"
