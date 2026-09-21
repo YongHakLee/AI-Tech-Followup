@@ -1,5 +1,24 @@
 [
   {
+    "id": "9b44d7e44f1cb7fc83d947f846380b9df3d09359",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "The current balance of power in open models",
+    "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+    "publishedAt": "2026-09-21T11:56:56.000Z",
+    "collectedAt": "2026-09-21T12:06:54.043Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "The expanded form of a testimony I prepared for Congress.",
+    "summaryKo": "Nathan Lambert가 미국 의회 증언을 준비하며 작성한 내용을 확장한 글로, 오픈 모델(open-weight AI 모델)을 둘러싼 현재의 세력 균형을 다룬다. 미국과 중국을 비롯한 주요 행위자들이 오픈 모델 생태계에서 각각 어떤 위치를 차지하고 있는지, 그리고 이러한 경쟁 구도가 AI 정책에 어떤 의미를 갖는지에 대한 저자의 시각을 제시한다. AI 정책 논의에 직접 참여한 전문가의 관점을 통해 오픈 모델 경쟁의 현황을 파악할 수 있어 참고할 만하다.",
+    "tags": [
+      "llm",
+      "policy"
+    ]
+  },
+  {
     "id": "bd7e7d7318c9042aca989681373e5930df1c118b",
     "personIds": [
       "simon-willison"
