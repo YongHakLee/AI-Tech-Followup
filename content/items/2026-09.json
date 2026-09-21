@@ -1,5 +1,43 @@
 [
   {
+    "id": "a0d78b07719387ab14a140cbb3172ae3ec755ba6",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Monthly Roundup #46: September 2026",
+    "url": "https://thezvi.wordpress.com/2026/09/21/monthly-roundup-46-september-2026/",
+    "publishedAt": "2026-09-21T13:35:46.000Z",
+    "collectedAt": "2026-09-21T18:06:05.871Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "AI has taken over this blog. I have moved to a schedule of seven posts per week, and I still cannot keep up. We still refuse to abandon the rest of the world. Who knows when I will get to … Continue reading →",
+    "summaryKo": "이 글은 저자가 매주 7개의 글을 발행할 정도로 AI 관련 소식이 블로그를 장악하고 있는 상황을 다루는 월간 정리(라운드업) 형식의 포스트입니다. 저자는 AI 외의 세상사도 놓지 않으려 하지만 따라잡기 힘들다는 점을 언급하며 다양한 주제를 함께 다룰 예정임을 시사합니다. AI 확산 속도와 그에 대한 저자의 개인적 대응 방식을 엿볼 수 있어 관심 있는 독자에게 참고할 만합니다.",
+    "tags": [
+      "llm",
+      "policy"
+    ]
+  },
+  {
+    "id": "c22910c59b4df3f041bde6332215daa9b871deae",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+    "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+    "publishedAt": "2026-09-21T12:31:04.000Z",
+    "collectedAt": "2026-09-21T18:06:05.871Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly what is optimal, so the US should spend […]",
+    "summaryKo": "이번 Import AI 뉴스레터는 RAND의 미국 AI 전략 분석을 다루며, 최적의 전략이 불확실한 상황에서 미국이 여러 옵션을 열어두는 방식으로 대응해야 한다는 주장을 소개한다. 이 외에도 쥐 두개골 속 인간 뇌 조직 연구, 기계의 해석학적 접근 등 다양한 AI 및 과학 관련 소식을 짧게 다룬다. AI 정책과 과학 연구 동향을 폭넓게 훑어볼 수 있어 참고할 만하다.",
+    "tags": [
+      "policy",
+      "science"
+    ]
+  },
+  {
     "id": "9b44d7e44f1cb7fc83d947f846380b9df3d09359",
     "personIds": [
       "nathan-lambert"
