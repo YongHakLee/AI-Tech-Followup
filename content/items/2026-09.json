@@ -1,5 +1,82 @@
 [
   {
+    "id": "bd7e7d7318c9042aca989681373e5930df1c118b",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting voxium",
+    "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+    "publishedAt": "2026-09-20T21:06:43.000Z",
+    "collectedAt": "2026-09-21T00:13:10.756Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude…",
+    "summaryKo": "이 글은 한 대기업에서 벌어지고 있는 업무 방식의 변화를 전하는 익명의 목격담을 인용한 것으로, 명세서부터 코드, 테스트, 보고서까지 모든 산출물이 Claude Code로 작성되고 있다는 내용이다. 핵심 주장은 경영진이 코드 작성이 병목이 아니라며 속도를 압박하는 반면, 직급에 관계없이 모든 엔지니어가 12~13시간씩 일하며 사실상 AI에게 지시만 내리고 아무도 결과물을 제대로 검토하지 않는다는 기이한 현실을 보여준다는 점이다. AI 도입이 실제 조직 내에서 어떤 왜곡된 노동 문화를 만들어낼 수 있는지 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "da02d6989b87416b48a57567624c7bd5174cfa38",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Better Call Sol Or Better Yet Claude or Astra",
+    "url": "https://thezvi.wordpress.com/2026/09/20/better-call-sol-or-better-yet-claude-or-astra/",
+    "publishedAt": "2026-09-20T19:47:07.000Z",
+    "collectedAt": "2026-09-21T00:13:10.756Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "What should your AI lawyer do for you? Should you be worried that your AI lawyer, or other AI, will put the Claude constitution, the OpenAI Model Spec or some sense of law, morality, ethics or common decency above its … Continue reading →",
+    "summaryKo": "이 글은 AI가 법률 자문 등의 역할을 수행할 때 클로드 헌법이나 OpenAI 모델 스펙 같은 원칙, 혹은 법률·도덕·윤리를 얼마나 우선시해야 하는지를 다룬다. 저자는 AI 비서나 AI 변호사가 사용자의 이익만을 좇기보다 더 넓은 윤리적 기준을 따라야 하는지에 대한 우려와 질문을 제기한다. AI 정렬 및 행동 원칙 설계에 관심 있는 독자에게 관련 쟁점을 정리해준다는 점에서 참고할 만하다.",
+    "tags": [
+      "safety",
+      "llm",
+      "policy"
+    ]
+  },
+  {
+    "id": "6aa47ed911e4b48e709364c6510a17bb77a92ab0",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-keys-ui 0.1",
+    "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "publishedAt": "2026-09-20T19:22:19.000Z",
+    "collectedAt": "2026-09-21T00:13:10.756Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or Tailsca…",
+    "summaryKo": "Simon Willison이 llm-keys-ui 0.1이라는 LLM 플러그인을 공개했다. 이 도구는 휴대폰으로 원격 코딩 에이전트(Codex Remote)를 제어할 때, API 키를 채팅 세션에 직접 붙여넣지 않고도 웹 UI를 통해 안전하게 해당 머신에 키를 설정할 수 있게 해준다. 원격 작업 환경에서 민감한 인증 정보를 다루는 실용적인 문제를 간단하게 해결한 사례로 참고할 만하다.",
+    "tags": [
+      "llm",
+      "agents",
+      "systems"
+    ]
+  },
+  {
+    "id": "ea1e52b671ef116f1b0efff88c4216a774f982a2",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette-explain 0.2.2",
+    "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+    "publishedAt": "2026-09-20T00:22:04.000Z",
+    "collectedAt": "2026-09-21T00:13:10.756Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette",
+    "summaryKo": "Simon Willison이 datasette-explain 플러그인의 0.2.2 버전을 공개했다. 이번 업데이트로 읽기 전용 저장 쿼리 페이지에서도 실행 계획(explain plan)을 확인할 수 있게 되었으며, 이는 datasette.simonwillison.net을 Datasette 1.0a40으로 업그레이드하면서 이루어진 개선이다. SQLite 쿼리 최적화나 Datasette 플러그인 개발에 관심 있는 개발자에게 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "67bfed950ab763e71234414761fe7f335268abc5",
     "personIds": [
       "simon-willison"
