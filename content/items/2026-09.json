@@ -1,5 +1,81 @@
 [
   {
+    "id": "bbd1dec964142bb281c17a8fbc39b5bcfb0ce0d7",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting @therealcornpop",
+    "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+    "publishedAt": "2026-09-22T18:03:21.000Z",
+    "collectedAt": "2026-09-22T18:06:11.870Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not. It's the lack of anything . It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about. &mdash; @therealcornpop , on TikTok Tags: tiktok , ai , a…",
+    "summaryKo": "이 글은 Simon Willison이 TikTok 사용자 @therealcornpop의 발언을 인용한 것으로, AI로 작성된 스크립트를 어떻게 알아챌 수 있는지를 다룬다. 핵심 주장은 AI 글쓰기 특유의 문체적 특징(대조 구문, 삼중 나열, 뚝뚝 끊기는 구두점 사용)보다 더 근본적인 문제는 화자의 뚜렷한 관점이나 목소리, 즉 주제에 대한 실제 의견의 부재라는 점이다. 이는 AI 생성 콘텐츠를 판별하는 기준을 문체가 아닌 내용의 깊이와 관점 유무로 옮겨야 한다는 점에서 주목할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "518602a6e2afa11e16734884b7488e9612b8232b",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-typesafe 0.1a0",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "publishedAt": "2026-09-22T15:54:16.000Z",
+    "collectedAt": "2026-09-22T18:06:11.870Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you can ask yes/no \"noul\" questions like this: llm -m jev 'Please refund my last payment.' \\ -s 'Does this message explicitly request a refund?' Output: {\"type\": \"noul\", \"noul\": 0.99} Or choice questions like this: cat message.txt | llm -m jev \\ -s ' Which team should handle this message? If billing and technical issues b…",
+    "summaryKo": "Simon Willison이 TypeSafe AI의 새로운 Jev 모델을 LLM 도구에서 사용할 수 있도록 지원하는 플러그인 llm-typesafe 0.1a0를 공개했다. 이 플러그인을 설치하고 API 키를 설정하면 예/아니오 형태의 'noul' 질문이나 선택형 질문을 커맨드라인에서 던져 구조화된 응답(예: 신뢰도 점수 포함 JSON)을 받을 수 있다. 새로운 모델을 손쉽게 실무 워크플로우에 통합하는 실용적 도구 예시로 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
+    ]
+  },
+  {
+    "id": "0647ffff84a0a7d35c9e576eb2f00dc6da75175a",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+    "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+    "publishedAt": "2026-09-22T13:37:45.000Z",
+    "collectedAt": "2026-09-22T18:06:11.870Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "Podcast #19",
+    "summaryKo": "이 글은 Nathan Lambert가 Epoch AI의 JS Denain과 나눈 팟캐스트 대화를 소개하며, 재귀적 자기개선(RSI), 미중 AI 격차, AI 능력의 '들쭉날쭉함(jaggedness)' 등의 주제를 다룬다. 두 사람은 이러한 쟁점에 대해 서로 다른 시각과 근거를 놓고 토론하며 각자의 주장을 검토한다. AI 발전 속도와 국가 간 경쟁, 모델 성능의 불균일성에 대한 심도 있는 논의를 담고 있어 관련 분야에 관심 있는 이들에게 참고할 만하다.",
+    "tags": [
+      "llm",
+      "policy",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "2a4d16193f645707c246a0aab1c0876ca7c27390",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Politics Gets Interested In Those Trying Not To Die",
+    "url": "https://thezvi.wordpress.com/2026/09/22/politics-gets-interested-in-those-trying-not-to-die/",
+    "publishedAt": "2026-09-22T12:59:27.000Z",
+    "collectedAt": "2026-09-22T18:06:11.870Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "This was the month the world took notice that AI might kill everyone. Jacob Coxon’s resignation set off a preference cascade. Anthropic CEO Dario Amodei wrote that we must pace the frontier. Sam Altman, Elon Musk and Demis Hassabis agreed. … Continue reading →",
+    "summaryKo": "이 글은 AI로 인한 실존적 위험에 대한 대중적 관심이 커진 상황을 다루며, 한 인물의 사임을 계기로 여론이 급변한 것을 언급한다. 앤트로픽 CEO 다리오 아모데이가 AI 개발 속도 조절의 필요성을 주장했고 샘 올트먼, 일론 머스크, 데미스 하사비스 등 주요 인물들도 이에 동의했다는 내용이 핵심이다. AI 안전 문제가 정치적 논의의 중심으로 부상하는 흐름을 보여준다는 점에서 주목할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
     "id": "82b7c1ad7628107c5442f8a3aa61528a75ba7795",
     "personIds": [
       "simon-willison"
