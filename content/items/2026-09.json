@@ -94,6 +94,26 @@
     ]
   },
   {
+    "id": "a7a537250c00f3c5686bf6f1a422dda7dc0020d8",
+    "personIds": [
+      "percy-liang"
+    ],
+    "type": "paper",
+    "title": "MobileCybench: Evaluating Agent Vulnerability Discovery via Executable Probes",
+    "url": "http://arxiv.org/abs/2609.23980v1",
+    "publishedAt": "2026-09-21T01:21:06.000Z",
+    "collectedAt": "2026-09-22T06:08:26.202Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "AI agents now report vulnerabilities faster than maintainers can review them. Reports often depend on security properties specific to the application, and require considerable human labor to process. To mitigate this, we introduce a framework for evaluating vulnerability reports via probes, executable checks of security properties. A reported exploit is evaluated by replaying it against the application and running the probes: a triggered probe indicates both that the exploit succeeded and which security property it violated. As a probe encodes a security property rather than a known vulnerabi…",
+    "summaryKo": "이 논문은 AI 에이전트가 보고하는 취약점을 실행 가능한 검사(probe)를 통해 검증하는 평가 프레임워크를 제안한다. 보고된 익스플로잇을 애플리케이션에 재현하고 프로브를 실행함으로써, 프로브가 트리거되면 공격 성공 여부와 위반된 보안 속성을 동시에 확인할 수 있다. 이 방식은 사람이 일일이 취약점 보고서를 검토해야 하는 부담을 줄이면서도 특정 알려진 취약점이 아닌 보안 속성 자체를 인코딩한다는 점에서 주목할 만하다.",
+    "tags": [
+      "agents",
+      "safety",
+      "systems"
+    ]
+  },
+  {
     "id": "bd7e7d7318c9042aca989681373e5930df1c118b",
     "personIds": [
       "simon-willison"
