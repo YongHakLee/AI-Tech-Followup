@@ -1,5 +1,24 @@
 [
   {
+    "id": "50fdf1ad73b0689c78d791fff9495a460e05bb12",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+    "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+    "publishedAt": "2026-09-23T02:53:19.000Z",
+    "collectedAt": "2026-09-23T06:08:19.730Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market. ​Expect one flowing conver…",
+    "summaryKo": "Simon Willison이 Jesse Vincent와 함께 10월 14일 샌프란시스코에서 코딩 에이전트를 활용한 실험적 작업을 다루는 소규모 모임을 개최한다고 소개하는 글이다. 참가자들은 아직 공개적으로 논의되지 않은 독특한 실험이나 뚜렷한 시장성이 없는 미완성 프로젝트를 서로 공유하고 토론하는 방식으로 진행된다. 에이전트 기반 엔지니어링을 실제로 탐구하는 실무자들의 비공식적 경험 교류의 장이라는 점에서 주목할 만하다.",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
     "id": "4a34b417a07923550b623517ede555b1843229f8",
     "personIds": [
       "simon-willison"
