@@ -2,7 +2,7 @@
   "version": 1,
   "sources": {
     "andrej-karpathy:rss:https://karpathy.bearblog.dev/feed/": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "3c3845f75f98be7d45ab73e75b99397250a953b6",
         "9b35b2ab1d76c3a555b42f35af54af8a7e64bed5",
@@ -19,7 +19,7 @@
       "lastError": null
     },
     "andrej-karpathy:youtube:UCXUPKJO5MZQN11PqgIvyuvQ": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "57c103ef4fa9d048825b110fc1b2de699505ab77",
         "8e36e2de4e730067642c06aa3a908ed364d9bde7",
@@ -37,11 +37,11 @@
         "83ab66f305a24ad003d99cd2a7ce80b0be9313f3",
         "1c9379e67fa8e60706833bfcd29d0d944ed403da"
       ],
-      "consecutiveFailures": 1,
-      "lastError": "HTTP 404 — https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ"
+      "consecutiveFailures": 0,
+      "lastError": null
     },
     "andrej-karpathy:arxiv:Karpathy_Andrej": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "6e43ee9d93819bd9f7789b8d9557f92a55155534",
         "d125a3b4d982253bf864d7954f786a25b51bb64e",
@@ -56,7 +56,7 @@
       "lastError": null
     },
     "lilian-weng:rss:https://lilianweng.github.io/index.xml": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "b44fa46ddb2918a2c5f5b5b6d40256c44f2f4f07",
         "480567089286a92f10c6038975c02c889c6df101",
@@ -116,7 +116,7 @@
       "lastError": null
     },
     "simon-willison:rss:https://simonwillison.net/atom/everything/": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "50fdf1ad73b0689c78d791fff9495a460e05bb12",
         "4a34b417a07923550b623517ede555b1843229f8",
@@ -239,7 +239,7 @@
       "lastError": null
     },
     "chelsea-finn:arxiv:Finn_Chelsea": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "0f1aadc10dea00ada22ed02277f958064e66040c",
         "c3dfc1fb27c7346b1573c30de22557f812abcfb8",
@@ -268,7 +268,7 @@
       "lastError": null
     },
     "ethan-mollick:rss:https://www.oneusefulthing.org/feed": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "a84fff8827c52297c423054638c600e8c85ecc73",
         "43c454f4aa358bf31d99ac806bfbccef8aa2841c",
@@ -297,7 +297,7 @@
       "lastError": null
     },
     "eugene-yan:rss:https://eugeneyan.com/rss/": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "256663348b94da817a09033c981c7b265d083a57",
         "0f53c3741b1bf0b7a22e1ae90e9ffe21901a73e3",
@@ -516,7 +516,7 @@
       "lastError": null
     },
     "hamel-husain:rss:https://hamel.dev/index.xml": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "b8fcb7456281be230e57765504af5dfece90ad89",
         "f4072691237edb34b4286ef471cc67a1ad8cfc17",
@@ -542,7 +542,7 @@
       "lastError": "HTTP 403 — https://importai.substack.com/feed"
     },
     "nathan-lambert:rss:https://www.interconnects.ai/feed": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "0647ffff84a0a7d35c9e576eb2f00dc6da75175a",
         "9b44d7e44f1cb7fc83d947f846380b9df3d09359",
@@ -576,7 +576,7 @@
       "lastError": null
     },
     "percy-liang:arxiv:Liang_Percy": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "a7a537250c00f3c5686bf6f1a422dda7dc0020d8",
         "ad42ed210eb6afa5add86311cdf283d4e117367b",
@@ -605,7 +605,7 @@
       "lastError": null
     },
     "sebastian-raschka:rss:https://magazine.sebastianraschka.com/feed": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "44084287147f6737176b69adf6e595baa9748e77",
         "df5399c7f9d2448ea3e533409c9f720c164c8730",
@@ -633,7 +633,7 @@
       "lastError": null
     },
     "sergey-levine:arxiv:Levine_Sergey": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "7bf3ab9fe7c897b750853ec6e114a9e3291f272e",
         "d4813469dd4c77ec30fde97f686d271663af9620",
@@ -667,7 +667,7 @@
       "lastError": "HTTP 403 — https://thezvi.substack.com/feed"
     },
     "jack-clark:rss:https://jack-clark.net/feed/": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "c22910c59b4df3f041bde6332215daa9b871deae",
         "fb5823d44f9bd212303b14a72c7158e97685be4a",
@@ -687,7 +687,7 @@
       "lastError": null
     },
     "zvi-mowshowitz:rss:https://thezvi.wordpress.com/feed/": {
-      "lastRunAt": "2026-09-23T06:08:19.730Z",
+      "lastRunAt": "2026-09-23T12:07:25.328Z",
       "seenIds": [
         "2a4d16193f645707c246a0aab1c0876ca7c27390",
         "a0d78b07719387ab14a140cbb3172ae3ec755ba6",
