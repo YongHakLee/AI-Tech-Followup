@@ -1,5 +1,42 @@
 [
   {
+    "id": "4a34b417a07923550b623517ede555b1843229f8",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+    "publishedAt": "2026-09-22T23:46:41.000Z",
+    "collectedAt": "2026-09-23T00:11:36.366Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really cheap . Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduc…",
+    "summaryKo": "이 글은 Grok 4.7, MiMo v2.6에 이어 Anthropic의 Claude Opus 5.5와 OpenAI의 GPT-6 Sol/Luna가 잇달아 출시된 상황을 다룬다. 특히 GPT-6 Sol과 Luna는 이전 GPT-5.6 버전 대비 가격이 절반으로 낮아졌으며, 저자는 GPT-5.6 Luna가 성능과 저렴한 비용 면에서 이미 선호하던 모델이었는데 GPT-6 Luna가 그보다도 더 저렴해졌다고 평가한다. 짧은 시간 안에 여러 주요 모델이 동시에 출시되며 가격 경쟁이 심화되는 흐름을 보여준다는 점에서 주목할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "1b1371e9ec402847faba7a43e705f03f1c187ab8",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm 0.36",
+    "url": "https://simonwillison.net/2026/Sep/22/llm/",
+    "publishedAt": "2026-09-22T18:48:37.000Z",
+    "collectedAt": "2026-09-23T00:11:36.366Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations . The first plugin to use this is llm-typesafe . #1692 Reasoning traces in the Markdown output of llm logs are now wrapped in <details><summary> tags. #1701 Plus bug fixes from five new contributors .…",
+    "summaryKo": "Simon Willison이 커맨드라인 도구 LLM의 0.36 버전 릴리스를 소개한다. 새로운 GPT-6 Sol/Luna 모델 지원 추가, 단일 턴 프롬프트만 허용하는 모델을 위한 supports_conversation 플래그 도입, 로그의 마크다운 출력에서 추론 과정을 details 태그로 접을 수 있게 한 점이 핵심 변경사항이다. 다섯 명의 신규 기여자가 참여한 버그 수정도 포함되어 있어 LLM 도구의 최신 기능과 생태계 확장을 확인하기에 유용하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
     "id": "bbd1dec964142bb281c17a8fbc39b5bcfb0ce0d7",
     "personIds": [
       "simon-willison"
@@ -13,6 +50,24 @@
     "sourceName": "Simon Willison's Weblog",
     "excerpt": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not. It's the lack of anything . It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about. &mdash; @therealcornpop , on TikTok Tags: tiktok , ai , a…",
     "summaryKo": "이 글은 Simon Willison이 TikTok 사용자 @therealcornpop의 발언을 인용한 것으로, AI로 작성된 스크립트를 어떻게 알아챌 수 있는지를 다룬다. 핵심 주장은 AI 글쓰기 특유의 문체적 특징(대조 구문, 삼중 나열, 뚝뚝 끊기는 구두점 사용)보다 더 근본적인 문제는 화자의 뚜렷한 관점이나 목소리, 즉 주제에 대한 실제 의견의 부재라는 점이다. 이는 AI 생성 콘텐츠를 판별하는 기준을 문체가 아닌 내용의 깊이와 관점 유무로 옮겨야 한다는 점에서 주목할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "81ac4d38e589187b461b15a033e2e9587ab4e19b",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-anthropic 0.29",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+    "publishedAt": "2026-09-22T17:14:55.000Z",
+    "collectedAt": "2026-09-23T00:11:36.366Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+    "summaryKo": "Simon Willison이 llm-anthropic 플러그인의 0.29 버전 출시 소식을 전한다. 이번 업데이트로 Claude Opus 5.5 모델 지원이 추가되어 커맨드라인에서 llm -m claude-opus-5.5 명령으로 해당 모델을 호출할 수 있다. 새 Claude 모델을 llm 도구에서 바로 사용하려는 사용자에게 유용한 소식이다.",
     "tags": [
       "llm"
     ]
