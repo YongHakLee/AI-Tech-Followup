@@ -1,5 +1,60 @@
 [
   {
+    "id": "896c5908658eb9e83a129280f249409d4bb22d63",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Claude Opus 5.5: The System Card",
+    "url": "https://thezvi.wordpress.com/2026/09/23/claude-opus-5-5-the-system-card/",
+    "publishedAt": "2026-09-23T21:09:04.000Z",
+    "collectedAt": "2026-09-24T00:11:18.498Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Introducing the world’s most powerful model, at least by some measures like Artificial Analysis or any standard benchmark list, which is now Claude Opus 5.5. Anthropic is claiming Opus 5.5 is outright as good or better than Fable 5.1, while … Continue reading →",
+    "summaryKo": "이 글은 Anthropic이 공개한 Claude Opus 5.5 모델의 시스템 카드를 다룬다. Artificial Analysis 등 일부 벤치마크 기준으로 현존 최강 모델로 평가되며, Anthropic은 Opus 5.5가 Fable 5.1과 동등하거나 더 우수하다고 주장한다. 저자는 이러한 성능 주장과 시스템 카드의 세부 내용을 검토할 가치가 있다고 소개한다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "e61359e960f83497c13408c8ac6ce0e2bb907448",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Gemini 3.8 TTS Playground",
+    "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "publishedAt": "2026-09-23T17:12:27.000Z",
+    "collectedAt": "2026-09-24T00:11:18.498Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with diff…",
+    "summaryKo": "Simon Willison이 구글의 새로운 Gemini 텍스트 음성 변환 모델(gemini-3.8-flash-tts, gemini-3.8-flash-lite-tts)을 활용해 만든 TTS 플레이그라운드 도구를 소개한다. 이 모델들은 2,000개 이상의 음성 라이브러리와 30초 샘플로 커스텀 음성을 만드는 기능을 지원하며, 여러 캐릭터가 등장하는 대화를 쉽게 구성할 수 있는 API 기능이 특징이다. 저자는 GPT-6 Astra로 이 도구를 직접 빠르게 코딩했으며, Gemini API의 개방형 CORS 정책을 활용해 별도 백엔드 없이 API 키만으로 사용할 수 있게 만들었다는 점에서 실용적인 참고 사례가 된다.",
+    "tags": [
+      "llm",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "4ac08839bdb346a3afbfadbe98bf24dc20e39cf8",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Shadow roots, explained with live examples",
+    "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "publishedAt": "2026-09-23T16:37:18.000Z",
+    "collectedAt": "2026-09-24T00:11:18.498Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+    "summaryKo": "이 글은 CSS의 섀도 루트(shadow root) 개념을 설명하기 위해 AI 도구를 활용해 인터랙티브 예제가 포함된 아티팩트를 제작한 과정을 다룬다. Simon Willison은 Fable 5.1 Medium 모델에 프롬프트를 입력해 섀도 루트를 시각적으로 이해할 수 있는 실습형 데모를 생성했다. AI를 이용해 기술 개념을 직관적으로 설명하는 사례로 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "50fdf1ad73b0689c78d791fff9495a460e05bb12",
     "personIds": [
       "simon-willison"
