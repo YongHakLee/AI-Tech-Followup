@@ -1,5 +1,23 @@
 [
   {
+    "id": "4c5faba67c43d66e9af38d3d8fd347c758bf5a2d",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #187: Coming Into Play",
+    "url": "https://thezvi.wordpress.com/2026/09/24/ai-187-coming-into-play/",
+    "publishedAt": "2026-09-24T14:49:58.000Z",
+    "collectedAt": "2026-09-24T18:06:41.555Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Opus 5.5 was released on Tuesday. I covered the system card yesterday, and will cover its capabilities soon. By all reports it is an excellent model. There are lots of fun videos going around that Opus has generated, which I … Continue reading →",
+    "summaryKo": "이 글은 화요일 출시된 Opus 5.5 모델에 대한 소식을 다룬다. 저자는 시스템 카드를 이미 다뤘고 곧 모델의 능력에 대해서도 다룰 예정이며, 여러 보고에 따르면 우수한 모델이라고 언급한다. Opus가 생성한 흥미로운 영상들도 화제가 되고 있어 관련 논의를 살펴볼 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "896c5908658eb9e83a129280f249409d4bb22d63",
     "personIds": [
       "zvi-mowshowitz"
