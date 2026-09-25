@@ -1,5 +1,41 @@
 [
   {
+    "id": "5ce7db5e400b0a78a84b0b3844612ff910346dd8",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "commit-rewriter 0.2",
+    "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+    "publishedAt": "2026-09-24T20:06:53.000Z",
+    "collectedAt": "2026-09-25T00:12:27.294Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+    "summaryKo": "Simon Willison이 commit-rewriter 0.2 버전 출시를 알리는 글이다. 이번 업데이트의 핵심은 기본 브랜치 외 다른 브랜치도 지원하도록 개선된 것으로, uvx commit-rewriter --branch 옵션을 통해 원하는 브랜치를 대상으로 실행할 수 있다. 기존 도구의 기능 확장을 다룬 짧은 릴리스 노트로, git 워크플로우 도구에 관심 있는 개발자에게 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "f46c8b71254ce07e2d9c6badae0d0883a86f766c",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette 1.0a41",
+    "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+    "publishedAt": "2026-09-24T19:15:23.000Z",
+    "collectedAt": "2026-09-25T00:12:27.294Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opentelemetry",
+    "summaryKo": "이 글은 데이터셋 관리 도구 Datasette의 새 릴리스인 1.0a41 버전을 다룬다. 핵심 변경 사항은 Alec Garcia가 추가한 OpenTelemetry 지원과, 모든 모달 대화상자를 단일 Web Component로 통합해 다른 플러그인에서도 재사용할 수 있도록 문서화한 리팩토링이다. 웹 컴포넌트 표준화와 관측성(Observability) 기능 추가라는 점에서 Datasette 플러그인 개발자에게 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "4c5faba67c43d66e9af38d3d8fd347c758bf5a2d",
     "personIds": [
       "zvi-mowshowitz"
