@@ -1,5 +1,24 @@
 [
   {
+    "id": "44842586bfdd27cfa097855402c24312d890a47a",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting John Gruber",
+    "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+    "publishedAt": "2026-09-25T17:22:01.000Z",
+    "collectedAt": "2026-09-25T18:06:02.359Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw…",
+    "summaryKo": "이 글은 Simon Willison이 John Gruber의 발언을 인용하며 Meta의 에이전트형 AI 시스템 Muse에 대해 논평한 내용을 다룬다. 각 사용자에게 지속적인 리눅스 가상머신을 제공하는 기술적 특징과 쉽게 설치·사용할 수 있는 소비자 친화적 패키징을 결합했다는 점에서 주목받고 있지만, 일반 소비자들이 이러한 에이전트 시스템이 지닌 위험성을 제대로 이해하고 있는지는 의문이라고 지적한다. 전동톱처럼 위험을 인지하고 사용하는 도구와 달리, 귀여운 마스코트로 포장된 이 시스템의 실제 위험성이 소비자에게 충분히 전달되지 않을 수 있다는 우려를 제기하는 점에서 살펴볼 가치가 있다.",
+    "tags": [
+      "agents",
+      "safety"
+    ]
+  },
+  {
     "id": "f1a0a2fff613154a05a5358f19631b0f16f15547",
     "personIds": [
       "zvi-mowshowitz"
@@ -16,6 +35,41 @@
     "tags": [
       "safety",
       "policy"
+    ]
+  },
+  {
+    "id": "a58162400433be9964acee0f5b7e3cb6081ec6b7",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+    "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+    "publishedAt": "2026-09-25T02:07:04.000Z",
+    "collectedAt": "2026-09-25T18:06:02.359Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that sign in the harbor! Tags: photography , wildlife",
+    "summaryKo": "이 글은 미국 캘리포니아 몬터레이 베이 국립해양보호구역에서 촬영한 야생 조류 사진들을 다룬다. 저자는 새로 구입한 200-800mm 캐논 렌즈로 북방가넷, 왜가리, 캘리포니아갈색사다새 등을 촬영했으며, 특히 항구 표지판 아래에 자주 나타나는 개체 '모리스'의 가장 좋은 사진을 얻었다고 밝힌다. AI나 기술과는 무관한 개인적인 야생동물 사진 취미 기록으로, 사진과 자연 관찰에 관심 있는 독자에게 볼 만하다.",
+    "tags": []
+  },
+  {
+    "id": "603669123c5dba12bf657e8450db256fb671327f",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Note on 24th September 2026",
+    "url": "https://simonwillison.net/2026/Sep/24/harder/",
+    "publishedAt": "2026-09-24T23:31:08.000Z",
+    "collectedAt": "2026-09-25T18:06:02.359Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
+    "summaryKo": "이 글은 코딩 에이전트를 실제로 사용해본 경험을 바탕으로 한 짧은 소감을 다룬다. 저자는 코딩 에이전트가 소프트웨어 엔지니어링을 오히려 더 어렵게 만든다고 주장하며, 이들의 잠재력을 온전히 활용하려면 상당한 규율과 지식이 필요하다고 강조한다. 코딩 에이전트를 실무에 도입하려는 개발자에게 현실적인 시각을 제공한다는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "llm"
     ]
   },
   {
@@ -707,6 +761,25 @@
     "tags": [
       "llm",
       "education"
+    ]
+  },
+  {
+    "id": "607057c76fadadbf749fe8d9803fe5e552b6bd09",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+    "url": "https://simonwillison.net/2026/Sep/17/hn-49747390/",
+    "publishedAt": "2026-09-17T22:13:05.000Z",
+    "collectedAt": "2026-09-25T18:06:02.359Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint &mdash; Hacker News. If you want to try out out the GGUFs from https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf#th... be aware that you need Prism's llama.cpp fork to get them to work, from https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-... This should work: cd /tmp # Get the Prism macOS runtime curl -fL https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10685-7dffb15/llama-prism-b10685-7dffb15-bin-macos-arm64.tar.gz -o bonsai-runtime.tar.gz tar -xzf bonsai-runtime.tar.gz # Get…",
+    "summaryKo": "이 글은 Bonsai 2 27B라는 27B 파라미터 모델을 9배 작은 용량으로 거의 손실 없이 압축한 결과를 다룬다. Simon Willison은 이 모델의 GGUF 파일을 실행하려면 표준 llama.cpp가 아닌 Prism이 만든 전용 포크가 필요하다고 설명하며, macOS arm64용 런타임을 다운로드하고 설치하는 구체적인 명령어를 안내한다. 대형 모델을 적은 리소스로 실행하고 싶은 사용자에게 실용적인 설치 가이드로 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
     ]
   },
   {
