@@ -1,5 +1,24 @@
 [
   {
+    "id": "f1a0a2fff613154a05a5358f19631b0f16f15547",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "On Ezra Klein’s Podcast With Jensen Huang",
+    "url": "https://thezvi.wordpress.com/2026/09/25/on-ezra-kleins-podcast-with-jensen-huang/",
+    "publishedAt": "2026-09-25T11:57:23.000Z",
+    "collectedAt": "2026-09-25T12:07:20.764Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Jensen Huang accidentally called for shutting down OpenAI and intentionally called for spending vastly more on safety. This is why we say that some podcasts are self-recommending. Here we go. As usual for podcast posts, the baseline bullet points describe … Continue reading →",
+    "summaryKo": "Zvi Mowshowitz가 에즈라 클라인이 진행한 젠슨 황과의 팟캐스트를 다룬 글이다. 젠슨 황은 의도치 않게 OpenAI 폐쇄를 시사하는 발언을 했고, 동시에 안전 분야에 훨씬 더 많은 투자를 해야 한다고 주장했다. 저자는 이런 발언들 때문에 이 팟캐스트가 반드시 들어볼 가치가 있다고 평가하며 평소처럼 핵심 요점들을 정리한다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
     "id": "5ce7db5e400b0a78a84b0b3844612ff910346dd8",
     "personIds": [
       "simon-willison"
