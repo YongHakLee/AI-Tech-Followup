@@ -1,5 +1,23 @@
 [
   {
+    "id": "2f2973adbd906e70df374e038675fd0a5fff6306",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Claude Opus 5.5 Should Raise Your Ambitions",
+    "url": "https://thezvi.wordpress.com/2026/09/26/claude-opus-5-5-should-raise-your-ambitions/",
+    "publishedAt": "2026-09-26T11:32:56.000Z",
+    "collectedAt": "2026-09-26T12:06:07.032Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "When it comes to making things, or doing most things in general, Fable 5.1 and especially GPT-6 Astra raised my ambition level. They should have raised yours, too. Claude Opus 5.5 should raise your ambition levels again. It just works, … Continue reading →",
+    "summaryKo": "이 글은 Claude Opus 5.5의 출시와 성능을 다루며, 이전 Fable 5.1과 GPT-6 Astra가 저자의 기대치를 높였던 것처럼 이번 모델도 실제로 잘 작동하며 기대 수준을 다시 끌어올린다고 주장한다. 저자는 이러한 모델 발전이 사용자들의 작업 방식과 목표 설정에 영향을 미친다는 점을 강조한다. AI 모델 성능 향상이 실무 기대치에 미치는 영향을 논의한다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "44842586bfdd27cfa097855402c24312d890a47a",
     "personIds": [
       "simon-willison"
