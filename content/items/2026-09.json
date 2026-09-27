@@ -1,5 +1,24 @@
 [
   {
+    "id": "63394656335488e4c75abda57b39e3ad66e8c7b1",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Kākāpō Party",
+    "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+    "publishedAt": "2026-09-26T23:39:06.000Z",
+    "collectedAt": "2026-09-27T00:14:17.866Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated …",
+    "summaryKo": "저자는 WeAreDevelopers World Congress North America 폐막 기조연설에서 2026년 카카포 번식 시즌 이야기를 소재로 활용했다는 글이다. 마지막 슬라이드를 위해 Claude Opus 5.5의 픽셀 아트 애니메이션 생성 능력에 대한 화제를 접하고, 구글 이미지 검색으로 찾은 카카포 사진 세 장을 Claude에 제공해 애니메이션 제작을 요청했다. 최신 LLM의 이미지 기반 창작 능력을 실제 발표 자료 제작에 적용해본 사례라는 점에서 흥미롭다.",
+    "tags": [
+      "llm",
+      "multimodal"
+    ]
+  },
+  {
     "id": "2f2973adbd906e70df374e038675fd0a5fff6306",
     "personIds": [
       "zvi-mowshowitz"
