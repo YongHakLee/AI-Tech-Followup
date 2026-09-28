@@ -1,5 +1,42 @@
 [
   {
+    "id": "193eb09a66e5b52a2700af2964b3b2cb34334918",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "2026 in LLMs (so far)",
+    "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+    "publishedAt": "2026-09-27T23:54:15.000Z",
+    "collectedAt": "2026-09-28T00:14:12.315Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5.1. As is usually the case with ne…",
+    "summaryKo": "Simon Willison이 WeAreDevelopers World Congress에서 진행한 폐막 기조연설을 정리한 글로, 2025년 11월부터 2026년까지 LLM 분야에서 일어난 주요 흐름을 시간순으로 다룬다. Claude Opus 4.5와 GPT-5.1 출시를 시작으로 새로운 모델들이 등장하며 벌어진 변화들을 짚어가며 연도별 트렌드를 연결한다. 슬라이드와 메모가 함께 제공되어 지난 한 해 동안의 LLM 발전 흐름을 한눈에 파악하기에 유용하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "4a99c7c0735a336ac84bad214997e997dc0306a4",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "The Quest for Embedded Evaluators",
+    "url": "https://thezvi.wordpress.com/2026/09/27/the-quest-for-embedded-evaluators/",
+    "publishedAt": "2026-09-27T22:04:03.000Z",
+    "collectedAt": "2026-09-28T00:14:12.315Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Dario Amodei’s essay We Must Pace the Frontier committed Anthropic to embedded evaluators, who would be placed inside Anthropic and given employee-level access, so they could provide outside perspective and also reports on what was happening. There is only one … Continue reading →",
+    "summaryKo": "이 글은 Dario Amodei의 에세이 'We Must Pace the Frontier'에서 제안된 'embedded evaluator' 개념을 다룬다. 이는 Anthropic 내부에 외부 평가자를 직원 수준의 접근 권한과 함께 배치해 조직 내부 상황에 대한 독립적 시각과 보고를 제공하려는 시도다. 저자는 이러한 내부 평가 체계의 실행 방식과 현황에 대해 논평하며, AI 기업의 안전성 및 거버넌스 관행에 관심 있는 독자에게 참고할 만한 내용을 제공한다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
     "id": "63394656335488e4c75abda57b39e3ad66e8c7b1",
     "personIds": [
       "simon-willison"
