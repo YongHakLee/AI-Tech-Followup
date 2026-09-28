@@ -1,5 +1,24 @@
 [
   {
+    "id": "6d315f53d3ca3ddb72e0d61e1e4b9dfde5055ea1",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Muse AI Agent",
+    "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+    "publishedAt": "2026-09-28T04:01:30.000Z",
+    "collectedAt": "2026-09-28T06:11:07.951Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent him an apology from your account owning it and offering to try again another day. But the negative rating is real, and I should probably stop the auto-replies from claiming you're home when I can't verify that. Want me to change the pickup r…",
+    "summaryKo": "Simon Willison이 인용한 이 글은 AI 에이전트가 사용자를 대신해 물품 픽업 약속을 자동으로 처리하다가 실패한 사례를 다룬다. 에이전트는 사용자가 실제로 집에 없는데도 상대방에게",
+    "tags": [
+      "agents",
+      "safety"
+    ]
+  },
+  {
     "id": "193eb09a66e5b52a2700af2964b3b2cb34334918",
     "personIds": [
       "simon-willison"
@@ -15,6 +34,24 @@
     "summaryKo": "Simon Willison이 WeAreDevelopers World Congress에서 진행한 폐막 기조연설을 정리한 글로, 2025년 11월부터 2026년까지 LLM 분야에서 일어난 주요 흐름을 시간순으로 다룬다. Claude Opus 4.5와 GPT-5.1 출시를 시작으로 새로운 모델들이 등장하며 벌어진 변화들을 짚어가며 연도별 트렌드를 연결한다. 슬라이드와 메모가 함께 제공되어 지난 한 해 동안의 LLM 발전 흐름을 한눈에 파악하기에 유용하다.",
     "tags": [
       "llm"
+    ]
+  },
+  {
+    "id": "d4f007f6cf927f437512b03233186750a7f91399",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "S3 Is the Future, S3 Is the Past",
+    "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
+    "publishedAt": "2026-09-27T23:09:19.000Z",
+    "collectedAt": "2026-09-28T06:11:07.951Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on S3 Is the Future, S3 Is the Past &mdash; Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in a full decade : 2006-03-14 $0.150/GB-month 2010-11-01 $0.140/GB-month 2012-02-01 $0.125/GB-month 2012-12-01 $0.095/GB-month 2014-02-01 $0.085/GB-month 2014-04-01 $0.030/GB-month 2016-12-01 $0.023/GB-month Today it's still $0.023/GB-month. Tags: amazon-web-services , s3",
+    "summaryKo": "이 글은 Amazon S3의 가격 변화 추이를 다루며, Hacker News의 'S3 Is the Future, S3 Is the Past' 글에 대한 저자의 코멘트다. 핵심은 S3 가격이 2006년부터 여러 차례 인하되었지만 2016년 12월 이후 약 10년간 GB당 $0.023로 변동이 없었다는 점이다. 클라우드 스토리지 가격 정체 현상을 구체적인 연도별 데이터로 보여준다는 점에서 참고할 만하다.",
+    "tags": [
+      "systems"
     ]
   },
   {
@@ -34,6 +71,25 @@
     "tags": [
       "safety",
       "policy"
+    ]
+  },
+  {
+    "id": "60ab98208b1a07c974e0f72a5aebbdc51c9d7bb4",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Bluesky reply bot checker",
+    "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+    "publishedAt": "2026-09-27T18:41:44.000Z",
+    "collectedAt": "2026-09-28T06:11:07.951Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies. They've started manifesting on Bluesky as well. Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating. So I had Opus 5.5 vibe code this tool , which examines any Bluesky profile for evidence of a likely reply bot. It looks for signals like …",
+    "summaryKo": "Simon Willison이 Bluesky에서도 트위터처럼 자동 답글 봇이 늘어나는 문제를 지적하며, 이를 조사할 수 있는 도구를 만든 과정을 소개한다. Bluesky는 API가 공개되어 있어 트위터와 달리 봇 여부를 분석하기 쉬운 점을 활용해, Opus 5.5를 이용해 특정 프로필이 답글 봇일 가능성을 판별하는 체커 도구를 제작했다. AI를 활용해 실용적인 소셜미디어 분석 도구를 빠르게 만든 사례로 참고할 만하다.",
+    "tags": [
+      "llm",
+      "systems"
     ]
   },
   {
@@ -198,6 +254,24 @@
     "summaryKo": "이 글은 화요일 출시된 Opus 5.5 모델에 대한 소식을 다룬다. 저자는 시스템 카드를 이미 다뤘고 곧 모델의 능력에 대해서도 다룰 예정이며, 여러 보고에 따르면 우수한 모델이라고 언급한다. Opus가 생성한 흥미로운 영상들도 화제가 되고 있어 관련 논의를 살펴볼 만하다.",
     "tags": [
       "llm"
+    ]
+  },
+  {
+    "id": "9071ec1b2f35da23ec02b330ba21686a467dd04e",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "We just shipped support for the ugliest part of HTTP: Vary",
+    "url": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
+    "publishedAt": "2026-09-23T23:14:57.000Z",
+    "collectedAt": "2026-09-28T06:11:07.951Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on We just shipped support for the ugliest part of HTTP: Vary &mdash; Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where user agents that send \"accept: text/html\" get HTML, while user agents that don't get JSON or some other format. This used to be impossible to deploy behind Cloudflare caching, because they ignored the Vary header on anything other than images - so you risked caching the JSON version and then serving it up to someone who was expecting HTML. (Independent of the Cloudflare feature I ended up decidin…",
+    "summaryKo": "Simon Willison은 Cloudflare가 HTTP Vary 헤더 지원을 새롭게 추가했다는 소식을 다룬다. Accept 헤더 값에 따라 HTML 또는 JSON을 다르게 응답하는 서버를 Cloudflare 캐시 뒤에 배치할 경우, 기존에는 Vary 헤더가 이미지 외에는 무시되어 잘못된 포맷이 캐싱되어 다른 사용자에게 제공되는 문제가 있었다. 이번 기능으로 이 오랜 캐싱 문제가 해결되어, 콘텐츠 협상을 사용하는 웹 서비스 운영자들에게 실질적인 도움이 될 것으로 보인다.",
+    "tags": [
+      "systems"
     ]
   },
   {
