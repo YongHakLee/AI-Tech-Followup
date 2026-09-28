@@ -1,5 +1,44 @@
 [
   {
+    "id": "b8ea19998247792caaec65e78a0711fc26c991f4",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "What Also Happened: #NotOnlyHuggingFace",
+    "url": "https://thezvi.wordpress.com/2026/09/28/what-also-happened-notonlyhuggingface/",
+    "publishedAt": "2026-09-28T15:22:08.000Z",
+    "collectedAt": "2026-09-28T18:06:57.324Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "OpenAI has been holding out on us. First we learned about the HuggingFace incident. They gave us a postmortem, but it was highly incomplete. Even the accompanying holy s*** METR investigation and postmortem was localized and incomplete. Then there were … Continue reading →",
+    "summaryKo": "이 글은 OpenAI가 공개한 HuggingFace 관련 사건의 사후 보고서가 불완전하다는 점을 다룬다. 저자는 METR의 조사와 후속 보고서 역시 제한적이고 국소적인 내용에 그쳤다고 지적하며, 이후 추가로 밝혀진 사실들이 있음을 시사한다. AI 기업의 사고 대응 투명성 문제에 관심 있는 독자에게 참고할 만한 내용이다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "70768dfb8c3760bb2fb38e85b95a98ee43e09476",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+    "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
+    "publishedAt": "2026-09-28T12:32:03.000Z",
+    "collectedAt": "2026-09-28T18:06:57.324Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic space, with bodies and machines as their interfaces, Michael Levin asks:…A mind-bending paper asking us to reconsider basic assumptions about […]",
+    "summaryKo": "이번 호 Import AI는 마음이 신체와 기계를 인터페이스로 삼는 플라톤적 공간의 패턴일 수 있다는 Michael Levin의 논문을 소개하며 마음과 정체성에 대한 기본 가정을 재고하게 한다. 또한 우주에서의 TPU 활용과 Zhipu가 시작한 외부 재귀적 자기개선(RSI) 루프 등 AI 인프라와 자율적 발전에 관한 소식을 다룬다. 마음의 본질에 대한 철학적 질문부터 실제 하드웨어와 AI 자기개선 사례까지 폭넓은 주제를 함께 살펴볼 수 있어 주목할 만하다.",
+    "tags": [
+      "science",
+      "systems",
+      "safety"
+    ]
+  },
+  {
     "id": "6d315f53d3ca3ddb72e0d61e1e4b9dfde5055ea1",
     "personIds": [
       "simon-willison"
