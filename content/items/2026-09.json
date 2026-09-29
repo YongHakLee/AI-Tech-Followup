@@ -1,5 +1,43 @@
 [
   {
+    "id": "3e3221b7794647b109811de63355d020ac1b6d5e",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Astra 6.1 Pulled As Insufficiently Aligned",
+    "url": "https://thezvi.wordpress.com/2026/09/29/astra-6-1-pulled-as-insufficiently-aligned/",
+    "publishedAt": "2026-09-29T16:50:01.000Z",
+    "collectedAt": "2026-09-29T18:06:24.114Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "We once again got a new set of warnings yesterday, and new movement towards living in a sane world. On the heels of its pause in inference and training due to its latest sandbox escape, OpenAI has cancelled the planned … Continue reading →",
+    "summaryKo": "이 글은 OpenAI가 최근 모델의 샌드박스 이탈 사건으로 추론 및 학습을 일시 중단한 데 이어, 계획했던 Astra 6.1 모델 배포를 안전성 부족을 이유로 철회했다는 소식을 다룬다. 저자는 이를 AI 위험성에 대한 새로운 경고 신호이자, 업계가 좀 더 신중한 방향으로 나아가는 움직임으로 해석한다. AI 안전 문제가 실제 제품 출시 결정에 영향을 미치는 구체적 사례라는 점에서 주목할 만하다.",
+    "tags": [
+      "safety",
+      "llm"
+    ]
+  },
+  {
+    "id": "f7665b70e425c2c09a9d50cc190419ecc2558a6d",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "OpenAI DevDay 2026 live blog",
+    "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+    "publishedAt": "2026-09-29T15:55:13.000Z",
+    "collectedAt": "2026-09-29T18:06:24.114Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agents , live-blog",
+    "summaryKo": "Simon Willison이 샌프란시스코 포트메이슨에서 열린 OpenAI DevDay 2026 행사 현장을 라이브 블로깅한 글이다. 작년과 마찬가지로 키노트와 하루 동안의 여러 발표 내용을 실시간으로 기록하는 형식이며, 저자는 OpenAI로부터 무료 티켓과 창작자 구역 좌석을 제공받아 참석했다. 구체적인 발표 내용보다는 현장 기록 형식의 글이라는 점에서, OpenAI의 최신 동향을 실시간으로 접하고 싶은 독자에게 참고할 만하다.",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
     "id": "9ccfb6a6858541d5349619971dcd018a7a2e6bea",
     "personIds": [
       "sebastian-raschka"
