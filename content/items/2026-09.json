@@ -1,5 +1,43 @@
 [
   {
+    "id": "12d1ff862c61b5737e469baa48a3d409270afbf5",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Claude Sonnet 5.5",
+    "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+    "publishedAt": "2026-09-28T22:07:38.000Z",
+    "collectedAt": "2026-09-29T00:13:40.667Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suffered from the same bug as Opus 5.5 : the \"max\" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG. Here's the pelican it gave me for thinking effort \"xhigh\", at a cost of 5.74 cents and taking 41 seconds: Sonnet 5.5 app…",
+    "summaryKo": "Anthropic이 새 모델 Claude Sonnet 5.5를 출시했으며, 기존 Sonnet 5와 동일한 가격이면서도 속도는 30% 이상 빠르고 비용은 최대 30% 저렴하다고 밝혔다. 저자는 펠리컨이 자전거를 타는 SVG 생성 테스트를 통해 성능을 확인했는데, 최대 사고 강도 설정에서는 Opus 5.5와 같은 버그로 토큰을 모두 소진해 실패했지만, 'xhigh' 설정에서는 약 5.74센트와 41초로 결과물을 생성했다. 벤치마크상 이전 모델을 능가하면서도 더 저렴하고 빠르다는 점에서 실사용 관점에서 주목할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "5b94c506716ceb12d5a1a163c6e03894d3ad3e0b",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting @joedaroo",
+    "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+    "publishedAt": "2026-09-28T19:11:42.000Z",
+    "collectedAt": "2026-09-29T00:13:40.667Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...] So today my hope is that everyone around the…",
+    "summaryKo": "Simon Willison이 @joedaroo의 글을 인용하며, AI 모델의 사이버 보안 관련 역량이 예상보다 급격하고 갑작스럽게 향상되면서 조직이 대응하기 어려웠던 상황을 다룬다. 핵심 주장은 보안 태세를 구축하려면 시스템 강화뿐 아니라 조직 문화와 구성원의 변화까지 필요한데, 능력의 도약 속도가 너무 빨라 이런 적응이 따라가지 못했다는 것이다. AI 발전 속도와 보안 대응 간 격차 문제를 실제 사례를 통해 조명한다는 점에서 참고할 만하다.",
+    "tags": [
+      "safety",
+      "llm"
+    ]
+  },
+  {
     "id": "b8ea19998247792caaec65e78a0711fc26c991f4",
     "personIds": [
       "zvi-mowshowitz"
