@@ -1,5 +1,24 @@
 [
   {
+    "id": "9ccfb6a6858541d5349619971dcd018a7a2e6bea",
+    "personIds": [
+      "sebastian-raschka"
+    ],
+    "type": "blog",
+    "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+    "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+    "publishedAt": "2026-09-29T10:50:25.000Z",
+    "collectedAt": "2026-09-29T12:07:43.671Z",
+    "lang": "en",
+    "sourceName": "Ahead of AI",
+    "excerpt": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+    "summaryKo": "이 글은 텍스트 분류를 위한 언어 모델의 발전 과정을 Bag-of-Words부터 RNN, CNN, Transformer에 이르기까지 시각적으로 정리한다. 각 모델의 정확도와 효율성을 실제 실험을 통해 비교하고, 모델 보정(calibration) 문제까지 함께 다룬다. 다양한 아키텍처의 장단점을 그림과 실험 결과로 한눈에 파악할 수 있어 텍스트 분류 모델 선택에 참고할 만하다.",
+    "tags": [
+      "llm",
+      "education"
+    ]
+  },
+  {
     "id": "12d1ff862c61b5737e469baa48a3d409270afbf5",
     "personIds": [
       "simon-willison"
