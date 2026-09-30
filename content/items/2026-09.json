@@ -1,5 +1,24 @@
 [
   {
+    "id": "1e2adcbb126c358376c02e4f6e6c19cc03341cef",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Anthropic Frontier Red Team",
+    "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+    "publishedAt": "2026-09-29T22:20:28.000Z",
+    "collectedAt": "2026-09-30T00:13:31.050Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. &mdash; Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
+    "summaryKo": "Anthropic Frontier Red Team이 GLM-5.3과 Claude Mythos Preview 등 여러 모델을 내부 바이너리 익스플로잇 벤치마크 100개 과제로 평가한 결과를 다룬다. GLM-5.3은 4%, Claude Mythos Preview는 6%의 시도에서 완전한 제어 흐름 탈취에 성공했으며, 이는 이전 세대인 Claude Opus 4.6과 GLM-5.2가 전혀 성공하지 못했던 것과 대비되는 의미 있는 임계점 돌파로 평가된다. 이 결과는 첨단 사이버 공격 능력이 여러 모델과 개발사에 걸쳐 확산되고 있음을 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "llm",
+      "safety"
+    ]
+  },
+  {
     "id": "3e3221b7794647b109811de63355d020ac1b6d5e",
     "personIds": [
       "zvi-mowshowitz"
