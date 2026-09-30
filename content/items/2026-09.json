@@ -1,5 +1,24 @@
 [
   {
+    "id": "b817c2c54f2216aab8cb123d36f585d59d1d57fe",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "A ‘Morally Binding’ White House Accord on AI Safety",
+    "url": "https://thezvi.wordpress.com/2026/09/30/a-morally-binding-white-house-accord-on-ai-safety/",
+    "publishedAt": "2026-09-30T15:51:19.000Z",
+    "collectedAt": "2026-09-30T18:06:28.406Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "The leaders in AI were invited to the White House. We left with a White House agreement that is nonzero Actual Progress rather than a step backwards. The key to success, in many situations, is to call the whole operation … Continue reading →",
+    "summaryKo": "이 글은 AI 기업 리더들이 백악관에 초청되어 맺은 AI 안전 관련 합의를 다룬다. 저자는 이 합의가 후퇴가 아니라 실질적이지만 미미한 진전이라고 평가하며, 성공의 핵심은 이를 하나의 전체적인 운영으로 명명하는 데 있다고 주장한다. AI 정책 형성 과정에서 정부와 업계 간 협상이 어떻게 이루어지는지 보여준다는 점에서 참고할 만하다.",
+    "tags": [
+      "policy",
+      "safety"
+    ]
+  },
+  {
     "id": "1e2adcbb126c358376c02e4f6e6c19cc03341cef",
     "personIds": [
       "simon-willison"
@@ -53,6 +72,25 @@
     "tags": [
       "safety",
       "llm"
+    ]
+  },
+  {
+    "id": "b3701a1b653f0a3b7b5fc25397e712751da80060",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Photo Scrubber — local face blur & metadata removal",
+    "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+    "publishedAt": "2026-09-29T16:45:27.000Z",
+    "collectedAt": "2026-09-30T18:06:28.406Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out. It uses Google's MediaPipe C++ library, compiled to WebAssembly via @mediapipe/tasks-vision , plus the BlazeFace face detection model. Tags: photography , tools",
+    "summaryKo": "저자는 시위대 사진을 찍은 후 낯선 사람의 얼굴이 식별되는 사진을 공유하고 싶지 않다는 생각에서, GPT-6 Astra에게 자동으로 얼굴을 흐리게 처리하는 실험적 도구를 만들도록 했다. 이 도구는 Google의 MediaPipe C++ 라이브러리를 WebAssembly로 컴파일한 것과 BlazeFace 얼굴 감지 모델을 활용해 로컬에서 얼굴 블러 및 메타데이터 제거를 수행한다. 사진 공유 시 개인정보 보호를 위한 실용적이고 간단한 도구로서 참고할 만하다.",
+    "tags": [
+      "multimodal",
+      "systems"
     ]
   },
   {
