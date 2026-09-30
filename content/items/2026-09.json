@@ -19,6 +19,24 @@
     ]
   },
   {
+    "id": "cab141db60b60cd384a162e0bba60b7d5f578d1c",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+    "publishedAt": "2026-09-29T18:27:48.000Z",
+    "collectedAt": "2026-09-30T06:08:15.966Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... They're not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr... Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt",
+    "summaryKo": "이 글은 Simon Willison이 OpenAI의 신모델 GPT-6.1-Sol에 대해 남긴 코멘트로, 데브데이 키노트를 라이브 블로깅하느라 평소 하던 펠리컨 그림 테스트가 늦어졌다고 설명한다. 저자는 GPT-6.1-Sol이 그린 자전거 탄 펠리컨 SVG를 GPT-6 계열과 비교했을 때 특별히 다르지 않다고 평가한다. 신모델의 성능이나 가격 대비 효율을 간단한 비주얼 테스트로 가늠해보는 저자 특유의 접근 방식을 볼 수 있다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "3e3221b7794647b109811de63355d020ac1b6d5e",
     "personIds": [
       "zvi-mowshowitz"
