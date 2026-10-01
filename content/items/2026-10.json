@@ -1,5 +1,23 @@
 [
   {
+    "id": "0002db48a0c248d099689ad9caa7d19312b09c81",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #188: Gemini Dot Argon",
+    "url": "https://thezvi.wordpress.com/2026/10/01/ai-188-gemini-dot-argon/",
+    "publishedAt": "2026-10-01T14:56:56.000Z",
+    "collectedAt": "2026-10-01T18:07:25.925Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "Is Google back? They claim that they are back. Gemini 4 Argon is rolling out, with competitive frontier-level benchmarks, at $2/$10. What we don’t have is access to the model, because Google Fails Marketing Forever. So it is far too … Continue reading →",
+    "summaryKo": "이 글은 구글의 신규 모델 제미니 4 아르곤의 출시 소식을 다룬다. 저자는 벤치마크 성능과 가격 면에서 경쟁력이 있다고 평가하면서도, 정작 모델에 대한 실제 접근이 제한적이라 구글의 마케팅과 출시 방식을 비판한다. 성능과 실용성 사이의 괴리를 짚어준다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "ae4b31c0a883f8c6b39caefbf1e8c1b551d60d30",
     "personIds": [
       "ethan-mollick"
