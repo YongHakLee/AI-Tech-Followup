@@ -1,5 +1,21 @@
 [
   {
+    "id": "5e9bced56fabce220b815a0c7a63237842536ef9",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "He Built This City",
+    "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+    "publishedAt": "2026-09-30T21:54:19.000Z",
+    "collectedAt": "2026-10-01T00:15:11.350Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance. Tags: museums , new-york",
+    "summaryKo": "저자는 뉴욕시 박물관을 방문해 조 매켄이 21년에 걸쳐 발사목과 판지로 제작한 50x27피트 규모의 뉴욕시 모형 전시 'He Built This City'를 관람했다. 전시는 사전 기대를 뛰어넘는 만족스러운 경험이었다고 평가한다. 전시가 10월 12일 종료 예정이므로 기회가 된다면 꼭 관람해볼 것을 권한다.",
+    "tags": []
+  },
+  {
     "id": "b817c2c54f2216aab8cb123d36f585d59d1d57fe",
     "personIds": [
       "zvi-mowshowitz"
@@ -16,6 +32,25 @@
     "tags": [
       "policy",
       "safety"
+    ]
+  },
+  {
+    "id": "77544766b84c4ff026f57685365d9f01e85f4a5d",
+    "personIds": [
+      "hamel-husain"
+    ],
+    "type": "blog",
+    "title": "Claude’s new auto eval tool",
+    "url": "https://hamel.dev/blog/posts/claude-auto-evals/",
+    "publishedAt": "2026-09-30T07:00:00.000Z",
+    "collectedAt": "2026-10-01T00:15:11.350Z",
+    "lang": "en",
+    "sourceName": "Hamel's Blog",
+    "excerpt": "Anthropic released new eval tooling for Claude Code. Their claude-api plugin now includes a new build_eval and hill-climb command that helps you build evals, check the graders, and improve your application against them. I usually don’t review eval tools. Software changes so often that a review has a short shelf life. But a first-party tool from Anthropic is likely to influence how people approach evals, so I wanted to try it. Isaac Flath and I livestreamed ourselves using it on conversation traces from an apartment leasing assistant. Here’s what we found: The bad 1. It pushes you to create an…",
+    "summaryKo": "Anthropic이 Claude Code용으로 공개한 새로운 평가 도구(claude-api 플러그인의 build_eval, hill-climb 명령)를 다룬 글로, 저자는 아파트 임대 어시스턴트의 대화 기록을 대상으로 Isaac Flath와 함께 실시간으로 이 도구를 테스트했다. 글에서는 도구의 단점부터 짚으며, 특정 방식의 평가 구조를 강요하는 등의 문제점을 지적한다. 1인자(Anthropic) 공식 도구가 향후 평가 관행에 영향을 줄 가능성이 높아 실제 사용 경험을 공유할 가치가 있다고 본다.",
+    "tags": [
+      "llm",
+      "agents"
     ]
   },
   {
