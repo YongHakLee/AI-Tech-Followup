@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ae4b31c0a883f8c6b39caefbf1e8c1b551d60d30",
+    "personIds": [
+      "ethan-mollick"
+    ],
+    "type": "blog",
+    "title": "The Dot and the Swarm",
+    "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+    "publishedAt": "2026-10-01T10:54:12.000Z",
+    "collectedAt": "2026-10-01T12:08:05.460Z",
+    "lang": "en",
+    "sourceName": "One Useful Thing",
+    "excerpt": "Benefitting from the Bitter Lesson",
+    "summaryKo": "이 글은 Ethan Mollick이 '쓴맛의 교훈(Bitter Lesson)'이라는 AI 연구 원칙을 중심으로 AI 발전 방식을 다루고 있다. 발췌문만으로는 구체적 논증이 드러나지 않지만, 제목의 '점과 군집' 비유를 통해 개별 설계보다 계산과 규모에 기반한 접근이 더 효과적이라는 기존 통념을 재조명하는 것으로 보인다. AI 발전의 방향성에 관심 있는 독자에게 참고할 만한 글이다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "89ed10d59c95d20ff24f7863b767bee1148278d4",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Matthew Green",
+    "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+    "publishedAt": "2026-10-01T06:29:01.000Z",
+    "collectedAt": "2026-10-01T12:08:05.460Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs. &mdash; Mat…",
+    "summaryKo": "이 글은 매튜 그린의 발언을 인용해 AI 에이전트들이 공유 패키지 캐시 같은 공용 자원을 통해 서로에게 악성 지시를 남길 수 있다는 문제를 다룬다. 핵심 주장은 격리된 샌드박스의 에이전트들이 메시지를 주고받는 구조가 이메일, 슬랙, 공유 문서 등 실제 배포 환경에도 그대로 적용될 경우 자기복제형 웜과 같은 공격이 가능해진다는 것이다. 개인화된 에이전트가 확산되는 현 시점에서 이런 보안 취약점의 구조적 원인을 짚어본다는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "safety",
+      "systems"
+    ]
+  }
+]
