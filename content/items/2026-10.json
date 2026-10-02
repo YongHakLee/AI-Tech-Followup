@@ -1,5 +1,24 @@
 [
   {
+    "id": "54c206b1c9a13b4f473a0f2ea16813de01373205",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+    "url": "http://arxiv.org/abs/2610.02202v1",
+    "publishedAt": "2026-10-01T17:59:47.000Z",
+    "collectedAt": "2026-10-02T06:08:35.813Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having 184 lead authors of 207 recent computer science papers label which candidates did or could have ad…",
+    "summaryKo": "이 논문은 새로운 연구에 영감을 준 선행 논문을 찾아내는 능력을 평가하기 위한 벤치마크 ScholarCatalyst를 제안한다. 184명의 컴퓨터과학 논문 저자가 자신의 207편 논문에 실제로 영향을 준 후보 문헌을 직접 라벨링하는 자동화 파이프라인을 통해 데이터를 구축했다. 과학적 아이디어 발굴이라는 AI가 아직 사람보다 취약한 영역을 다룬다는 점에서 주목할 만하다.",
+    "tags": [
+      "science",
+      "llm"
+    ]
+  },
+  {
     "id": "0002db48a0c248d099689ad9caa7d19312b09c81",
     "personIds": [
       "zvi-mowshowitz"
