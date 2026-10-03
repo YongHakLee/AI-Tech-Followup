@@ -1,5 +1,21 @@
 [
   {
+    "id": "70add7d4c3fcd6013ab8b32344ba09a89986743a",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Rex's Dino Store",
+    "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+    "publishedAt": "2026-10-02T22:57:38.000Z",
+    "collectedAt": "2026-10-03T18:36:55.474Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Museum: Rex&#x27;s Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york",
+    "summaryKo": "이 글은 브루클린 프로스펙트 파크 근처 그랜드 아미 플라자 지하철역에 있는 'Rex's Dino Store'라는 작은 매점을 소개한다. 공룡 캐릭터가 운영하는 콘셉트로 공룡 관련 말장난이 가득한 것이 특징이다. 독특하고 재치 있는 뉴욕의 소소한 명소로 가볍게 둘러볼 만하다.",
+    "tags": []
+  },
+  {
     "id": "54c206b1c9a13b4f473a0f2ea16813de01373205",
     "personIds": [
       "chelsea-finn"
