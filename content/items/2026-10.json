@@ -1,5 +1,43 @@
 [
   {
+    "id": "3ba89625595d441660969d2fe678f22c0efbe6fa",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "We're going to need default hard budget caps on pretty much everything",
+    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "publishedAt": "2026-10-03T23:34:02.000Z",
+    "collectedAt": "2026-10-04T00:56:18.773Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or ho…",
+    "summaryKo": "이 글은 코딩 에이전트와 개인용 에이전트가 API 호출 등 비용이 발생하는 작업을 자동으로 수행하게 되면서, 예상치 못한 과금 폭증 위험이 커지고 있음을 다룬다. 저자는 경고 이메일 같은 소프트 한도로는 부족하며, 월 지출액이 일정 수준을 넘으면 서비스가 자동으로 중단되는 하드 예산 상한선 기능이 거의 모든 유료 서비스와 API에 기본으로 제공되어야 한다고 주장한다. 에이전트 기반 자동화가 확산되는 시대에 비용 통제를 위한 실질적 안전장치가 필요하다는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "safety",
+      "systems"
+    ]
+  },
+  {
+    "id": "c25e6552df82ae8a71be1b08d1e197942091f433",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "September sponsors-only newsletter",
+    "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+    "publishedAt": "2026-10-03T22:00:31.000Z",
+    "collectedAt": "2026-10-04T00:56:18.773Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+    "summaryKo": "Simon Willison이 후원자 전용 월간 뉴스레터 9월호 발행 소식을 알리는 글로, Fable 클래스 모델, 가격 경쟁, 3D 그래픽 및 수학 분야에서의 LLM 활용, 보안 취약점 이슈 등 다양한 주제를 다룬다. 글 자체는 뉴스레터의 목차와 구독 안내를 소개하는 내용으로 구체적 결과보다는 다룰 주제 목록을 제공한다. AI 업계의 최신 동향을 짧고 다양하게 훑어보고 싶은 독자에게 유용하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "70add7d4c3fcd6013ab8b32344ba09a89986743a",
     "personIds": [
       "simon-willison"
