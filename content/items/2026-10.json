@@ -1,5 +1,44 @@
 [
   {
+    "id": "ece62f0713c1cba78ca84bafb2287a0403c70aa2",
+    "personIds": [
+      "jack-clark"
+    ],
+    "type": "blog",
+    "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+    "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+    "publishedAt": "2026-10-05T12:32:30.000Z",
+    "collectedAt": "2026-10-05T18:06:39.856Z",
+    "lang": "en-US",
+    "sourceName": "Import AI",
+    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How does swarm scaling work?…Toby Ord has a nice, short post about how to think about […]",
+    "summaryKo": "이번 호 Import AI는 AI 에이전트들을 다수로 동시 활용하는 '스웜 스케일링'을 언제, 어떻게 써야 하는지를 다루며, Toby Ord의 관련 분석을 소개한다. 또한 Google DeepMind가 생물학 분야 AI 산출물에 워터마크를 적용하는 시도와 AI가 과학 연구 경제에 미치는 영향도 간략히 언급한다. AI 연구 동향과 안전성, 과학 응용 측면을 폭넓게 조망하고 싶은 독자에게 유용하다.",
+    "tags": [
+      "agents",
+      "safety",
+      "science"
+    ]
+  },
+  {
+    "id": "3bcfe2f4d2ef6b2185149fb713c34815aac945e9",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Qwen3.8 27B addition in words",
+    "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+    "publishedAt": "2026-10-04T23:34:00.000Z",
+    "collectedAt": "2026-10-05T18:06:39.856Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) an…",
+    "summaryKo": "이 글은 Colin Frasier가 과거 GPT-4o로 숫자를 단어로 받아 덧셈을 시킨 실험을 소개하며, 이를 로컬 하드웨어(DGX Spark)에서 재현한 과정을 다룬다. 저자는 계산기 사용 없이도 모델이 큰 수의 덧셈에서 오류를 범하는 현상을 통제된 환경에서 재검증하고자 했다. 언어모델의 수치 연산 능력 한계를 구체적 실험으로 살펴본다는 점에서 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
     "id": "3ba89625595d441660969d2fe678f22c0efbe6fa",
     "personIds": [
       "simon-willison"
@@ -70,6 +109,25 @@
     "tags": [
       "science",
       "llm"
+    ]
+  },
+  {
+    "id": "25a4cc82249d659afa4da6a666a2ca71acb6fa79",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "pwasm 0.2a0",
+    "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+    "publishedAt": "2026-10-01T17:10:31.000Z",
+    "collectedAt": "2026-10-05T18:06:39.856Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements: Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the research repo working under it - and what it would take to speed it up 42 commits later (with minimal follow-up prompting) it now handles almost all of the WAS…",
+    "summaryKo": "저자가 1월에 바이브 코딩으로 만든 순수 파이썬 WebAssembly 엔진 pwasm을 다시 꺼내 Claude Opus 5.5에게 개선 작업을 맡긴 결과를 소개한다. 42개의 커밋을 거쳐 최소한의 추가 프롬프팅만으로 WASM 사양 대부분을 처리할 수 있게 되었고, MicroPython과 마이크로 JavaScript 실험을 구동하며 속도도 개선되었다. AI 에이전트가 방치된 개인 프로젝트를 빠르게 상당한 수준으로 발전시킬 수 있음을 보여주는 사례로 볼 만하다.",
+    "tags": [
+      "agents",
+      "systems"
     ]
   },
   {

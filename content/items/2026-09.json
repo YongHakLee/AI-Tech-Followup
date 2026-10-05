@@ -167,6 +167,24 @@
     ]
   },
   {
+    "id": "a438fcc0cb10129c037d7012d47c3b338903f9e4",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-anthropic 0.30",
+    "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+    "publishedAt": "2026-09-28T23:06:21.000Z",
+    "collectedAt": "2026-10-05T18:06:39.856Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model. I also added an llm anthropic count command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt. Tags: llm , anthropic",
+    "summaryKo": "llm-anthropic 0.30 버전은 Claude Sonnet 5.5 지원과 함께 두 가지 CLI 기능을 추가했다. 'llm anthropic refresh' 명령으로 Anthropic API에서 최신 모델 목록을 직접 갱신할 수 있어 새 모델이 나올 때마다 별도 릴리스를 낼 필요가 없어졌고, 'llm anthropic count' 명령은 Anthropic의 무료 토큰 계산 API를 이용해 프롬프트 전송 전 토큰 수를 미리 확인할 수 있게 해준다. 모델 업데이트 대응과 비용 예측을 간편하게 해주는 실용적인 업데이트다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
     "id": "12d1ff862c61b5737e469baa48a3d409270afbf5",
     "personIds": [
       "simon-willison"
