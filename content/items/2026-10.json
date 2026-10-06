@@ -1,5 +1,24 @@
 [
   {
+    "id": "cbee4f83437993a6e84fad6a308299abb5c45f19",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Felix Rieseberg",
+    "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+    "publishedAt": "2026-10-05T23:56:47.000Z",
+    "collectedAt": "2026-10-06T00:12:59.423Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state…",
+    "summaryKo": "이 글은 Simon Willison이 Felix Rieseberg의 설명을 인용해 Anthropic의 Cowork 제품 아키텍처 변화를 다룬다. 기존에는 로컬 VM에서 도구 호출을 실행했으나 디스크·배터리·성능 부담과 노트북을 닫으면 작업이 중단되는 문제로 인해, 새 버전은 모델 추론과 VM 실행을 모두 클라우드로 옮기고 세션별로 독립된 샌드박스를 제공한다. AI 에이전트 제품의 로컬-클라우드 실행 구조 변화와 그 설계 이유를 엿볼 수 있어 참고할 만하다.",
+    "tags": [
+      "agents",
+      "systems"
+    ]
+  },
+  {
     "id": "ece62f0713c1cba78ca84bafb2287a0403c70aa2",
     "personIds": [
       "jack-clark"
