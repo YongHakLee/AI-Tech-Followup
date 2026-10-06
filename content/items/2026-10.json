@@ -1,5 +1,42 @@
 [
   {
+    "id": "a6221988f02fdec1c4303ebf47df0402552764b4",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Scrimshaw Jukebox",
+    "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+    "publishedAt": "2026-10-06T15:17:39.000Z",
+    "collectedAt": "2026-10-06T18:06:16.084Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for t…",
+    "summaryKo": "Simon Willison은 Claude Opus 5.5에게 간단한 텍스트 기반 음악 포맷을 설계하고 이를 재생하는 아티팩트를 만들도록 요청하며 게임 음악 작곡 능력을 테스트했다. 모델은 요청보다 Monkey Island 테마에 더 깊이 몰입한 결과물을 내놓았지만, 결과물의 음악적 완성도는 예상보다 높았다. 저자는 이런 작곡 능력이 과거 3D 그래픽 구현 능력처럼 모델에서 새롭게 나타난 역량일 수 있다는 가능성을 제기한다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "7c267aa07d2a02a723163b5abb1735366062c6f7",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "The Cyber Risk Discourse is Broken",
+    "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+    "publishedAt": "2026-10-06T14:22:41.000Z",
+    "collectedAt": "2026-10-06T18:06:16.084Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "Open-weights, ideology, and acknowledging trade-offs.",
+    "summaryKo": "이 글은 오픈 웨이트 AI 모델을 둘러싼 사이버 보안 리스크 논의가 이념적으로 편향되어 있다는 문제를 다룬다. 저자는 현재의 담론이 트레이드오프를 제대로 인정하지 않은 채 특정 입장을 강화하는 방식으로 전개되고 있다고 주장한다. 오픈 웨이트 정책과 보안 논쟁의 균형 잡힌 시각을 원하는 독자에게 유용하다.",
+    "tags": [
+      "policy",
+      "safety"
+    ]
+  },
+  {
     "id": "cbee4f83437993a6e84fad6a308299abb5c45f19",
     "personIds": [
       "simon-willison"
