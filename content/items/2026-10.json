@@ -39,6 +39,24 @@
     ]
   },
   {
+    "id": "6d49f2276429f34ab76fdb76091edb09eda4f3ba",
+    "personIds": [
+      "chelsea-finn"
+    ],
+    "type": "paper",
+    "title": "Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning",
+    "url": "http://arxiv.org/abs/2610.05882v1",
+    "publishedAt": "2026-10-05T06:56:13.000Z",
+    "collectedAt": "2026-10-06T06:08:39.966Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "Learning from human demonstrations is a reliable way to teach robots new tasks, but the gains from each additional demonstration shrink as the policy improves. Continued improvement can instead come from supervised deployment, where an operator places the objects and intervenes when the policy fails. We ask how to maximize improvement from a fixed budget of supervised episodes on high-precision manipulation tasks with wide ranges of object placements. We observe that failures can concentrate in a small subset of initial states, so uniform collection spends much of the operator's time on state…",
+    "summaryKo": "이 논문은 로봇이 고정밀 조작 작업을 수행할 때, 제한된 수의 감독 배포(supervised deployment) 에피소드로부터 정책 성능을 효율적으로 개선하는 방법을 다룬다. 핵심 주장은 실패가 초기 상태 공간의 일부에 집중되는 경향이 있으므로, 균일하게 데이터를 수집하는 방식은 운영자의 시간을 비효율적으로 사용하게 되며, 성능 저하가 예상되는 상태에 집중한 데이터 수집이 더 효과적이라는 것이다. 제한된 인간 개입 자원으로 로봇 학습 효율을 높이는 실용적 전략을 제시한다는 점에서 온로봇 학습 연구자들에게 참고할 만하다.",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
     "id": "3bcfe2f4d2ef6b2185149fb713c34815aac945e9",
     "personIds": [
       "simon-willison"
@@ -55,6 +73,26 @@
     "tags": [
       "llm",
       "reasoning"
+    ]
+  },
+  {
+    "id": "c9d2d65b79241d7b305ca42858bc48c123f057b5",
+    "personIds": [
+      "percy-liang"
+    ],
+    "type": "paper",
+    "title": "Priced Guidance: Can Language Models Generate Future Research Ideas?",
+    "url": "http://arxiv.org/abs/2610.04976v1",
+    "publishedAt": "2026-10-04T05:45:08.000Z",
+    "collectedAt": "2026-10-06T06:08:39.966Z",
+    "lang": "en",
+    "sourceName": "arXiv",
+    "excerpt": "We evaluate language models' capability to generate novel research ideas through the lens of compression. We aim to lower-bound the potentially tiny probability that a language model generates the essence of a future research idea without any hints. Rather than estimate this probability through expensive repeated sampling, our Priced Guidance framework measures the compression cost: how many additional bits of information are needed to guide the model to recover the target idea. We prove that if the model can recover the target idea with at most K bits of guidance in expectation, then it can …",
+    "summaryKo": "이 논문은 언어 모델이 미래의 연구 아이디어를 힌트 없이 생성할 수 있는지를 압축 관점에서 평가한다. 저자들은 직접적인 반복 샘플링 대신, 목표 아이디어를 모델이 복원하는 데 필요한 추가 정보량(비트 수)을 측정하는 'Priced Guidance' 프레임워크를 제안하고, 기대값상 K비트 이내의 안내로 복원 가능하다면 이를 통해 원래의 생성 확률에 대한 하한을 유도할 수 있음을 증명한다. 이는 연구 아이디어 생성이라는 모호한 능력을 정량적으로 측정하는 새로운 방법론을 제시한다는 점에서 주목할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning",
+      "science"
     ]
   },
   {
