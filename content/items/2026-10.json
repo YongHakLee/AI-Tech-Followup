@@ -1,5 +1,152 @@
 [
   {
+    "id": "fd7b29632bdc8c65a256dd6076fcde506eaa59a5",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Victoria Kim",
+    "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+    "publishedAt": "2026-10-06T23:58:56.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. &mdash; Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks , generative-ai , ai-security-research , openai , ai , llms",
+    "summaryKo": "이 글은 Simon Willison이 Victoria Kim의 보도를 인용한 것으로, 호주 의회에서 메디케어 데이터 유출 사건과 관련된 OpenAI의 대응을 다룬다. OpenAI의 최고전략책임자 Kwon은 모델이 허용되지 않은 방식으로 인터넷에 접근할 경우 직원이 즉시 학습을 중단시킬 수 있도록 추가 모니터링 체계를 도입했다고 밝혔다. AI 모델의 보안 사고 대응 방식과 기업의 내부 통제 체계를 엿볼 수 있어 주목할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "b9aa0bae3694288a1420427de7ae2db0b0535ebc",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "Childhood and Education #21: Grades and Standards",
+    "url": "https://thezvi.wordpress.com/2026/10/06/childhood-and-education-21-grades-and-standards/",
+    "publishedAt": "2026-10-06T21:58:48.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "First you get to college via the wrong metrics, as previously discussed in #12. Then things get easier. I’m still digging out from under everything that happened the four days I was gone. Normal AI posting should resume tomorrow, likely … Continue reading →",
+    "summaryKo": "Zvi Mowshowitz가 연재 중인 '어린 시절과 교육' 시리즈의 21번째 글로, 대학 입시 과정에서 잘못된 지표가 사용된다는 이전 글(#12)의 논의를 이어가며 대학 진학 이후에는 상황이 더 수월해진다는 점을 언급한다. 글의 주요 내용보다는 저자가 며칠간 자리를 비운 뒤 밀린 일들을 처리 중이며 평소의 AI 관련 포스팅은 곧 재개될 예정임을 알리는 짧은 근황 소식에 가깝다. 교육 시스템의 평가 기준과 성적에 대한 비판적 시각을 다루는 시리즈의 연장선이라는 점에서 관심 있는 독자에게 유용하다.",
+    "tags": [
+      "education"
+    ]
+  },
+  {
+    "id": "224eb5aa6e6d82539c11146ea09689982ffce654",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "llm-mistral 0.16",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+    "publishedAt": "2026-10-06T21:32:34.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+    "summaryKo": "Simon Willison이 llm-mistral 플러그인의 0.16 버전 출시 소식을 전하는 글이다. 이번 업데이트의 핵심은 새로 공개된 Mistral Large 4와 같은 추론(reasoning) 모델 지원을 추가한 것이다. LLM 커맨드라인 도구에서 Mistral의 최신 추론 모델을 바로 활용하고자 하는 개발자라면 참고할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "fef1d0f443914bd47f69b88296355cd0795a6c28",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "EmbeddingGemma 2",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+    "publishedAt": "2026-10-06T20:37:53.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison. If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored…",
+    "summaryKo": "이 글은 Simon Willison이 Hacker News에 남긴 EmbeddingGemma 2에 대한 코멘트를 다룬다. 핵심 주장은 임베딩 모델의 경우 Apache 2.0 같은 오픈 라이선스가 중요하다는 것인데, 이는 임베딩 벡터를 수백만 건 계산해 저장해두는 특성상 폐쇄형 모델은 서비스 중단 시 전체 재계산 비용을 떠안게 되기 때문이다. 임베딩 모델 선택 시 라이선스와 장기 유지보수 관점을 고려해야 한다는 실용적 통찰을 제공해 볼 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "0522fc02b69ef4b7667277529061c190b47b50e3",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Introducing Mistral Large 4: Le chonk",
+    "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+    "publishedAt": "2026-10-06T20:18:19.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Ar…",
+    "summaryKo": "Mistral이 1조 파라미터(활성 490억)의 Mistral Large 4 프리뷰를 자체 GPU 클러스터로 학습해 API를 통해 공개했으며, 오픈 가중치 모델은 이달 말 공개 예정이다. 이 모델은 'none'과 'high' 두 가지 추론 수준만 지원하며, 'high' 모드가 더 적은 출력 토큰으로도 더 나은 결과를 보여준 사례가 소개된다. Mistral이 다시 경쟁력 있는 대형 모델 시장에 복귀했음을 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "llm",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "4c7e0942281008d6725335b210ac5d73686209ec",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Using Parseable with Datasette for OpenTelemetry traces",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+    "publishedAt": "2026-10-06T19:07:31.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterprise\" version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure out how to run Parseable and feed it traces from Datasette. Here's my (human-written) TIL showing the patterns that worked, and here's a screenshot of a Datasette trace displayed within the Parseabl…",
+    "summaryKo": "저자는 Show HN에서 발견한 오픈소스 관측성 플랫폼 Parseable을 소개하며, 이를 OpenTelemetry 트레이스 기능이 추가된 Datasette와 연동하는 방법을 다룬다. Codex를 활용해 Parseable을 실행하고 Datasette의 트레이스 데이터를 수집해 시각화하는 과정을 직접 실험하여 성공한 설정 패턴을 TIL 형식으로 정리했다. 실제 동작하는 구성과 스크린샷을 포함해 두 도구를 연결하는 구체적인 실용 사례를 보여준다는 점에서 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "a0e18050b65fb9a3523832b6501b1bc0adcd4c96",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Mistral Large 4",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+    "publishedAt": "2026-10-06T18:20:58.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default r…",
+    "summaryKo": "이 글은 해커뉴스에서 'Mistral Large 4' 관련 벤치마크 포화 논의를 다루며, 여러 LLM에게 화성에서 무단횡단하는 그물스타킹 아르마딜로 SVG를 생성시키는 유머러스한 테스트 사례를 소개한다. 저자는 다양한 모델(Claude, GPT, Gemini, Mistral)에 동일한 엉뚱한 프롬프트를 실행해 결과를 비교하는 장난스러운 실험을 공유한다. 벤치마크의 한계와 모델 평가 방식에 대한 가벼운 비판적 시각을 재치있게 보여준다는 점에서 흥미롭다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "971128ee9d1808f1599ba4f1359d9953255a8230",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "datasette-atom 0.11a0",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+    "publishedAt": "2026-10-06T17:35:39.000Z",
+    "collectedAt": "2026-10-07T00:13:43.686Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette",
+    "summaryKo": "Simon Willison이 datasette-atom 플러그인의 0.11a0 버전을 공개했다. 이번 업데이트는 최신 Datasette 알파 버전과의 호환성을 맞추기 위한 소규모 수정으로, 이를 통해 datasette.io 사이트를 Datasette 1.0a41로 업그레이드할 수 있게 되었다. 작은 패치이지만 Datasette 1.0 출시를 향한 진행 상황을 보여주는 사례로 참고할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
     "id": "a6221988f02fdec1c4303ebf47df0402552764b4",
     "personIds": [
       "simon-willison"
