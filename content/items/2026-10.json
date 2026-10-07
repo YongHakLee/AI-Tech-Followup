@@ -1,5 +1,21 @@
 [
   {
+    "id": "7b37193e1f4b1a13a83f58152e4eca84ed91654e",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Anti-Patterns in Software Blogging",
+    "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+    "publishedAt": "2026-10-07T14:53:51.000Z",
+    "collectedAt": "2026-10-07T18:06:42.080Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality. He also warns against overreliance on links as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them. (In a Lobste.rs comment Michael clarifies that \"My rule of thumb is that my article should still make sense to the reader even if they don't click any links\". That…",
+    "summaryKo": "이 글은 Michael Lynch가 제시한 소프트웨어 블로깅의 나쁜 습관들을 Simon Willison이 소개하는 내용이다. 핵심 주장은 두서없는 서론, 독자의 사전 지식을 잘못 가정하는 것, 과도한 격식, 그리고 용어 설명 대신 링크에 의존하는 태도를 피해야 하며, 글은 독자가 링크를 클릭하지 않아도 이해될 수 있어야 한다는 것이다. Willison은 자신도 링크 의존 습관이 있음을 인정하며 이 조언에 공감을 표해, 글쓰기 습관을 돌아보게 하는 유용한 지침으로 볼 만하다.",
+    "tags": []
+  },
+  {
     "id": "194d4d9280bec8f306f4af585158a636be43eb69",
     "personIds": [
       "simon-willison"
