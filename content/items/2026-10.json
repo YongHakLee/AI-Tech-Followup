@@ -1,5 +1,24 @@
 [
   {
+    "id": "b98bf529323b1cee465c6b0c5be8f4840a24ae6e",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "AI #189: New Math",
+    "url": "https://thezvi.wordpress.com/2026/10/08/ai-189-new-math/",
+    "publishedAt": "2026-10-08T15:40:02.000Z",
+    "collectedAt": "2026-10-08T18:06:24.938Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "The big drop of this week was not a new AI model. It was instead the biggest day (so far!) in the history of mathematics, as OpenAI dropped solutions to 90 of the top 500 open math problems, along with … Continue reading →",
+    "summaryKo": "이번 주 AI 소식의 핵심은 새로운 AI 모델 출시가 아니라 OpenAI가 상위 500개 미해결 수학 문제 중 90개에 대한 풀이를 공개한 사건이다. 저자는 이를 수학 역사상 중요한 하루로 평가하며, AI가 어려운 수학 문제 해결에 실질적인 기여를 하기 시작했다는 점을 강조한다. 수학 연구에서 AI의 역할 변화를 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "reasoning",
+      "science"
+    ]
+  },
+  {
     "id": "ee58890d81f7a8ac142407c50f0e274d07b81337",
     "personIds": [
       "simon-willison"
