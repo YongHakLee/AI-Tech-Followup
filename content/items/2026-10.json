@@ -1,5 +1,60 @@
 [
   {
+    "id": "ee58890d81f7a8ac142407c50f0e274d07b81337",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Ben Affleck",
+    "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+    "publishedAt": "2026-10-07T23:14:58.000Z",
+    "collectedAt": "2026-10-08T00:12:37.573Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning. So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in nu…",
+    "summaryKo": "Simon Willison이 벤 애플렉의 발언을 인용한 블로그 글로, 영화 산업에서 아날로그에서 디지털로 전환되며 시각효과 작업에 머신러닝이 오래전부터 활용되어 왔음을 다룬다. 애플렉은 컨볼루션 신경망 같은 트랜스포머 이전 기술들이 텐서 형태로 이미지를 수치화해 처리하는 방식에 대해 설명하며, 이를 기반으로 간단한 파이썬 스크립트를 작성할 수 있었다고 언급한다. 영화 제작자가 직접 겪은 기술적 경험을 바탕으로 AI와 시각효과의 관계를 설명한다는 점에서 흥미롭다.",
+    "tags": [
+      "multimodal"
+    ]
+  },
+  {
+    "id": "a343c9786e70baad5a6996046eeaee25c6c2e94f",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Claude Haiku 5.5",
+    "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+    "publishedAt": "2026-10-07T20:56:21.000Z",
+    "collectedAt": "2026-10-08T00:12:37.573Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also…",
+    "summaryKo": "이 글은 Anthropic이 새로 출시한 저가 고속 모델 Claude Haiku 5.5를 다룬다. 기존 Haiku 4.5가 거의 1년 전 출시되어 가격 경쟁력이 떨어졌던 반면, 신규 모델은 OpenAI GPT-6 Luna와 동일한 가격대(10만 토큰까지 $0.10/$0.50)로 책정되었고 이후 구간에서는 요금 인상 폭이 Luna보다 더 크다는 점을 지적한다. 경쟁사 간 가격 정책을 비교한다는 점에서 LLM 시장 동향을 파악하는 데 참고할 만하다.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "26c9309c17ebe201beefaad1ff3f1c0e5d8a1c0e",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "The Curve Bends You",
+    "url": "https://thezvi.wordpress.com/2026/10/07/the-curve-bends-you/",
+    "publishedAt": "2026-10-07T20:31:33.000Z",
+    "collectedAt": "2026-10-08T00:12:37.573Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "The plan is no plan. That is not the worst possible plan. But it is close. Since before the transformer, we have warned that the most suicidal thing you could do would be to ask your AI to do your … Continue reading →",
+    "summaryKo": "이 글은 AI에게 스스로의 발전이나 중요한 결정을 맡기는 '계획 없음'이라는 접근 방식의 위험성을 다룬다. 저자는 트랜스포머 이전부터 AI에게 자기 자신의 운명을 결정하게 하는 것이 가장 위험한 행위라고 경고해왔음을 상기시키며, 뚜렷한 계획이 없는 현재 상황이 최악에 가까운 전략이라고 주장한다. AI 발전 방향에 대한 구체적 통제와 전략 부재가 어떤 위험을 낳을 수 있는지 성찰하게 한다는 점에서 읽어볼 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
     "id": "7b37193e1f4b1a13a83f58152e4eca84ed91654e",
     "personIds": [
       "simon-willison"
