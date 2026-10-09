@@ -1,5 +1,23 @@
 [
   {
+    "id": "429b12e0917d315284b8321e7d5dce645787efc1",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Carson Gross",
+    "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+    "publishedAt": "2026-10-08T21:05:44.000Z",
+    "collectedAt": "2026-10-09T00:13:49.278Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools. &mdash; Carson Gross Tags: computer-science , carson-gross , careers , ai",
+    "summaryKo": "이 글은 Carson Gross의 발언을 인용하며 프로그래밍의 본질에 대해 다룬다. 핵심 주장은 프로그래밍이 컴퓨터로 문제를 해결하고 그 해결책의 복잡성을 통제하는 능력에 관한 것이며, AI 도구가 등장해도 이러한 역량의 가치는 줄어들지 않을 것이라는 점이다. 프로그래밍 경력의 미래에 대한 간결하지만 설득력 있는 관점을 제시한다는 점에서 읽어볼 만하다.",
+    "tags": [
+      "education"
+    ]
+  },
+  {
     "id": "b98bf529323b1cee465c6b0c5be8f4840a24ae6e",
     "personIds": [
       "zvi-mowshowitz"
