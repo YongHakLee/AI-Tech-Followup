@@ -1,5 +1,62 @@
 [
   {
+    "id": "963b8184663b383e0d072f57bf518f0be43c0423",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting Matthew Green",
+    "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+    "publishedAt": "2026-10-09T15:02:29.000Z",
+    "collectedAt": "2026-10-09T18:06:04.088Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance. &mdash; Matthew Green , on Twitter. I looked it u…",
+    "summaryKo": "이 글은 Matthew Green이 트위터에서 제기한 암호학 관련 최악의 시나리오 가능성에 대한 Simon Willison의 인용 글이다. Green은 현재 공개키 암호화 알고리즘에 대한 신뢰를 잃게 될 가능성을 일정 확률로 제시하며, AI가 암호학적 취약점을 발견하는 속도와 인간이 표준을 교체하는 속도 사이의 격차가 문제의 핵심이라고 주장한다. 이는 사전 준비 없이는 이런 충격에서 회복하기 어렵다는 경고로, AI와 보안의 교차점에서 제기되는 드문 시각이라 주목할 만하다.",
+    "tags": [
+      "safety",
+      "policy"
+    ]
+  },
+  {
+    "id": "9e2043ffa3aa047a46bd83d6a5c0a0cc6c3b01d7",
+    "personIds": [
+      "zvi-mowshowitz"
+    ],
+    "type": "blog",
+    "title": "New Math from OpenAI",
+    "url": "https://thezvi.wordpress.com/2026/10/09/new-math-from-openai/",
+    "publishedAt": "2026-10-09T13:21:12.000Z",
+    "collectedAt": "2026-10-09T18:06:04.088Z",
+    "lang": "en",
+    "sourceName": "Don't Worry About the Vase",
+    "excerpt": "It is kind of a huge deal. OpenAI dumped a broad range of huge new mathematical results produced by an internal frontier model. They just put it all on GitHub. This included 90 of the top 500 open problems in … Continue reading →",
+    "summaryKo": "이 글은 OpenAI 내부 프론티어 모델이 생성한 대규모 수학적 결과물을 GitHub에 공개한 사건을 다룬다. 공개된 결과에는 상위 500개 미해결 수학 문제 중 90개에 대한 성과가 포함되어 있다고 언급된다. 저자는 이를 AI의 수학적 능력과 관련해 주목할 만한 사건으로 소개한다.",
+    "tags": [
+      "reasoning",
+      "science"
+    ]
+  },
+  {
+    "id": "19c45cc3b756fb5c0165b19fdf2d6df823a59863",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "A new feature for my blog, built using my voice",
+    "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+    "publishedAt": "2026-10-09T12:54:06.000Z",
+    "collectedAt": "2026-10-09T18:06:04.088Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the session against my local simonwillisonblog checkout by typing: Start dev server and open in browser…",
+    "summaryKo": "Simon Willison이 자신의 블로그에 뉴스레터 모음을 보여주는 새 페이지를 추가한 과정을 설명한다. 이 기능은 거의 전적으로 ChatGPT 데스크톱 앱의 Codex 탭 음성 대화 모드를 이용해, 저녁 요리를 하면서 음성으로 로컬 개발 환경을 조작해 구현했다. 코딩 작업을 음성만으로 처리하는 실제 사례를 보여준다는 점에서 참고할 만하다.",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
     "id": "4783e7a5e36c9d7500d934813b8e4ae74c872887",
     "personIds": [
       "simon-willison"
