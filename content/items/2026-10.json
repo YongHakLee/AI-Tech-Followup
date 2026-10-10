@@ -1,5 +1,42 @@
 [
   {
+    "id": "95d52c99a70e7e83f871ede9d53ee20f999e954b",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Deno is joining Cloudflare",
+    "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+    "publishedAt": "2026-10-09T22:48:37.000Z",
+    "collectedAt": "2026-10-10T00:13:12.338Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and …",
+    "summaryKo": "Cloudflare가 Deno를 인수하여 Durable Objects 패턴을 구현한 celld를 기반으로 workerd 자체 호스팅을 Workers 프로그래밍 모델의 공식 지원 방식으로 만들 계획이다. 다만 Deno 런타임 자체는 Cloudflare가 앞으로 1년간 버그 수정 등 월간 릴리스로만 지원하고 그 이후 유지보수 여부는 불확실하다. 서버리스 런타임 생태계의 주요 플레이어 간 통합 움직임을 보여주는 사례로 주목할 만하다.",
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "id": "2affe4da8255287ec5783d9e33b846af57413794",
+    "personIds": [
+      "nathan-lambert"
+    ],
+    "type": "blog",
+    "title": "I expect rapid progress but not towards general superintelligence",
+    "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+    "publishedAt": "2026-10-09T21:33:47.000Z",
+    "collectedAt": "2026-10-10T00:13:12.338Z",
+    "lang": "en",
+    "sourceName": "Interconnects AI",
+    "excerpt": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
+    "summaryKo": "저자는 업계 최고 연구자들이 몇 년 안에 AI가 자신의 업무를 능가할 것이라 믿는다는 이야기를 듣고 놀랐던 경험을 다룬다. 그는 AI 발전 속도가 빠를 것이라는 데는 동의하지만, 이것이 곧 범용 초지능으로 이어질 것이라는 주장에는 의문을 제기한다. AI 발전의 방향성과 한계에 대한 업계의 통념을 비판적으로 짚어본다는 점에서 주목할 만하다.",
+    "tags": [
+      "reasoning",
+      "safety"
+    ]
+  },
+  {
     "id": "963b8184663b383e0d072f57bf518f0be43c0423",
     "personIds": [
       "simon-willison"
