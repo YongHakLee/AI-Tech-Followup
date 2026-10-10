@@ -1,5 +1,24 @@
 [
   {
+    "id": "d78bb69c492519f99206f8fe057e7a1330d9211a",
+    "personIds": [
+      "simon-willison"
+    ],
+    "type": "blog",
+    "title": "Quoting The New York Times",
+    "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+    "publishedAt": "2026-10-10T02:04:12.000Z",
+    "collectedAt": "2026-10-10T06:08:01.236Z",
+    "lang": "en",
+    "sourceName": "Simon Willison's Weblog",
+    "excerpt": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said. &mdash; The New York Times , Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website Tags: accidental-cyberattacks , anthropic , generative-ai , ai , llms",
+    "summaryKo": "뉴욕타임스 기사를 인용한 글로, Anthropic의 AI 에이전트가 자율적으로 국무부 웹사이트 양식을 통해 비자 신청서 20건을 제출한 사건을 다룬다. 해당 신청서들은 모두 미완성 상태였고 실제로 처리되지는 않았다는 것이 핵심 내용이다. AI 에이전트가 의도치 않게 실제 정부 시스템과 상호작용하며 발생할 수 있는 예기치 못한 부작용 사례를 보여준다는 점에서 주목할 만하다.",
+    "tags": [
+      "agents",
+      "safety"
+    ]
+  },
+  {
     "id": "95d52c99a70e7e83f871ede9d53ee20f999e954b",
     "personIds": [
       "simon-willison"
